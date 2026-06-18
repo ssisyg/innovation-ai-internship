@@ -1,0 +1,110 @@
+﻿ticker,date,time,headline,url,source,sentiment
+BLK,Today,01:00AM,Kraken Unit Inks $100 Million Private Loan With New Gulf Firm,https://finance.yahoo.com/markets/crypto/articles/kraken-unit-inks-100-million-050000391.html,finviz,0.0
+BLK,Jun-16-26,04:02PM,Bondholders Forced to Reckon With $4 Billion Tax Threat in Bitter Credit Feud,https://finance.yahoo.com/markets/stocks/articles/bondholders-forced-reckon-4-billion-111211401.html,finviz,-0.8402
+BLK,Jun-16-26,12:20PM,SpaceX $75B IPO faces wild meme-stock trading frenzy,https://finance.yahoo.com/video/spacex-75b-ipo-faces-wild-meme-stock-trading-frenzy-162031278.html,finviz,-0.3182
+BLK,Jun-16-26,02:45AM,Private Equity's Push Into 401(k)s Has a Big PR Problem,https://www.barrons.com/articles/private-equity-retirement-trump-401k-141fcbdb?mod=bar_FV,finviz,-0.4019
+BLK,Jun-16-26,02:39AM,Goldman-Backed Go Rises 10% After Biggest Japan IPO This Year,https://finance.yahoo.com/markets/stocks/articles/goldman-backed-rises-10-biggest-063949521.html,finviz,0.0
+BLK,Jun-16-26,12:03AM,"Fidelity Joins BlackRock, Vanguard in Offering Annuities in 401(k) Plans",https://finance.yahoo.com/m/789f9342-9353-301e-908a-69bbc82e1e5e/fidelity-joins-blackrock%2C.html,finviz,0.0
+BLK,Jun-15-26,07:03PM,"BlackRock Sheds Another 200 Jobs, Adopting Regular Cycle of Cuts",https://finance.yahoo.com/markets/stocks/articles/blackrock-sheds-another-200-jobs-230347094.html,finviz,-0.296
+BLK,Jun-15-26,05:26PM,BlackRock Canada Announces Product Changes and Risk Rating Update,/news/361850/blackrock-canada-announces-product-changes-and-risk-rating-update,finviz,-0.2732
+BLK,Jun-15-26,04:10PM,Bitcoin Climbs to Two-Week High After US-Iran Hormuz Deal,https://finance.yahoo.com/markets/crypto/articles/bitcoin-rallies-two-week-high-050754772.html,finviz,0.0
+BLK,Jun-15-26,12:03AM,Vanguard Dethrones BlackRock as Americas Definitive King of ETFs,https://finance.yahoo.com/m/6bf4be41-0149-3e45-b33f-f1767908c6ae/vanguard-dethrones-blackrock.html,finviz,0.0
+BLK,Jun-12-26,10:13PM,Money-Market Funds Are as Appealing as Ever. Just Don't Back Up the Truck.,https://www.barrons.com/articles/money-market-funds-cash-etfs-4434b59f?mod=bar_FV,finviz,0.0
+BLK,Jun-12-26,05:28PM,Market Wrap: Bitcoin Stalls As SpaceX IPO Takes Centre Stage,https://finance.yahoo.com/m/6c67ed07-2b38-3fb2-9c38-e2e8c7b9fb6c/market-wrap%3A-bitcoin-stalls.html,finviz,0.0
+BLK,Jun-12-26,01:34PM,Vanguard Ends BlackRocks 20-Year Run Atop US ETF Market,https://finance.yahoo.com/markets/stocks/articles/vanguard-ends-blackrock-20-run-112758060.html,finviz,0.0
+BLK,Jun-12-26,11:23AM,BlackRock Private-Credit Fund Faces 13% Redemption Requests,https://www.wsj.com/finance/investing/blackrock-private-credit-fund-faces-13-redemption-requests-5cba8e89?mod=wsj_FV,finviz,0.0
+BLK,Jun-12-26,09:43AM,SpaceXs Record IPO Is Said to Draw Over $350 Billion in Demand,https://finance.yahoo.com/markets/stocks/articles/spacex-record-ipo-said-draw-134325322.html,finviz,-0.128
+BLK,Jun-11-26,04:27PM,SpaceX IPO Draws at Least $5 Billion Order From BlackRock,https://www.wsj.com/finance/stocks/spacex-ipo-draws-at-least-5-billion-order-from-blackrock-12fcd29f?mod=wsj_FV,finviz,0.0
+BLK,Jun-11-26,12:46PM,Supreme Court Shields Investment Funds From Shareholder Lawsuits,https://finance.yahoo.com/markets/stocks/articles/supreme-court-shields-investment-funds-141742064.html,finviz,0.4588
+BLK,Jun-11-26,12:23PM,Jeff Bezos AI Startup Valued at $41 Billion in Funding Round,https://finance.yahoo.com/sectors/technology/articles/jeff-bezos-ai-startup-valued-162325286.html,finviz,0.4404
+BLK,Jun-11-26,09:10AM,BlackRock To Launch Income-Paying Bitcoin ETF,https://finance.yahoo.com/m/34dda57c-47d2-34b0-b494-1ba933a9d395/blackrock-to-launch.html,finviz,0.0
+BLK,Jun-09-26,04:04PM,BlackRock Launches Space ETF as Sector Pulls In $8 Billion,https://finance.yahoo.com/markets/stocks/articles/blackrock-launches-space-etf-sector-200436318.html,finviz,0.0
+BLK,Jun-08-26,04:44AM,Private Markets Elite Gather in Berlin With Not-So-Super Returns,https://finance.yahoo.com/markets/stocks/articles/private-markets-elite-gather-berlin-084413972.html,finviz,0.0
+BLK,Jun-05-26,03:50PM,US Bonds Slide as Strong Jobs Data Fuels Bets on 2026 Fed Hike,https://finance.yahoo.com/economy/policy/articles/traders-fully-price-fed-rate-124726318.html,finviz,0.5106
+BLK,Jun-04-26,04:30PM,Franklin Resources Inc. stock outperforms competitors on strong trading day,https://www.marketwatch.com/data-news/franklin-resources-inc-stock-outperforms-competitors-on-strong-trading-day-e44d62a3-e80ba2c4d54e?mod=mw_FV,finviz,0.5106
+BLK,Jun-03-26,01:55PM,Vanguards VOO Hits $1 Trillion of Assets in ETF Industry First,https://finance.yahoo.com/markets/stocks/articles/vanguard-voo-hits-1-trillion-175530603.html,finviz,0.1779
+BLK,Jun-03-26,11:18AM,Tech ETF inflows surge and defy AI concentration risks,https://finance.yahoo.com/video/tech-etf-inflows-surge-defy-151850175.html,finviz,-0.2732
+BLK,Jun-03-26,08:45AM,'The world is choosing Texas': Is 'Y'All Street' taking over as the new financial capital of America?,https://finance.yahoo.com/economy/policy/articles/world-choosing-texas-yall-street-124500238.html,finviz,0.0
+BLK,Jun-01-26,01:19PM,Bitcoin 'Rage Quitting' Sends It Slumping. Where Does It Go From Here?,https://www.barrons.com/articles/bitcoin-price-slump-cryptocurrencies-e7d0bbc6?mod=bar_FV,finviz,-0.5574
+BLK,Jun-01-26,01:00PM,Bitcoin bull Michael Saylor just sold $2.5 million worth of BTC,https://finance.yahoo.com/video/bitcoin-bull-michael-saylor-just-170000164.html,finviz,0.2263
+BLK,May-29-26,04:12PM,Texas Appoints Crypto Executives To Bitcoin Reserve Committee,https://finance.yahoo.com/m/459c9701-d412-3ed5-86a9-ccf565687b8e/texas-appoints-crypto.html,finviz,0.0
+BLK,May-29-26,11:30AM,Oil Prices Suffer Biggest Weekly Collapse in Two Months,https://finance.yahoo.com/sectors/energy/articles/oil-prices-suffer-biggest-weekly-153000410.html,finviz,-0.7717
+BLK,May-29-26,10:28AM,BlackRock Scales Back Equities After Generational Earnings,https://finance.yahoo.com/markets/stocks/articles/blackrock-scales-back-equities-generational-142823320.html,finviz,0.0
+BLK,May-28-26,01:19PM,JPMorgan Says Bitcoin ETF Outflows A Sign Of Cooling Trade,https://finance.yahoo.com/m/89ed218b-e881-3edc-a0ab-47c95fcf1c00/jpmorgan-says-bitcoin-etf.html,finviz,0.0
+BLK,May-28-26,01:00PM,DTCC picks Stellar to help in tokenization push for $114T in assets,https://finance.yahoo.com/video/dtcc-picks-stellar-help-tokenization-170000559.html,finviz,0.5267
+BLK,May-28-26,12:22PM,Traditional banks take the lead in the stablecoin arms race,https://finance.yahoo.com/video/traditional-banks-take-the-lead-in-the-stablecoin-arms-race-162205447.html,finviz,0.0
+BLK,May-27-26,12:33PM,$1.29B bitcoin dark pool trade: What to know,https://finance.yahoo.com/video/129b-bitcoin-dark-pool-trade-what-to-know-163306835.html,finviz,0.0
+BLK,May-26-26,11:45AM,SpaceX & Beyond  Public & Private Capital Markets Assessment: 2nd Princeton CorpGov Forum,https://finance.yahoo.com/markets/stocks/articles/spacex-beyond-public-private-capital-154551699.html,finviz,0.0
+BLK,May-26-26,09:29AM,BlackRock's Bitcoin ETF Sees $1 Billion Weekly Outflow,https://finance.yahoo.com/markets/crypto/articles/blackrocks-bitcoin-etf-sees-1-132954321.html,finviz,0.0
+BLK,May-26-26,09:23AM,Taiwan Pushes $630 Billion Asset Managers To Compete Globally,https://finance.yahoo.com/markets/stocks/articles/taiwan-pushes-630-billion-asset-132308610.html,finviz,0.3612
+BLK,May-25-26,01:02PM,US Stock Futures Gain as Crude Oil Drops on Iran: Markets Wrap,https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-gain-crude-170202219.html,finviz,-0.0772
+BLK,May-25-26,06:00AM,BlackRock exec. on how Fed policy & midterms impact the market,https://finance.yahoo.com/video/blackrock-exec-fed-policy-midterms-100000109.html,finviz,0.0
+BLK,May-24-26,08:42AM,Hyperscaler Debt Flood Brings Derivatives Bonanza,https://finance.yahoo.com/markets/options/articles/hyperscaler-debt-flood-brings-derivatives-190000196.html,finviz,-0.3612
+BLK,May-22-26,01:36PM,2nd Princeton CorpGov Forum Video Recap,https://finance.yahoo.com/markets/stocks/articles/2nd-princeton-corpgov-forum-video-173644703.html,finviz,0.0
+BLK,May-22-26,01:14PM,It's Now a Supply-Shock World. A BlackRock Leader Explains How to Invest for It.,https://www.barrons.com/advisor/articles/investing-supply-shock-iran-war-blackrock-f358ab04?mod=bar_FV,finviz,0.0
+BLK,May-20-26,06:00PM,BlackRock Canada Announces Final May Cash Distributions for the iShares Premium Money Market ETF,/news/356137/blackrock-canada-announces-final-may-cash-distributions-for-the-ishares-premium-money-market-etf,finviz,0.0
+BLK,May-20-26,01:44PM,Fink's Big Payday Gets Lukewarm Reception From BlackRock Shareholders,https://www.wsj.com/finance/investing/finks-big-payday-gets-lukewarm-reception-from-blackrock-shareholders-4149444c?mod=wsj_FV,finviz,0.0
+BLK,May-20-26,01:27PM,BlackRock Declares Quarterly Dividend of $5.73 on Common Stock,https://www.businesswire.com/news/home/20260519705495/en,finviz,0.0
+BLK,May-20-26,12:02PM,Securitize Revenue Rises 39% Ahead of Planned Cantor SPAC Deal,https://finance.yahoo.com/m/51f58e94-f7fb-3333-9e79-dff19b748a64/securitize-revenue-rises-39%25.html,finviz,0.0772
+BLK,May-20-26,10:48AM,The AI Boom Is Making Warshs Bond-Market Bind Even Worse,https://finance.yahoo.com/economy/policy/articles/bond-market-sees-ai-making-144846934.html,finviz,-0.4767
+BLK,May-19-26,04:30PM,BlackRock Inc. stock underperforms Tuesday when compared to competitors,https://www.marketwatch.com/data-news/blackrock-inc-stock-underperforms-tuesday-when-compared-to-competitors-7370e804-ca582ccfd9b5?mod=mw_FV,finviz,0.0
+BLK,May-19-26,04:00PM,US 30-Year Yield Hits Highest Since 2007 as Selloff Deepens,https://finance.yahoo.com/economy/policy/articles/us-30-yield-hits-highest-134400787.html,finviz,0.0
+BLK,May-19-26,12:44PM,Investors want tokenized Apple stock on the blockchain,https://finance.yahoo.com/video/investors-want-tokenized-apple-stock-on-the-blockchain-164417120.html,finviz,0.0772
+BLK,May-19-26,12:23PM,SEC proposes exemption for tokenizing stocks. What could go wrong?,https://finance.yahoo.com/video/sec-proposes-exemption-for-tokenizing-stocks-what-could-go-wrong-162311058.html,finviz,-0.4767
+BLK,May-19-26,11:08AM,Treasury 30-Year Yield Nears 5.14% As Bond Selloff Deepens,https://finance.yahoo.com/markets/options/articles/treasury-30-yield-nears-5-150859758.html,finviz,0.2023
+BLK,May-19-26,09:00AM,Bond Yields Near Two-Decade High Open Rift Among Investors,https://finance.yahoo.com/markets/currencies/articles/us-yields-flirting-2007-highs-034922439.html,finviz,0.0
+BLK,May-18-26,12:03PM,"Final Panel Agenda and Closing Registration: 2nd Princeton CorpGov Forum May 21  Endowments, Activism and Entertainment",https://finance.yahoo.com/markets/stocks/articles/final-agenda-2nd-princeton-corpgov-160310105.html,finviz,0.4215
+BLK,May-18-26,11:31AM,Standard Chartered Forecasts $4 Trillion In Tokenized Assets By 2028,https://finance.yahoo.com/m/c870ac94-9a92-396f-9155-e7c7eccf816f/standard-chartered-forecasts.html,finviz,0.1779
+BLK,May-18-26,12:01AM,"BlackRock, State Street Launch Tokenized Stablecoin Products for Institutional Investors",https://finance.yahoo.com/m/c98594d2-6b52-3530-b23b-f0d765518d2a/blackrock%2C-state-street.html,finviz,0.0
+BLK,May-16-26,09:00AM,Retail Euphoria Turns Six-Week Fund Into Record-Busting AI Trade,https://finance.yahoo.com/markets/stocks/articles/retail-euphoria-turns-six-week-130000750.html,finviz,0.6486
+BLK,May-15-26,10:40AM,Microsoft Goes Beast Mode on AI-and Almost-Round-the-Clock Trading Is Almost Here,https://www.barrons.com/articles/microsoft-beast-mode-ai-ackman-hohn-musk-4372651a?mod=bar_FV,finviz,0.0
+BLK,May-14-26,12:44PM,CLARITY Act markup is underway: What to know,https://finance.yahoo.com/video/clarity-act-markup-is-underway-what-to-know-164416875.html,finviz,0.5319
+BLK,May-14-26,12:01AM,What Wall Street CEOs Want from Trump-Xi Summit,https://finance.yahoo.com/m/05ef4ee5-cc0c-3826-9dcb-22b5623ba595/what-wall-street-ceos-want.html,finviz,0.0772
+BLK,May-13-26,11:55PM,BlackRock Says 3.6% Credit Yields Could Cushion Market Volatility,https://finance.yahoo.com/markets/stocks/articles/blackrock-says-3-6-credit-035538354.html,finviz,0.3818
+BLK,May-13-26,06:38PM,BlackRock's Rosenberg says inflation could actually be peaking in recent data,https://www.youtube.com/watch?v=qO8RJhpBWr8,finviz,0.0
+BLK,May-13-26,12:44PM,Fed nominee Warsh takes the reins as inflation hits 3-year high,https://finance.yahoo.com/video/fed-nominee-warsh-takes-the-reins-as-inflation-hits-3-year-high-164423497.html,finviz,0.0
+BLK,May-13-26,12:23PM,JPMorgan files to launch new tokenized money market fund,https://finance.yahoo.com/video/jpmorgan-files-to-launch-new-tokenized-money-market-fund-162314243.html,finviz,0.0
+BLK,May-13-26,08:33AM,JPMorgan Chase Files To Launch Tokenized Fund,https://finance.yahoo.com/m/1df8fa18-0ba9-31e2-98ec-ae50bcc9ff59/jpmorgan-chase-files-to.html,finviz,0.0
+BLK,May-13-26,05:00AM,BlackRock Canada Announces May Cash Distributions for the iShares ETFs,/news/353737/blackrock-canada-announces-may-cash-distributions-for-the-ishares-etfs,finviz,0.0
+BLK,May-12-26,03:08PM,BlackRock Doubles Down On Tokenized Funds,https://finance.yahoo.com/m/17fb12e1-e7fe-3459-bb15-1bef33d67942/blackrock-doubles-down-on.html,finviz,0.0
+BLK,May-12-26,12:04PM,CME to Create Futures Market for Computing Power Backing AI,https://finance.yahoo.com/markets/options/articles/cme-create-futures-market-computing-135424341.html,finviz,0.296
+BLK,May-12-26,11:32AM,"Trump invites Elon Musk, Tim Cook, Larry Fink and other CEOs to join China trip for Xi summit",https://www.youtube.com/shorts/FH1MG1Sk5Gk,finviz,0.296
+BLK,May-11-26,03:34PM,"Musk, Cook Expected to Join Trump for Xi Summit in China",https://finance.yahoo.com/economy/policy/articles/musk-cook-set-join-trump-164927621.html,finviz,0.296
+BLK,May-11-26,12:49PM,"Circle Surges Amid Optimism Over Own Blockchain, Legislation",https://finance.yahoo.com/markets/crypto/articles/circle-first-quarter-revenue-rises-135948395.html,finviz,0.5423
+BLK,May-11-26,12:48PM,"Circle raises $22M for Arc, Wall Street piles in",https://finance.yahoo.com/video/circle-raises-22m-for-arc-wall-street-piles-in-164849111.html,finviz,0.0
+BLK,May-11-26,11:45AM,What the CLARITY Act means for Circle's stablecoin rewards,https://finance.yahoo.com/video/clarity-act-means-circles-stablecoin-154500159.html,finviz,0.7603
+BLK,May-11-26,08:46AM,Circle Raises $222 Million From Arc Token Presale,https://finance.yahoo.com/m/d511a8d6-0df1-3af9-b163-b6c620d0f8b4/circle-raises-%24222-million.html,finviz,0.0
+BLK,May-11-26,07:37AM,"Circle raised $222 million from BlackRock, Apollo, and a16z for its new blockchain",https://qz.com/circle-arc-token-presale-222-million-blackrock-a16z-051126,finviz,0.0
+BLK,May-11-26,12:03AM,BlackRocks New ETF Goes Long on Emerging Market Bonds. Not Everyone Agrees,https://finance.yahoo.com/m/25cf2aaa-9729-318a-b2bd-1d2aa5aa1faa/blackrock%E2%80%99s-new-etf-goes-long.html,finviz,-0.1511
+BLK,May-09-26,12:13PM,Banks Win More Business as Private Debt Shrinks,https://finance.yahoo.com/economy/policy/articles/banks-win-more-business-private-161301265.html,finviz,0.3182
+BLK,May-09-26,07:05AM,"Larry Fink says there's the 'opposite' of an AI bubble, and the world isn't 'moving fast enough' on AI infrastructure",https://finance.yahoo.com/sectors/technology/articles/larry-fink-says-theres-opposite-110500062.html,finviz,0.0
+BLK,May-08-26,12:48PM,Coinbase cuts 14% of staff in pivot to AI-native future,https://finance.yahoo.com/video/coinbase-cuts-14-of-staff-in-pivot-to-ai-native-future-164802039.html,finviz,-0.296
+BLK,May-06-26,11:35PM,BlackRock Fund Faces Test in Recovering Defaulted China Loan,https://finance.yahoo.com/news/blackrock-fund-faces-test-in-recovering-defaulted-china-loan-033507802.html,finviz,0.0
+BLK,May-06-26,12:14PM,Bitcoin rallies above $82K as Michael Saylor considers selling,https://finance.yahoo.com/video/bitcoin-rallies-above-82k-as-michael-saylor-considers-selling-161437060.html,finviz,0.0
+BLK,May-06-26,06:00AM,BlackRock Aladdin Expands Private Credit Solutions on Preqin for Greater Transparency and Insights across the Asset Class,https://www.businesswire.com/news/home/20260506612480/en/,finviz,0.8271
+BLK,May-04-26,11:30AM,What is Jevons Paradox and why does more AI mean more labor?,https://finance.yahoo.com/video/jevons-paradox-why-does-more-153000213.html,finviz,-0.1027
+BLK,May-01-26,09:02AM,"Sorry, Wall Street South. Wall Street North Has the Big Bucks.",https://www.barrons.com/articles/wall-street-south-wall-street-north-boston-texas-eefdf16f?mod=bar_FV,finviz,-0.0772
+BLK,Apr-29-26,12:30PM,ETFs: Finding 'diversifiers' as AI continues to drive market,https://finance.yahoo.com/video/etfs-finding-diversifiers-ai-continues-163000230.html,finviz,0.0
+BLK,Apr-29-26,10:54AM,BlackRock Brings $2.5 Billion Tokenized Fund to OKX for Crypto Collateral,https://finance.yahoo.com/markets/crypto/articles/blackrock-brings-2-5-billion-145414841.html,finviz,0.0
+BLK,Apr-29-26,09:19AM,Galaxy Digital Leads Investment In Blockchain Startup Fence,https://finance.yahoo.com/m/22fa2d63-708d-3400-a5da-8469411baa8a/galaxy-digital-leads.html,finviz,0.0
+BLK,Apr-28-26,06:00AM,BlackRock Targets the Idle Cash Piling Up on Crypto Exchanges,https://finance.yahoo.com/markets/crypto/articles/blackrock-targets-idle-cash-piling-100000453.html,finviz,0.0
+BLK,Apr-27-26,10:07PM,BlackRock Says Higher Government Bond Yields Are Here to Stay,https://finance.yahoo.com/economy/policy/articles/blackrock-says-higher-government-bond-020727202.html,finviz,0.0
+BLK,Apr-27-26,12:28PM,Open interest on BlackRock's bitcoin ETF options reaches new heights,https://finance.yahoo.com/video/open-interest-on-blackrocks-bitcoin-etf-options-reaches-new-heights-162834293.html,finviz,0.4939
+BLK,Apr-27-26,12:00PM,Vinson & Elkins Expands Corporate Practice With 4 New Partners in Denver & D.C.,https://finance.yahoo.com/markets/stocks/articles/vinson-elkins-expands-corporate-practice-160041128.html,finviz,0.1027
+BLK,Apr-27-26,06:28AM,Bond Traders Eye Packed Week of Rate Decisions for Sell Signals,https://finance.yahoo.com/news/bond-traders-eye-packed-week-190000497.html,finviz,0.0
+BLK,Apr-24-26,06:00PM,BlackRock Canada Announces Final April Cash Distributions for the iShares Premium Money Market ETF,/news/347654/blackrock-canada-announces-final-april-cash-distributions-for-the-ishares-premium-money-market-etf,finviz,0.0
+BLK,Apr-24-26,04:10PM,Crypto Has Another Positive Week As Investor Sentiment Improves,https://finance.yahoo.com/m/354561ca-3d9f-3a97-9d8b-d37f7824ffc2/crypto-has-another-positive.html,finviz,0.7506
+BLK,Apr-24-26,01:58PM,Global Bond Yields Jump As US Two-Year Hits 3.83% Amid Iran Tensions,https://finance.yahoo.com/economy/policy/articles/global-bond-yields-jump-us-175812820.html,finviz,-0.4019
+BLK,Apr-24-26,01:02PM,Why Morgan Stanley's stablecoin bet could reshape finance,https://finance.yahoo.com/video/why-morgan-stanleys-stablecoin-bet-170200511.html,finviz,0.0
+BLK,Apr-24-26,12:34PM,Bitcoin ETFs rake in $1.9 billion,https://finance.yahoo.com/video/bitcoin-etfs-rake-in-19-billion-163447389.html,finviz,0.0
+BLK,Apr-24-26,12:29PM,Bitcoin ETF inflows draw in $1.9B as crypto asset hovers near $80K,https://finance.yahoo.com/video/bitcoin-etf-inflows-draw-in-19b-as-crypto-asset-hovers-near-80k-162949503.html,finviz,0.3612
+BLK,Apr-24-26,07:31AM,Global Bonds Set for Worst Week in a Month as US-Iran Risks Rise,https://finance.yahoo.com/markets/articles/global-bonds-set-worst-week-092851100.html,finviz,-0.7351
+BLK,2026-06-16,,"SpaceX IPO generates over $1B in trading volume on first day, but not where you’d expect",https://cryptobriefing.com/spacex-ipo-crypto-trading-volume-hyperliquid/,newsapi,0.0
+BLK,2026-06-16,,"US and Iran reach framework peace deal, prompting market reset across crypto and oil",https://cryptobriefing.com/us-iran-framework-deal-market-reset/,newsapi,0.5574
+BLK,2026-06-16,,State Street targets stablecoin reserve boom with new money market fund,https://biztoc.com/x/2e605b0152816106,newsapi,0.0
+BLK,2026-06-16,,The AI Revolution Mirrors the Green Transition,https://news.climate.columbia.edu/2026/06/16/the-ai-revolution-mirrors-the-green-transition/,newsapi,0.0
+BLK,2026-06-16,,State Street launches GENIUS-compliant money market fund for stablecoin issuers,https://cryptobriefing.com/state-street-genius-stablecoin-money-market-fund/,newsapi,0.0
+BLK,2026-06-16,,"BlackRock’s new Bitcoin ETF offers monthly income, but caps gains when Bitcoin surges",https://cryptoslate.com/blackrocks-new-bitcoin-etf-offers-monthly-income-but-caps-gains-when-bitcoin-surges/,newsapi,0.4767
+BLK,2026-06-16,,ONDO Finance partners with Mirae Asset to tokenize Global X ETFs,https://cryptobriefing.com/ondo-finance-mirae-asset-tokenize-global-x-etfs/,newsapi,0.3612
+BLK,2026-06-16,,BlackRock launches new Bitcoin ETF that generates income using a covered call strategy,https://biztoc.com/x/73650da7fdc660a7,newsapi,0.0
+BLK,2026-06-16,,"BlackRock’s BITA Bitcoin ETF launches on NASDAQ, targets 15-25% yield through covered-call strategy",https://cryptobriefing.com/blackrock-bita-bitcoin-etf-launch/,newsapi,0.0

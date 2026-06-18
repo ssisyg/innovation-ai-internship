@@ -1,101 +1,110 @@
-﻿ticker,date,time,headline,url
-NFLX,Today,09:01AM,The One Very Simple Reason 60 Minutes Imploded,https://www.barrons.com/articles/cbs-60-minutes-bari-weiss-leadership-029cacf9?mod=bar_FV
-NFLX,Jun-04-26,10:03PM,"Nasdaq, S&P 500, Dow Futures Slip As Chip Stocks Pull Back: LULU, NFLX, KEEL, MRLN Stocks In Focus",https://finance.yahoo.com/m/ca41aebd-3c88-3b06-a29d-8c521e00ae93/nasdaq%2C-s%26p-500%2C-dow-futures.html
-NFLX,Jun-04-26,01:21PM,"Canada to Provide Funding, Buy Equity Stakes in AI Startups",https://finance.yahoo.com/sectors/technology/articles/canada-funding-buy-equity-stakes-150252260.html
-NFLX,Jun-04-26,01:11PM,Netflix investors are getting squeamish as Amazon makes inroads in the battle for streaming dominance,https://www.marketwatch.com/story/netflix-investors-are-getting-squeamish-as-amazon-makes-inroads-in-the-battle-for-streaming-dominance-c1c04278?mod=mw_FV
-NFLX,Jun-04-26,12:40PM,Netflix Stock Rises After Unveiling New AI Viewing Tools,https://finance.yahoo.com/markets/stocks/articles/netflix-stock-rises-unveiling-ai-164024278.html
-NFLX,Jun-04-26,12:20PM,Netflix Pushes AI Deeper Into Streaming Recommendations,https://finance.yahoo.com/sectors/technology/articles/netflix-pushes-ai-deeper-streaming-162020562.html
-NFLX,Jun-04-26,09:25AM,Netflix thinks AI can solve one of streaming's biggest frustrations,https://finance.yahoo.com/m/e36aa6a8-aa03-38be-ac35-e35de8a584a0/netflix-thinks-ai-can-solve.html
-NFLX,Jun-03-26,11:44PM,Netflix Aims to Use AI to Help Viewers Manage Content Overload,https://finance.yahoo.com/sectors/technology/articles/netflix-aims-ai-help-viewers-034428398.html
-NFLX,Jun-03-26,01:36PM,Netflix Stock Is On Track for Its Longest Losing Streak Since 2022,https://www.barrons.com/articles/netflix-stock-price-today-earnings-c85bdd88?mod=bar_FV
-NFLX,Jun-03-26,11:49AM,Amazon Stock's High-Altitude Problem,https://finance.yahoo.com/m/554a9b89-3d90-3d36-b27c-eac602c86f48/amazon-stock%27s-high-altitude.html
-NFLX,Jun-03-26,12:25AM,NFLX Stock Reverses Course Overnight: Retail Shrugs Off Outgoing Chairmans Sale As Routine,https://finance.yahoo.com/m/178902b7-fcad-3921-b7ab-45e0123d053f/nflx-stock-reverses-course.html
-NFLX,Jun-02-26,11:48AM,How Much Upside Can AMZN Stock's Growth Deliver?,https://finance.yahoo.com/m/8f5ca31f-f7b8-3430-bfd4-e447f69f8fb7/how-much-upside-can-amzn.html
-NFLX,Jun-02-26,11:22AM,Amazon Stock's Great Standoff,https://finance.yahoo.com/m/a41ca0c6-ba3c-389e-bb04-73a45d452d98/amazon-stock%27s-great-standoff.html
-NFLX,Jun-01-26,05:57PM,Netflix taps Disney's Caitlin Conant for new D.C.-based role,https://finance.yahoo.com/m/4616fc13-852e-3c99-88e0-17ffe0212b65/netflix-taps-disney%27s-caitlin.html
-NFLX,Jun-01-26,05:11PM,2nd Princeton CorpGov Forum: Complete Highlights and Panels in 4K from Endowments to PE in Sports,https://finance.yahoo.com/markets/stocks/articles/2nd-princeton-corpgov-forum-complete-211143574.html
-NFLX,May-31-26,12:00PM,"Here's what's worth streaming in June 2026 on Netflix, Hulu, HBO Max and more",https://www.marketwatch.com/story/heres-whats-worth-streaming-in-june-2026-on-netflix-hulu-hbo-max-and-more-7c73c539?mod=mw_FV
-NFLX,May-30-26,03:00PM,Paramount Is Pulling Every Lever to Sell LBO Debt,https://finance.yahoo.com/markets/stocks/articles/paramount-pulling-every-lever-sell-190000973.html
-NFLX,May-29-26,07:06PM,Hims Insider Makes First Stock Purchase Since 2021 Amid Weight-Loss Drug Pivot,https://www.barrons.com/articles/hims-stock-insider-weight-loss-glp1-drug-0388a2a7?mod=bar_FV
-NFLX,May-29-26,05:51PM,Highlights: What Betamax Teaches Us About AI  The Business of Entertainment: 2nd Princeton CorpGov Forum,https://finance.yahoo.com/sectors/technology/articles/highlights-betamax-teaches-us-ai-215147663.html
-NFLX,May-29-26,06:45AM,Go Figure: 3 big marketing numbers from May,https://finance.yahoo.com/m/aacc6511-e451-322a-8695-6942a8b4ad4b/go-figure%3A-3-big-marketing.html
-NFLX,May-28-26,10:18AM,Netflix criticises German plan to make streamers invest more locally,https://finance.yahoo.com/economy/policy/articles/netflix-criticises-german-plan-streamers-141815413.html
-NFLX,May-28-26,06:35AM,Ben Affleck says the AI company he just sold to Netflix for $600 million will lead to more human work,https://finance.yahoo.com/sectors/technology/articles/ben-affleck-says-ai-company-103500057.html
-NFLX,May-27-26,10:28AM,Ellison Privately Vows to Limit Enlarged Paramounts Debt,https://finance.yahoo.com/markets/stocks/articles/ellison-privately-vows-keep-enlarged-110000469.html
-NFLX,May-27-26,12:43AM,HIMS Stock Heads For Weekly Loss  But Ex-Netflix CFO Is Buying The Dip Despite BofAs GLP-1 Warning,https://finance.yahoo.com/m/35df7bd0-d519-3168-b2a4-cd6424f7b39e/hims-stock-heads-for-weekly.html
-NFLX,May-25-26,08:30AM,Netflix is betting big on an AI animation studio  even as 51% of people say they don't want generative AI content,https://finance.yahoo.com/sectors/technology/articles/netflix-betting-big-ai-animation-123000389.html
-NFLX,May-24-26,02:53PM,Keep an Eye on Netflix and Spotify (Inside Orchard),https://www.aboveavalon.com/notes/2026/5/24/keep-an-eye-on-netflix-and-spotify-inside-orchard
-NFLX,May-22-26,04:38PM,IMAX has bucked the trend as the movie-theater business fades - here's why it's so attractive to would-be buyers,https://www.marketwatch.com/story/imax-has-bucked-the-trend-as-the-movie-theater-business-fades-heres-why-its-so-attractive-to-would-be-buyers-c703b489?mod=mw_FV
-NFLX,May-22-26,04:30PM,BetterInvesting Magazine Update on Netflix (NASDAQ: NFLX) and ExlService Holdings Inc. (NASDAQ: EXLS),/news/356709/betterinvesting-magazine-update-on-netflix-nasdaq-nflx-and-exlservice-holdings-inc-nasdaq-exls
-NFLX,May-22-26,02:35PM,IMAX Might Be Exploring a Sale. Who Could Be Buying.,https://www.barrons.com/articles/imax-stock-price-9f66784f?mod=bar_FV
-NFLX,May-22-26,11:09AM,"Canada Raises Streaming Content Requirement to 15% for Netflix, Disney, Amazon",https://finance.yahoo.com/economy/policy/articles/canada-raises-streaming-content-requirement-150903085.html
-NFLX,May-21-26,07:00AM,Netflix Pushes Further Into Live Programming With 'The Breakfast Club',https://www.wsj.com/business/media/netflix-pushes-further-into-live-programming-with-the-breakfast-club-6cbcfccd?mod=wsj_FV
-NFLX,May-20-26,03:04PM,Netflix ad-supported tier tops 250M monthly viewers as sports push deepens,https://finance.yahoo.com/m/9471812f-a5b4-3558-b2d3-febf015af2a8/netflix-ad-supported-tier.html
-NFLX,May-20-26,06:47AM,Ferrero to revive Wonka candy brand with Netflix,https://finance.yahoo.com/m/e44df18f-b6ff-3bab-91f2-28fa700ec125/ferrero-to-revive-wonka-candy.html
-NFLX,May-20-26,06:44AM,Bankers Ready Paramounts $49 Billion Warner Bros. Debt Sale,https://finance.yahoo.com/markets/stocks/articles/bankers-ready-paramount-49-billion-104450604.html
-NFLX,May-19-26,04:31PM,The Netflix Empire Is Expanding as It Makes 'Major Moves' Into Candy and Toys,https://www.barrons.com/articles/netflix-stock-price-candy-toys-c2f17a67?mod=bar_FV
-NFLX,May-19-26,07:02AM,Netflix Sentiment Improves After Video Streamer's Upfront Presentation,https://www.investors.com/news/technology/netflix-stock-sentiment-improves-after-upfront-presentation?mod=IBD_FV
-NFLX,May-17-26,07:00AM,Netflixs Greg Peters on Why It Walked Away from the Warner Bros. Discovery Deal,https://finance.yahoo.com/m/155999ab-1847-3e81-9df8-d7bef0e68548/netflix%E2%80%99s-greg-peters-on-why.html
-NFLX,May-16-26,10:10AM,"Trumps More Than 3,700 Trades Astonish Wall Street Insiders",https://finance.yahoo.com/markets/stocks/articles/trump-traded-nvidia-boeing-intel-030913697.html
-NFLX,May-14-26,10:41AM,"Ronda Rousey On UFC pay, Netflix's MMA Future And Her Comeback Vs. Gina Carano",https://www.youtube.com/watch?v=_2NEowgz7Iw
-NFLX,May-14-26,09:28AM,Why the NFL could power Netflix stock up more than 30%,https://finance.yahoo.com/markets/article/why-the-nfl-could-power-netflix-stock-up-more-than-30-132807534.html
-NFLX,May-14-26,06:04AM,Netflix flexes new capabilities as ad biz doubles geographic reach,https://finance.yahoo.com/m/c7fe6762-b3ef-36f4-8260-64326abb87cb/netflix-flexes-new.html
-NFLX,May-13-26,10:46PM,"Checking In on Stock Picks Cactus, Netflix, Wabtec",https://www.barrons.com/articles/revisting-stock-picks-cactus-netflix-wabtec-688b3801?mod=bar_FV
-NFLX,May-13-26,02:52PM,Netflix Secures Three More Football Games in New NFL Deal,https://www.wsj.com/business/media/netflix-secures-three-more-football-games-in-new-nfl-deal-7a7902c7?mod=wsj_FV
-NFLX,May-12-26,03:33PM,Why Netflix spent so much money over the past decade,https://finance.yahoo.com/video/why-netflix-spent-so-much-money-over-the-past-decade-193324990.html
-NFLX,May-12-26,01:23PM,"Netflix touts $325-billion economic impact and 425,000 jobs created by its productions worldwide",https://finance.yahoo.com/economy/articles/netflix-touts-325-billion-economic-172333045.html
-NFLX,May-12-26,12:26PM,Netflix fires back at Texas over lawsuit accusing it of spying on kids,https://finance.yahoo.com/m/39785dff-d8ea-368c-98b7-57fd1c0d188b/netflix-fires-back-at-texas.html
-NFLX,May-12-26,12:14PM,Netflix reports $135 billion in content spending over past decade,https://finance.yahoo.com/m/c3930166-5946-3e34-80ff-2f9c8ddb0d85/netflix-reports-%24135-billion.html
-NFLX,May-12-26,08:16AM,Netflix's $135 Billion Content Bet Shows Global Reach,https://finance.yahoo.com/markets/stocks/articles/netflixs-135-billion-content-bet-121613845.html
-NFLX,May-12-26,06:02AM,"Netflix spent over $135 billion on film, TV over last decade",https://finance.yahoo.com/markets/stocks/articles/netflix-spent-over-135-billion-100220155.html
-NFLX,May-12-26,12:34AM,"Texas sues Netflix for allegedly spying on kids, addicting users",https://finance.yahoo.com/video/texas-sues-netflix-allegedly-spying-043420753.html
-NFLX,May-11-26,02:41PM,Figuring out where to watch NBA playoff games has been a struggle - and it may only get worse for sports fans,https://www.marketwatch.com/story/figuring-out-where-to-watch-nba-playoff-games-has-been-a-struggle-and-it-may-only-get-worse-for-sports-fans-347668e6?mod=mw_FV
-NFLX,May-11-26,01:45PM,Texas is suing Netflix for allegedly spying on consumers and building an addictive platform,https://qz.com/texas-attorney-general-sues-netflix-data-collection-addictive-051126
-NFLX,May-11-26,01:11PM,Texas sues Netflix over data collection; shares edge lower,https://finance.yahoo.com/markets/stocks/articles/texas-sues-netflix-over-data-171159755.html
-NFLX,May-08-26,01:50PM,"Nasdaq, S&P 500 Enjoy Another Record-Breaking Week",/news/352647/nasdaq-sp-500-enjoy-another-record-breaking-week
-NFLX,May-07-26,08:28PM,Warner Music Group Corp. Q2 2026 Earnings Call Summary,https://finance.yahoo.com/m/09857f53-c2a0-32f4-b1b6-15c789637394/warner-music-group-corp.-q2.html
-NFLX,May-07-26,10:08AM,Warner Bros. Discovery posts wider Q1 loss driven by $2.8B Netflix termination fee,https://finance.yahoo.com/m/9176ef2d-507b-3846-a653-d10bc1bc8da9/warner-bros.-discovery-posts.html
-NFLX,May-07-26,10:08AM,Warner Bros Discovery posts wider Q1 loss driven by Netflix termination fee,https://finance.yahoo.com/m/9176ef2d-507b-3846-a653-d10bc1bc8da9/warner-bros-discovery-posts.html
-NFLX,May-07-26,01:30AM,Ken Burns on What He Will and Won't Allow When Financing His Films,https://www.barrons.com/articles/ken-burns-documentary-film-financing-0ac97a68?mod=bar_FV
-NFLX,May-06-26,01:58PM,Warner Bros. Earnings Are on Deck. How Disney Turned Up the Heat.,https://www.barrons.com/articles/warner-bros-earnings-stock-price-disney-turned-up-the-hea-90209379?mod=bar_FV
-NFLX,May-05-26,07:18PM,"The Dealmaking 3: LIV Golf Funding, UFC in Australia, ESPN & Disney Take Back Sports",https://finance.yahoo.com/markets/stocks/articles/dealmaking-3-liv-golf-funding-231817103.html
-NFLX,May-05-26,03:00PM,Streaming Stock Looks Positioned for Next Leg Higher,/news/350839/streaming-stock-looks-positioned-for-next-leg-higher
-NFLX,May-05-26,02:50PM,"James Murdoch Makes $300 Million Offer for New York Magazine, Podcasts",https://finance.yahoo.com/markets/stocks/articles/james-murdoch-makes-300-million-185044183.html
-NFLX,May-05-26,09:38AM,Microsoft and 11 More Stocks That Were Unfairly Punished After Earnings,https://www.barrons.com/articles/microsoft-stock-price-earnings-punished-buy-5af6cac4?mod=bar_FV
-NFLX,May-05-26,09:10AM,Microsoft and 11 More Stocks That Were Unfairly Punished After Earnings. They Could Be Bargains.,https://www.barrons.com/articles/microsoft-netflix-bargain-stocks-punished-earnings-5af6cac4?mod=bar_FV
-NFLX,May-05-26,08:35AM,Paramount Stock Edges Higher After Earnings Beat. CBS News Is Barely Mentioned.,https://www.barrons.com/articles/paramount-skydance-earnings-stock-price-news-cbs-c3b4961c?mod=bar_FV
-NFLX,May-05-26,06:25AM,"Tech Stocks Eclipse Iran, Oil as the Market's Mover. Why That Will Continue.",https://www.barrons.com/articles/tech-oil-stock-market-things-to-know-today-6e8ef653?mod=bar_FV
-NFLX,May-04-26,03:38PM,"Microsoft, Netflix, and 10 More Stocks Unfairly Punished On Earnings",https://www.barrons.com/articles/microsoft-netflix-and-10-more-stocks-unfairly-punished-on-earnings-5af6cac4?mod=bar_FV
-NFLX,May-04-26,01:20PM,Paramount Earnings Are Coming. Streaming Strength Will Be Key.,https://www.barrons.com/articles/paramount-skydance-earnings-stock-price-c3b4961c?mod=bar_FV
-NFLX,May-04-26,11:30AM,What is Jevons Paradox and why does more AI mean more labor?,https://finance.yahoo.com/video/jevons-paradox-why-does-more-153000213.html
-NFLX,May-01-26,01:33PM,Paramount Skydance Stock Pops After Double Upgrade. Why Morgan Stanley Analyst Says It's the 'Riskiest' Call.,https://www.barrons.com/articles/paramount-stock-price-double-upgrade-morgan-stanley-4b540f11?mod=bar_FV
-NFLX,May-01-26,11:23AM,Paramount Skydance Gets a Double Upgrade. It's the Warner Bros. Deal.,https://www.barrons.com/articles/paramount-skydance-warner-bros-discovery-stock-price-4b540f11?mod=bar_FV
-NFLX,May-01-26,05:01AM,Roku Stock Surges After Earnings. Why It's a Streaming Wars Winner.,https://www.barrons.com/articles/roku-earnings-stock-price-73917da8?mod=bar_FV
-NFLX,Apr-30-26,10:00AM,"Here's what's worth streaming in May 2026 on Netflix, Hulu, HBO Max and more",https://www.marketwatch.com/story/heres-whats-worth-streaming-in-may-2026-on-netflix-hulu-hbo-max-and-more-a891be59?mod=mw_FV
-NFLX,Apr-29-26,12:00PM,YouTube is becoming an increasingly important business for Google,https://www.marketwatch.com/livecoverage/alphabet-earnings-google-stock-results-cloud-ai/card/youtube-is-becoming-an-increasingly-important-business-for-google-dsUd6CqnKaMFfNIu2uoH?mod=mw_FV
-NFLX,Apr-27-26,09:13AM,Netflix Co-Founder Sees Entertainment Resisting AI,https://finance.yahoo.com/sectors/technology/articles/netflix-co-founder-sees-entertainment-131351508.html
-NFLX,Apr-25-26,03:00PM,Trump disclosures show $51M+ invested in bonds in March,https://finance.yahoo.com/m/c360204d-001d-3f3c-b212-3d58b96b7fbe/trump-disclosures-show-%2451m%2B.html
-NFLX,Apr-24-26,12:01AM,Netflix Pitches Buyback-and-Chill Strategy,https://finance.yahoo.com/m/cc698094-e729-317c-b684-6a597de432c4/netflix-pitches.html
-NFLX,Apr-23-26,03:53PM,Warner Bros. stock edges lower after Paramount sale gets approved,https://finance.yahoo.com/video/warner-bros-stock-edges-lower-after-paramount-sale-gets-approved-195346781.html
-NFLX,Apr-23-26,01:56PM,Warner Bros Shareholders Approve $110 Billion Paramount Skydance Merger,https://finance.yahoo.com/markets/stocks/articles/warner-bros-shareholders-approve-110-175632734.html
-NFLX,Apr-23-26,11:53AM,Hims Stock Drops on LillyDirect Deal. Can It Be the Netflix of Pharma?,https://www.barrons.com/articles/hims-glp1-eli-lilly-deal-netflix-pharma-a82cab55?mod=bar_FV
-NFLX,Apr-23-26,11:18AM,"As Warner Bros.' shareholders OK sale to Paramount, a legendary studio approaches the end of an era",https://www.marketwatch.com/story/as-warner-bros-shareholders-ok-sale-to-paramount-a-legendary-studio-approaches-the-end-of-an-era-b228e7e8?mod=mw_FV
-NFLX,Apr-23-26,11:04AM,"Warner Bros. investors approve $110 billion sale to Paramount Skydance, following long battle with Netflix",https://finance.yahoo.com/news/warner-bros-investors-approve-110-billion-sale-to-paramount-skydance-following-long-battle-with-netflix-150428059.html
-NFLX,Apr-23-26,10:58AM,Netflix Approves $25B Share Buyback,https://finance.yahoo.com/markets/stocks/articles/netflix-approves-25b-share-buyback-145835382.html
-NFLX,Apr-23-26,10:44AM,Hims Yields Ground in GLP-1 Market. Why Its CEO Is Calling It the Netflix of Pharma.,https://www.barrons.com/articles/hims-yields-ground-in-glp-1-market-pharma-a82cab55?mod=bar_FV
-NFLX,Apr-23-26,10:34AM,Warner Bros. Shareholders Approve Paramount Takeover. What Comes Next.,https://www.barrons.com/articles/warner-bros-stock-paramount-bid-vote-58d7ebc9?mod=bar_FV
-NFLX,Apr-23-26,09:03AM,Netflix authorizes $25 billion share buyback after stock drop,https://finance.yahoo.com/m/39de256a-775d-3e4c-921d-bf0e4732080f/netflix-authorizes-%2425.html
-NFLX,Apr-23-26,06:55AM,Netflix Buying Back $25 Billion in Stock After Share Decline,https://finance.yahoo.com/markets/stocks/articles/netflix-buying-back-25-billion-105556691.html
-NFLX,Apr-23-26,06:44AM,"Tesla, ServiceNow Show Risks of Relying on Big Tech Earnings. Here's the Silver Lining.",https://www.barrons.com/articles/tesla-servicenow-big-tech-earnings-things-to-know-today-f9da40b4?mod=bar_FV
-NFLX,Apr-23-26,06:36AM,Netflix Boosts Stock-Buyback Program by $25 Billion,https://www.wsj.com/business/media/netflix-boosts-stock-buyback-program-by-25-billion-b8a66c9e?mod=wsj_FV
-NFLX,Apr-23-26,06:18AM,Netflix boosts share buyback plan by $25 billion after failed Warner Bros bid,https://finance.yahoo.com/markets/stocks/articles/netflix-announces-25-billion-share-101845782.html
-NFLX,Apr-22-26,11:08AM,AT&T Results Seen Mixed as Wireless Service Revenue Disappoints,https://finance.yahoo.com/markets/stocks/articles/t-beats-estimates-buoyed-internet-110119944.html
-NFLX,Apr-22-26,07:51AM,Netflix's next attempt at growth takes on TikTok and Instagram Reels,https://finance.yahoo.com/news/netflixs-next-attempt-at-growth-takes-on-tiktok-and-instagram-reels-115154256.html
-NFLX,Apr-21-26,06:53PM,Netflix plans to buy historic Radford Studio Center,https://finance.yahoo.com/sectors/technology/articles/netflix-plans-buy-historic-radford-225350892.html
-NFLX,Apr-21-26,12:38PM,Why Does TTD Stock Keep Falling?,https://finance.yahoo.com/m/dea5ca3e-11b4-3653-bfff-c903b4fdc706/why-does-ttd-stock-keep.html
-NFLX,Apr-20-26,05:02PM,"Netflix's ad strategy adds to streaming giant's appeal, CIO says",https://finance.yahoo.com/video/netflixs-ad-strategy-adds-streaming-210255321.html
-NFLX,Apr-20-26,12:01PM,This Strategy Pays You 8.2% While Lining Up NFLX At Bargain Prices,https://finance.yahoo.com/m/fe6464f5-592e-3d9f-b414-b86cb73e3e82/this-strategy-pays-you-8.2%25.html
-NFLX,Apr-20-26,11:33AM,Italian court rules every Netflix price hike from 2017 to 2024 unlawful and orders the company to refund subscribers up to 500 euros,https://finance.yahoo.com/economy/policy/articles/italian-court-rules-every-netflix-153323196.html
-NFLX,Apr-20-26,05:04AM,Chinas Netflix Expects AI to Create Bulk of Shows in Five Years,https://finance.yahoo.com/sectors/technology/articles/china-netflix-expects-ai-create-090424212.html
-NFLX,Apr-18-26,08:30AM,Reed Hastings created a work culture that made Netflix a giant. Can it survive without him?,https://www.marketwatch.com/story/reed-hastings-created-a-work-culture-that-made-netflix-a-giant-can-it-survive-without-him-cb6d0508?mod=mw_FV
-NFLX,Apr-18-26,06:00AM,The future of Netflix is now,https://finance.yahoo.com/news/the-future-of-netflix-is-now-100022235.html
+﻿ticker,date,time,headline,url,source,sentiment
+NFLX,Today,11:30AM,"Netflix, AST SpaceMobile, and Jabil lead today's Trending Tickers",https://finance.yahoo.com/video/netflix-ast-spacemobile-and-jabil-lead-todays-trending-tickers-153038473.html,finviz,0.0
+NFLX,Today,10:15AM,Is It Time to Sell Microsoft Stock? Why This Analyst Is Warning Investors to Exit.,https://www.barrons.com/articles/microsoft-stock-sell-warning-9646e0d8?mod=bar_FV,finviz,-0.34
+NFLX,Today,09:34AM,Why Netflix or Disney Should Hijack Fox's Roku Deal,https://www.barrons.com/articles/netflix-disney-fox-roku-deal-f02ec713?mod=bar_FV,finviz,0.0
+NFLX,Today,08:33AM,Netflix's stock slide is getting worse,https://finance.yahoo.com/markets/stocks/article/netflixs-stock-slide-is-getting-worse-123338038.html,finviz,-0.4767
+NFLX,Today,08:00AM,"Paramount-WBD, Fox-Roku? No Worries For Netflix",https://finance.yahoo.com/m/7d166e37-633c-3ba9-90e1-7c1034c80e9e/paramount-wbd%2C-fox-roku%3F-no.html,finviz,0.3252
+NFLX,Jun-16-26,07:25PM,LION Stock Drops Over 4% After-Hours  Netflix Reportedly Dismisses Lionsgate Takeover Rumors,https://finance.yahoo.com/m/97f31d9e-dada-35e0-8c53-fbf109e3f68a/lion-stock-drops-over-4%25.html,finviz,0.0
+NFLX,Jun-16-26,05:13PM,Whiplash: Lionsgate stock tumbles as Netflix denies takeover plans,https://finance.yahoo.com/markets/stocks/articles/whiplash-lionsgate-stock-tumbles-netflix-211339059.html,finviz,-0.4215
+NFLX,Jun-16-26,04:32PM,"Netflix reportedly tried & failed to buy Roku, Western Digital is the new AI play",https://finance.yahoo.com/video/netflix-reportedly-tried--failed-to-buy-roku-western-digital-is-the-new-ai-play-203211277.html,finviz,-0.2263
+NFLX,Jun-16-26,02:09PM,The Real Engine Behind Netflix Stock Is Not Subscribers,https://finance.yahoo.com/m/6fda9c31-fe1b-3dbf-8d7d-9ab7365d1bb9/the-real-engine-behind.html,finviz,0.0
+NFLX,Jun-16-26,12:46PM,Netflix Is Reportedly Eyeing Lionsgate After Losing Roku Bid To Fox  A Look At Why The Fox Deal Might Have Appealed To Roku Board,https://finance.yahoo.com/m/3aa8fc43-6e1f-307d-a092-2ad695ffd986/netflix-is-reportedly-eyeing.html,finviz,-0.3818
+NFLX,Jun-16-26,11:45AM,Fox Stock Extends Slide to Second Day After Roku Deal,https://www.barrons.com/articles/fox-stock-roku-falling-57d0ce13?mod=bar_FV,finviz,0.128
+NFLX,Jun-16-26,10:57AM,Netflix shares drop after report it lost $22B Roku bidding war to Fox,https://finance.yahoo.com/markets/stocks/articles/netflix-shares-drop-report-lost-145718032.html,finviz,-0.7269
+NFLX,Jun-15-26,06:30PM,"With Roku Stock Near Highs, Is It Worth It?",https://finance.yahoo.com/m/6bdf7c77-334a-3c76-a9f3-55768902cdfd/with-roku-stock-near-highs%2C.html,finviz,0.2263
+NFLX,Jun-15-26,03:15PM,Are You Pricing Amazon Stock For The Past Or The Future?,https://finance.yahoo.com/m/f714765c-5968-33be-92af-ba395f0a8abe/are-you-pricing-amazon-stock.html,finviz,0.1779
+NFLX,Jun-15-26,02:41PM,Netflix Expands Its iHeart Podcast Bet,https://finance.yahoo.com/markets/stocks/articles/netflix-expands-iheart-podcast-bet-184139839.html,finviz,0.1027
+NFLX,Jun-15-26,12:00PM,Netflix to Announce Second Quarter 2026 Financial Results,/news/361776/netflix-to-announce-second-quarter-2026-financial-results,finviz,0.0
+NFLX,Jun-15-26,07:30AM,Fox to buy streaming pioneer Roku in a $22 billion deal,https://finance.yahoo.com/markets/stocks/articles/us--fox-roku-113024242.html,finviz,0.0
+NFLX,Jun-14-26,11:48PM,NFLX Stock Is Down 40% From All-Time High: Are Retail Investors Buying The Dip Or Leaving Battered Streamer?,https://finance.yahoo.com/m/ec13e2f1-36a9-3c28-be8a-53ba912d7184/nflx-stock-is-down-40%25-from.html,finviz,0.0
+NFLX,Jun-14-26,09:17PM,"Nasdaq, S&P 500, Dow Futures Climb While Oil Slides As US-Iran Deal Signals End To Hormuz Disruption: DJT, NFLX, GLXY, SPCX In Focus",https://finance.yahoo.com/m/72159608-1c21-38df-8764-7f069882c748/nasdaq%2C-s%26p-500%2C-dow-futures.html,finviz,-0.3612
+NFLX,Jun-12-26,07:08PM,Does Google Stock Have More Upside?,https://finance.yahoo.com/m/174e8120-7a0f-31ce-a33c-2327a18e9ca8/does-google-stock-have-more.html,finviz,0.0
+NFLX,Jun-12-26,06:14PM,Paramounts Deal for Warner Bros. Is Cleared by US DOJ,https://finance.yahoo.com/markets/stocks/articles/paramount-deal-warner-bros-cleared-210700912.html,finviz,0.1027
+NFLX,Jun-12-26,04:44PM,Roku Stock Soars 20%. The Streaming Play Could Be for Sale.,https://www.barrons.com/articles/roku-stock-soars-sale-report-30a73bda?mod=bar_FV,finviz,0.34
+NFLX,Jun-11-26,04:07PM,Why Meta's latest AI push feels 'out of step',https://finance.yahoo.com/video/why-metas-latest-ai-push-feels-out-of-step-200756010.html,finviz,0.0
+NFLX,Jun-11-26,09:07AM,What Is Google Hiding Behind Its AI Silence?,https://finance.yahoo.com/m/55d2ba60-b405-321e-a5d7-0a4715ce9868/what-is-google-hiding-behind.html,finviz,-0.296
+NFLX,Jun-10-26,04:21PM,Netflix Stock Gets Price-Target Cut On Lack Of Catalysts,https://www.investors.com/news/technology/netflix-stock-gets-price-target-cut-on-lack-of-catalysts?mod=IBD_FV,finviz,-0.5267
+NFLX,Jun-10-26,02:47PM,Netflix Stock Has Been a Disappointment. Social Media Laws Can Help It Bounce Back.,https://www.barrons.com/articles/netflix-stock-social-media-laws-4ee25a2e?mod=bar_FV,finviz,-0.1531
+NFLX,Jun-10-26,01:20PM,Is Amazon's $225 Billion AI Chip Bet Too Big To Fail?,https://finance.yahoo.com/m/5f707792-d7f8-3d23-80c2-9ef86d5fc20c/is-amazon%27s-%24225-billion-ai.html,finviz,-0.5423
+NFLX,Jun-10-26,01:13PM,Netflix Pullback Draws Bullish Calls,https://finance.yahoo.com/markets/stocks/articles/netflix-pullback-draws-bullish-calls-171341375.html,finviz,0.0
+NFLX,Jun-10-26,03:22AM,Paramounts Middle East Billions in Warner Bid Get EU Probe,https://finance.yahoo.com/markets/stocks/articles/paramount-middle-east-billions-warner-072230643.html,finviz,0.0
+NFLX,Jun-09-26,03:15PM,Warner Bros Stock Hits  3-Month Low. The Paramount Merger Spread Is Too Good to Pass Up.,https://www.barrons.com/articles/warner-bros-paramount-stock-merger-arbitrage-discount-b268a58e?mod=bar_FV,finviz,0.2023
+NFLX,Jun-09-26,02:52PM,Warner Bros. Stock Hits a Low. Its Paramount Merger Return Is Getting Buzz.,https://www.barrons.com/articles/warner-bros-paramount-stock-takeover-arbitrage-b268a58e?mod=bar_FV,finviz,-0.2732
+NFLX,Jun-09-26,01:38PM,Where Alphabet Stock Is Most Exposed,https://finance.yahoo.com/m/67ab5db8-2f0f-3a33-a125-58165590b972/where-alphabet-stock-is-most.html,finviz,-0.1513
+NFLX,Jun-09-26,11:32AM,Paramount accuses Netflix of scorched-earth campaign against Warner Bros. deal,https://finance.yahoo.com/m/f635ade8-ce0f-329e-9699-e57e33f0a73d/paramount-accuses-netflix-of.html,finviz,-0.34
+NFLX,Jun-08-26,04:03PM,What You Missed About Google Stock Right Before It Went 2x,https://finance.yahoo.com/m/8ad1396b-171a-3b02-8c5f-1708bbf3c1ca/what-you-missed-about-google.html,finviz,-0.296
+NFLX,Jun-06-26,08:37PM,"Alphabet Earnings, Netflix Earnings, Spotify Earnings",https://www.aboveavalon.com/notes/2026/6/6/alphabet-earnings-netflix-earnings-spotify-earnings,finviz,0.0
+NFLX,Jun-06-26,07:00AM,Paramount Open to Selling Kids Channels to Quell EU Fears Over $110 Billion Warner Deal,https://finance.yahoo.com/economy/policy/articles/paramount-open-selling-kids-channels-110000458.html,finviz,-0.4215
+NFLX,Jun-05-26,07:58PM,NFLX Stock Bucks Market Pullback On Friday: Founder Reed Hastings Bows Out,https://finance.yahoo.com/m/13b1376d-0954-3f53-aa44-0d74ae9d9cf4/nflx-stock-bucks-market.html,finviz,0.0
+NFLX,Jun-05-26,07:07PM,Netflix Picks Investor Jay Hoag as Chairman After Hastings,https://finance.yahoo.com/markets/stocks/articles/netflix-picks-investor-jay-hoag-230717515.html,finviz,0.0
+NFLX,Jun-05-26,06:24PM,"Netflix names longtime director Jay Hoag as chairman, succeeding Reed Hastings",https://finance.yahoo.com/markets/stocks/articles/netflix-names-longtime-director-jay-222411110.html,finviz,0.4939
+NFLX,Jun-05-26,04:07PM,What Is The Biggest Threat To Google Stock?,https://finance.yahoo.com/m/db08f9dd-93ac-3b4b-bc53-7bfb3a03ae75/what-is-the-biggest-threat-to.html,finviz,-0.5267
+NFLX,Jun-05-26,09:01AM,The One Very Simple Reason 60 Minutes Imploded,https://www.barrons.com/articles/cbs-60-minutes-bari-weiss-leadership-029cacf9?mod=bar_FV,finviz,0.0
+NFLX,Jun-04-26,10:03PM,"Nasdaq, S&P 500, Dow Futures Slip As Chip Stocks Pull Back: LULU, NFLX, KEEL, MRLN Stocks In Focus",https://finance.yahoo.com/m/ca41aebd-3c88-3b06-a29d-8c521e00ae93/nasdaq%2C-s%26p-500%2C-dow-futures.html,finviz,0.0
+NFLX,Jun-04-26,01:21PM,"Canada to Provide Funding, Buy Equity Stakes in AI Startups",https://finance.yahoo.com/sectors/technology/articles/canada-funding-buy-equity-stakes-150252260.html,finviz,0.0
+NFLX,Jun-04-26,01:11PM,Netflix investors are getting squeamish as Amazon makes inroads in the battle for streaming dominance,https://www.marketwatch.com/story/netflix-investors-are-getting-squeamish-as-amazon-makes-inroads-in-the-battle-for-streaming-dominance-c1c04278?mod=mw_FV,finviz,-0.0258
+NFLX,Jun-04-26,12:40PM,Netflix Stock Rises After Unveiling New AI Viewing Tools,https://finance.yahoo.com/markets/stocks/articles/netflix-stock-rises-unveiling-ai-164024278.html,finviz,0.0
+NFLX,Jun-04-26,12:20PM,Netflix Pushes AI Deeper Into Streaming Recommendations,https://finance.yahoo.com/sectors/technology/articles/netflix-pushes-ai-deeper-streaming-162020562.html,finviz,0.0
+NFLX,Jun-04-26,09:25AM,Netflix thinks AI can solve one of streaming's biggest frustrations,https://finance.yahoo.com/m/e36aa6a8-aa03-38be-ac35-e35de8a584a0/netflix-thinks-ai-can-solve.html,finviz,-0.296
+NFLX,Jun-03-26,11:44PM,Netflix Aims to Use AI to Help Viewers Manage Content Overload,https://finance.yahoo.com/sectors/technology/articles/netflix-aims-ai-help-viewers-034428398.html,finviz,0.0516
+NFLX,Jun-03-26,01:36PM,Netflix Stock Is On Track for Its Longest Losing Streak Since 2022,https://www.barrons.com/articles/netflix-stock-price-today-earnings-c85bdd88?mod=bar_FV,finviz,-0.3818
+NFLX,Jun-03-26,11:49AM,Amazon Stock's High-Altitude Problem,https://finance.yahoo.com/m/554a9b89-3d90-3d36-b27c-eac602c86f48/amazon-stock%27s-high-altitude.html,finviz,-0.25
+NFLX,Jun-03-26,12:25AM,NFLX Stock Reverses Course Overnight: Retail Shrugs Off Outgoing Chairmans Sale As Routine,https://finance.yahoo.com/m/178902b7-fcad-3921-b7ab-45e0123d053f/nflx-stock-reverses-course.html,finviz,0.296
+NFLX,Jun-02-26,11:48AM,How Much Upside Can AMZN Stock's Growth Deliver?,https://finance.yahoo.com/m/8f5ca31f-f7b8-3430-bfd4-e447f69f8fb7/how-much-upside-can-amzn.html,finviz,0.3818
+NFLX,Jun-02-26,11:22AM,Amazon Stock's Great Standoff,https://finance.yahoo.com/m/a41ca0c6-ba3c-389e-bb04-73a45d452d98/amazon-stock%27s-great-standoff.html,finviz,0.7003
+NFLX,Jun-01-26,05:57PM,Netflix taps Disney's Caitlin Conant for new D.C.-based role,https://finance.yahoo.com/m/4616fc13-852e-3c99-88e0-17ffe0212b65/netflix-taps-disney%27s-caitlin.html,finviz,0.0
+NFLX,Jun-01-26,05:11PM,2nd Princeton CorpGov Forum: Complete Highlights and Panels in 4K from Endowments to PE in Sports,https://finance.yahoo.com/markets/stocks/articles/2nd-princeton-corpgov-forum-complete-211143574.html,finviz,0.0
+NFLX,May-31-26,12:00PM,"Here's what's worth streaming in June 2026 on Netflix, Hulu, HBO Max and more",https://www.marketwatch.com/story/heres-whats-worth-streaming-in-june-2026-on-netflix-hulu-hbo-max-and-more-7c73c539?mod=mw_FV,finviz,0.2263
+NFLX,May-30-26,03:00PM,Paramount Is Pulling Every Lever to Sell LBO Debt,https://finance.yahoo.com/markets/stocks/articles/paramount-pulling-every-lever-sell-190000973.html,finviz,-0.3612
+NFLX,May-29-26,07:06PM,Hims Insider Makes First Stock Purchase Since 2021 Amid Weight-Loss Drug Pivot,https://www.barrons.com/articles/hims-stock-insider-weight-loss-glp1-drug-0388a2a7?mod=bar_FV,finviz,0.0
+NFLX,May-29-26,05:51PM,Highlights: What Betamax Teaches Us About AI  The Business of Entertainment: 2nd Princeton CorpGov Forum,https://finance.yahoo.com/sectors/technology/articles/highlights-betamax-teaches-us-ai-215147663.html,finviz,0.4215
+NFLX,May-29-26,06:45AM,Go Figure: 3 big marketing numbers from May,https://finance.yahoo.com/m/aacc6511-e451-322a-8695-6942a8b4ad4b/go-figure%3A-3-big-marketing.html,finviz,0.0
+NFLX,May-28-26,10:18AM,Netflix criticises German plan to make streamers invest more locally,https://finance.yahoo.com/economy/policy/articles/netflix-criticises-german-plan-streamers-141815413.html,finviz,-0.3182
+NFLX,May-28-26,06:35AM,Ben Affleck says the AI company he just sold to Netflix for $600 million will lead to more human work,https://finance.yahoo.com/sectors/technology/articles/ben-affleck-says-ai-company-103500057.html,finviz,0.0
+NFLX,May-27-26,10:28AM,Ellison Privately Vows to Limit Enlarged Paramounts Debt,https://finance.yahoo.com/markets/stocks/articles/ellison-privately-vows-keep-enlarged-110000469.html,finviz,-0.3612
+NFLX,May-27-26,12:43AM,HIMS Stock Heads For Weekly Loss  But Ex-Netflix CFO Is Buying The Dip Despite BofAs GLP-1 Warning,https://finance.yahoo.com/m/35df7bd0-d519-3168-b2a4-cd6424f7b39e/hims-stock-heads-for-weekly.html,finviz,0.2273
+NFLX,May-25-26,08:30AM,Netflix is betting big on an AI animation studio  even as 51% of people say they don't want generative AI content,https://finance.yahoo.com/sectors/technology/articles/netflix-betting-big-ai-animation-123000389.html,finviz,-0.0572
+NFLX,May-24-26,02:53PM,Keep an Eye on Netflix and Spotify (Inside Orchard),https://www.aboveavalon.com/notes/2026/5/24/keep-an-eye-on-netflix-and-spotify-inside-orchard,finviz,0.0
+NFLX,May-22-26,04:38PM,IMAX has bucked the trend as the movie-theater business fades - here's why it's so attractive to would-be buyers,https://www.marketwatch.com/story/imax-has-bucked-the-trend-as-the-movie-theater-business-fades-heres-why-its-so-attractive-to-would-be-buyers-c703b489?mod=mw_FV,finviz,0.5777
+NFLX,May-22-26,04:30PM,BetterInvesting Magazine Update on Netflix (NASDAQ: NFLX) and ExlService Holdings Inc. (NASDAQ: EXLS),/news/356709/betterinvesting-magazine-update-on-netflix-nasdaq-nflx-and-exlservice-holdings-inc-nasdaq-exls,finviz,0.0
+NFLX,May-22-26,02:35PM,IMAX Might Be Exploring a Sale. Who Could Be Buying.,https://www.barrons.com/articles/imax-stock-price-9f66784f?mod=bar_FV,finviz,0.0
+NFLX,May-22-26,11:09AM,"Canada Raises Streaming Content Requirement to 15% for Netflix, Disney, Amazon",https://finance.yahoo.com/economy/policy/articles/canada-raises-streaming-content-requirement-150903085.html,finviz,0.1779
+NFLX,May-21-26,07:00AM,Netflix Pushes Further Into Live Programming With 'The Breakfast Club',https://www.wsj.com/business/media/netflix-pushes-further-into-live-programming-with-the-breakfast-club-6cbcfccd?mod=wsj_FV,finviz,0.0
+NFLX,May-20-26,03:04PM,Netflix ad-supported tier tops 250M monthly viewers as sports push deepens,https://finance.yahoo.com/m/9471812f-a5b4-3558-b2d3-febf015af2a8/netflix-ad-supported-tier.html,finviz,0.5106
+NFLX,May-20-26,06:47AM,Ferrero to revive Wonka candy brand with Netflix,https://finance.yahoo.com/m/e44df18f-b6ff-3bab-91f2-28fa700ec125/ferrero-to-revive-wonka-candy.html,finviz,0.34
+NFLX,May-20-26,06:44AM,Bankers Ready Paramounts $49 Billion Warner Bros. Debt Sale,https://finance.yahoo.com/markets/stocks/articles/bankers-ready-paramount-49-billion-104450604.html,finviz,0.0
+NFLX,May-19-26,04:31PM,The Netflix Empire Is Expanding as It Makes 'Major Moves' Into Candy and Toys,https://www.barrons.com/articles/netflix-stock-price-candy-toys-c2f17a67?mod=bar_FV,finviz,0.0
+NFLX,May-19-26,07:02AM,Netflix Sentiment Improves After Video Streamer's Upfront Presentation,https://www.investors.com/news/technology/netflix-stock-sentiment-improves-after-upfront-presentation?mod=IBD_FV,finviz,0.4215
+NFLX,May-17-26,07:00AM,Netflixs Greg Peters on Why It Walked Away from the Warner Bros. Discovery Deal,https://finance.yahoo.com/m/155999ab-1847-3e81-9df8-d7bef0e68548/netflix%E2%80%99s-greg-peters-on-why.html,finviz,0.0
+NFLX,May-16-26,10:10AM,"Trumps More Than 3,700 Trades Astonish Wall Street Insiders",https://finance.yahoo.com/markets/stocks/articles/trump-traded-nvidia-boeing-intel-030913697.html,finviz,0.0
+NFLX,May-14-26,10:41AM,"Ronda Rousey On UFC pay, Netflix's MMA Future And Her Comeback Vs. Gina Carano",https://www.youtube.com/watch?v=_2NEowgz7Iw,finviz,-0.1027
+NFLX,May-14-26,09:28AM,Why the NFL could power Netflix stock up more than 30%,https://finance.yahoo.com/markets/article/why-the-nfl-could-power-netflix-stock-up-more-than-30-132807534.html,finviz,0.0
+NFLX,May-14-26,06:04AM,Netflix flexes new capabilities as ad biz doubles geographic reach,https://finance.yahoo.com/m/c7fe6762-b3ef-36f4-8260-64326abb87cb/netflix-flexes-new.html,finviz,0.0258
+NFLX,May-13-26,10:46PM,"Checking In on Stock Picks Cactus, Netflix, Wabtec",https://www.barrons.com/articles/revisting-stock-picks-cactus-netflix-wabtec-688b3801?mod=bar_FV,finviz,0.0
+NFLX,May-13-26,02:52PM,Netflix Secures Three More Football Games in New NFL Deal,https://www.wsj.com/business/media/netflix-secures-three-more-football-games-in-new-nfl-deal-7a7902c7?mod=wsj_FV,finviz,0.3182
+NFLX,May-12-26,03:33PM,Why Netflix spent so much money over the past decade,https://finance.yahoo.com/video/why-netflix-spent-so-much-money-over-the-past-decade-193324990.html,finviz,0.0
+NFLX,May-12-26,01:23PM,"Netflix touts $325-billion economic impact and 425,000 jobs created by its productions worldwide",https://finance.yahoo.com/economy/articles/netflix-touts-325-billion-economic-172333045.html,finviz,0.2263
+NFLX,May-12-26,12:26PM,Netflix fires back at Texas over lawsuit accusing it of spying on kids,https://finance.yahoo.com/m/39785dff-d8ea-368c-98b7-57fd1c0d188b/netflix-fires-back-at-texas.html,finviz,-0.3818
+NFLX,May-12-26,12:14PM,Netflix reports $135 billion in content spending over past decade,https://finance.yahoo.com/m/c3930166-5946-3e34-80ff-2f9c8ddb0d85/netflix-reports-%24135-billion.html,finviz,0.0
+NFLX,May-12-26,08:16AM,Netflix's $135 Billion Content Bet Shows Global Reach,https://finance.yahoo.com/markets/stocks/articles/netflixs-135-billion-content-bet-121613845.html,finviz,0.0258
+NFLX,May-12-26,06:02AM,"Netflix spent over $135 billion on film, TV over last decade",https://finance.yahoo.com/markets/stocks/articles/netflix-spent-over-135-billion-100220155.html,finviz,0.0
+NFLX,May-12-26,12:34AM,"Texas sues Netflix for allegedly spying on kids, addicting users",https://finance.yahoo.com/video/texas-sues-netflix-allegedly-spying-043420753.html,finviz,0.0
+NFLX,May-11-26,02:41PM,Figuring out where to watch NBA playoff games has been a struggle - and it may only get worse for sports fans,https://www.marketwatch.com/story/figuring-out-where-to-watch-nba-playoff-games-has-been-a-struggle-and-it-may-only-get-worse-for-sports-fans-347668e6?mod=mw_FV,finviz,-0.6597
+NFLX,May-11-26,01:45PM,Texas is suing Netflix for allegedly spying on consumers and building an addictive platform,https://qz.com/texas-attorney-general-sues-netflix-data-collection-addictive-051126,finviz,-0.2732
+NFLX,May-11-26,01:11PM,Texas sues Netflix over data collection; shares edge lower,https://finance.yahoo.com/markets/stocks/articles/texas-sues-netflix-over-data-171159755.html,finviz,0.0
+NFLX,May-08-26,01:50PM,"Nasdaq, S&P 500 Enjoy Another Record-Breaking Week",/news/352647/nasdaq-sp-500-enjoy-another-record-breaking-week,finviz,0.4939
+NFLX,May-07-26,08:28PM,Warner Music Group Corp. Q2 2026 Earnings Call Summary,https://finance.yahoo.com/m/09857f53-c2a0-32f4-b1b6-15c789637394/warner-music-group-corp.-q2.html,finviz,0.0
+NFLX,May-07-26,10:08AM,Warner Bros. Discovery posts wider Q1 loss driven by $2.8B Netflix termination fee,https://finance.yahoo.com/m/9176ef2d-507b-3846-a653-d10bc1bc8da9/warner-bros.-discovery-posts.html,finviz,-0.3182
+NFLX,May-07-26,10:08AM,Warner Bros Discovery posts wider Q1 loss driven by Netflix termination fee,https://finance.yahoo.com/m/9176ef2d-507b-3846-a653-d10bc1bc8da9/warner-bros-discovery-posts.html,finviz,-0.3182
+NFLX,May-07-26,01:30AM,Ken Burns on What He Will and Won't Allow When Financing His Films,https://www.barrons.com/articles/ken-burns-documentary-film-financing-0ac97a68?mod=bar_FV,finviz,-0.1695
+NFLX,May-06-26,01:58PM,Warner Bros. Earnings Are on Deck. How Disney Turned Up the Heat.,https://www.barrons.com/articles/warner-bros-earnings-stock-price-disney-turned-up-the-hea-90209379?mod=bar_FV,finviz,0.0
+NFLX,May-05-26,07:18PM,"The Dealmaking 3: LIV Golf Funding, UFC in Australia, ESPN & Disney Take Back Sports",https://finance.yahoo.com/markets/stocks/articles/dealmaking-3-liv-golf-funding-231817103.html,finviz,0.0
+NFLX,2026-06-16,,Lionsgate Stock Jumps On Netflix Takeover Talk,https://biztoc.com/x/39a56b03cc716bda,newsapi,0.0
+NFLX,2026-06-16,,Streaming Vs. Cable: Which Has Better Value In 2026?,https://www.bgr.com/2192449/streaming-vs-cable-which-better-value/,newsapi,0.6486
+NFLX,2026-06-16,,Why Fox Nation Is Dipping Its Toes Into Stand-Up Comedy,https://variety.com/2026/tv/news/inside-fox-nation-stand-up-comedy-strategy-1236780080/,newsapi,0.3612
+NFLX,2026-06-16,,Amazon just dropped this 55-inch QLED TV to under $300 - and I highly recommend it,https://www.zdnet.com/home-and-office/home-entertainment/amazon-fire-tv-omni-qled-4k-amazon-prime-day-deal-2026/,newsapi,0.5413
+NFLX,2026-06-16,,Netflix vs Disney: What's the Better Stock to Buy Right Now?,https://biztoc.com/x/1e5e7e92001ce7a5,newsapi,0.4404
+NFLX,2026-06-16,,Tom Holland Has the Perfect Idea for Who Should Play Spider-Man Next,https://www.esquire.com/entertainment/movies/a71602025/tom-holland-spider-man-successor/,newsapi,0.7269
+NFLX,2026-06-16,,Netflix Reveals First Look at Louis C.K.'s Return to Streaming,http://www.hollywoodreporter.com/tv/tv-news/netflix-louis-c-k-ridiculous-special-first-look-1236623128/,newsapi,0.0
+NFLX,2026-06-16,,Show HN: Ledgerline – local-first finance MCP server,https://github.com/jeraldhu-yuan/ledgerline,newsapi,0.0
+NFLX,2026-06-16,,Netflix Is Making Us Wait Until 2027 For One Piece's Greatest Character,https://screenrant.com/one-piece-netflix-season-3-ace-wait/,newsapi,0.6369

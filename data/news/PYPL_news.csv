@@ -1,0 +1,110 @@
+﻿ticker,date,time,headline,url,source,sentiment
+PYPL,Jun-16-26,03:53PM,Exclusive: PayPal winds down venture arm as fintech giant restructures under new CEO,https://finance.yahoo.com/technology/articles/exclusive-paypal-winds-down-venture-195309525.html,finviz,0.128
+PYPL,Jun-16-26,12:54PM,Report: World Liberty Financial Slated to Receive Federal Banking Charter,https://finance.yahoo.com/m/5235da83-daaf-375b-a7db-a81dbb0152b9/report%3A-world-liberty.html,finviz,0.5267
+PYPL,Jun-16-26,12:51AM,PayPal Rival PAYO Stock Heads For Best Month In Nearly 4 Years: Nuvei Deal Sparks Analyst Downgrades,https://finance.yahoo.com/m/7c52c75f-c73b-3182-a36d-f38278982668/paypal-rival-payo-stock-heads.html,finviz,0.6369
+PYPL,Jun-15-26,01:00PM,Exclusive: Substack hires Dan Robbins as head of brand sponsorships,https://finance.yahoo.com/m/284630bf-acf2-3f41-b188-502e78ad8faa/exclusive%3A-substack-hires-dan.html,finviz,0.128
+PYPL,Jun-15-26,01:57AM,"PYPL Stock Climbs Overnight: Michael Burry Adds To PayPal Bet, Says 'The Body Has Yet To Show'",https://finance.yahoo.com/m/bc9ff01f-7522-318b-b688-889153bcb3b5/pypl-stock-climbs-overnight%3A.html,finviz,0.0
+PYPL,Jun-14-26,08:00AM,SpaceX went from three consecutive rocket explosions and near-bankruptcy in 2008 to the biggest IPO in history,https://finance.yahoo.com/markets/stocks/articles/spacex-went-three-consecutive-rocket-120000168.html,finviz,0.0
+PYPL,Jun-12-26,11:54AM,The road to SpaceX's juggernaut IPO,https://finance.yahoo.com/markets/stocks/articles/road-spacexs-juggernaut-ipo-155425632.html,finviz,0.0
+PYPL,Jun-11-26,04:00PM,Why Elon Musk is the 'king of big ideas',https://finance.yahoo.com/video/why-elon-musk-is-the-king-of-big-ideas-200023430.html,finviz,0.0
+PYPL,Jun-11-26,01:36PM,"MoonPay Adds PayPal, NYSE and National Security Veterans to Board",https://finance.yahoo.com/m/0d9260c7-820c-3fc9-b003-b313080ef741/moonpay-adds-paypal%2C-nyse-and.html,finviz,0.34
+PYPL,Jun-10-26,07:54PM,Visa Stock: Where Compounding Could Take The Price,https://finance.yahoo.com/m/0061dcd3-3efa-3ff8-b851-cbdf2e5c4e3c/visa-stock%3A-where-compounding.html,finviz,0.0
+PYPL,Jun-05-26,08:04AM,Connecticut tech firms ex-CFO pleads guilty to wire fraud,https://finance.yahoo.com/m/a4b14ec3-caa9-3f9b-a020-f6b0fca60d32/connecticut-tech-firm%E2%80%99s.html,finviz,-0.765
+PYPL,Jun-04-26,02:13PM,Peter Thiels family office revealed as tenant signing pricey lease at 830 Brickell,https://finance.yahoo.com/markets/stocks/articles/peter-thiel-family-office-revealed-181308141.html,finviz,0.0
+PYPL,Jun-03-26,03:59PM,Apple's new feature takes the pain out of splitting the check,https://finance.yahoo.com/video/apples-feature-takes-pain-splitting-195914495.html,finviz,-0.5106
+PYPL,Jun-03-26,02:52PM,Is PayPal the Ultimate Asymmetric Fintech Bet at 8x Earnings?,https://finance.yahoo.com/m/458a0353-0fa2-3efc-a1d4-b195112d6895/is-paypal-the-ultimate.html,finviz,0.0
+PYPL,Jun-03-26,11:02AM,MoneyGram Brings 80+ Years of Remittance Infrastructure to Stablecoins With MGUSD Launch,https://finance.yahoo.com/m/09e9ba51-67da-3aa5-9b77-dfd1d1f19492/moneygram-brings-80%2B-years-of.html,finviz,0.0
+PYPL,Jun-03-26,02:29AM,"This Small-Cap Fintech Stock Is Crushing PayPal, SoFi, Klarna In 2026: Analyst Says Rally Isn't Over Yet",https://finance.yahoo.com/m/c6f48924-6503-3fa5-b1d3-98dd79c89f80/this-small-cap-fintech-stock.html,finviz,-0.3612
+PYPL,Jun-02-26,05:06PM,"Western Union, Visa, PayPal, Meta: why major payments giants are racing to Solana",https://finance.yahoo.com/m/a9cfd026-f38d-3f0a-b54b-5c1d659742c3/western-union%2C-visa%2C-paypal%2C.html,finviz,0.0
+PYPL,Jun-02-26,11:52AM,"Apple Plans iPhone Bill Splitting as PayPal, Block Pare Gains",https://finance.yahoo.com/markets/stocks/articles/apple-plans-iphone-bill-splitting-155202591.html,finviz,-0.128
+PYPL,Jun-02-26,11:00AM,"Palantir, XAI, PayPal, and Robinhood stock analysis",https://finance.yahoo.com/video/palantir-xai-paypal-robinhood-stock-150033501.html,finviz,0.0
+PYPL,Jun-02-26,06:28AM,Michael Burry Bets On PayPal Stock As It Trades Over 80% Down From 2021 Highs,https://finance.yahoo.com/video/michael-burry-bets-paypal-stock-102842824.html,finviz,0.0
+PYPL,Jun-01-26,11:22AM,House of Doge and Paxos Partner to Expand Regulated Access to Dogecoin,https://finance.yahoo.com/m/f6cdf61a-4bb9-3f1d-8cdb-c4e75e54215a/house-of-doge-and-paxos.html,finviz,0.3182
+PYPL,Jun-01-26,11:01AM,"TBH Stock Climbs On House Of Doge-Paxos Dogecoin Deal, But Reverse Split Muddies The Retail Sentiment",https://finance.yahoo.com/m/87785730-cdaf-3c1d-bc55-02445eebfcf8/tbh-stock-climbs-on-house-of.html,finviz,0.0
+PYPL,Jun-01-26,06:00AM,Is Affirm outgrowing credit cards? Max Levchin explains,https://finance.yahoo.com/video/affirm-outgrowing-credit-cards-max-100000077.html,finviz,0.3818
+PYPL,May-31-26,02:00PM,Is AI unique or just the latest tech to 'terraform' financial systems?,https://finance.yahoo.com/video/ai-unique-just-latest-tech-180000712.html,finviz,0.0
+PYPL,May-29-26,06:04AM,"Tencent rolls out inbound payments upgrades, adds PayPal QR support",https://finance.yahoo.com/m/ce0d9ba7-5cb7-30c0-84dc-e5ae6cd63254/tencent-rolls-out-inbound.html,finviz,0.4019
+PYPL,May-28-26,10:06AM,Paxos Wins SEC Clearing Agency Approval for Blockchain Settlement Business,https://finance.yahoo.com/m/5c2c0090-4da6-36c3-a3eb-225097c116f1/paxos-wins-sec-clearing.html,finviz,0.7783
+PYPL,May-28-26,01:27AM,"In a tourist-friendly move, China's Tencent to allow PayPal payments through its WeChat networks",https://finance.yahoo.com/markets/currencies/articles/tourist-friendly-move-chinas-tencent-052722671.html,finviz,0.2263
+PYPL,May-27-26,02:49PM,"Cash App Now Supports Stablecoins, Despite Bitcoin Maxi Jack Dorsey's 'Gatekeeper' Gripes",https://finance.yahoo.com/m/146a3bba-bc65-36f6-b56f-24ffa67da81d/cash-app-now-supports.html,finviz,0.3612
+PYPL,May-27-26,02:32PM,PayPal Links With WeChat Pay,https://finance.yahoo.com/markets/crypto/articles/paypal-links-wechat-pay-183227740.html,finviz,-0.1027
+PYPL,May-27-26,01:25PM,"Ford, GM, Stellantis Join Crypto Firms In Trump-Era Bank Charter Push After Winning Preliminary FDIC Approval: Report",https://finance.yahoo.com/m/b259497d-e9de-3233-82dc-5cedb9f5e395/ford%2C-gm%2C-stellantis-join.html,finviz,0.8271
+PYPL,May-27-26,09:20AM,LendingClub CEO expects skinned knees amid fintech charter rush,https://finance.yahoo.com/m/fd20ac99-9bab-3290-a0de-21431eefa94f/lendingclub-ceo-expects.html,finviz,0.0
+PYPL,May-27-26,07:53AM,"Tencent links PayPal to WeChat Pay network, enabling US users to spend across China",https://finance.yahoo.com/markets/crypto/articles/tencent-links-paypal-wechat-pay-115346909.html,finviz,-0.1027
+PYPL,May-27-26,12:00AM,AP Top Financial News at 2:39 p.m. EDT,https://finance.yahoo.com/markets/stocks/articles/ap-top-financial-news-12-040000140.html,finviz,0.2023
+PYPL,May-27-26,12:00AM,AP Top Extended Financial Headlines at 9:54 a.m. EDT,https://finance.yahoo.com/markets/stocks/articles/ap-top-extended-financial-headlines-040000579.html,finviz,0.2023
+PYPL,May-26-26,10:11AM,PayPals online checkout empire is under siege as rivals squeeze its core business,https://finance.yahoo.com/markets/stocks/articles/paypal-online-checkout-empire-under-141144537.html,finviz,0.0
+PYPL,May-26-26,09:36AM,"The Tour Guy Launches ""Reserve Now, Pay Later,"" Bringing Big-Tech Booking Flexibility to Independent Travel",/news/357017/the-tour-guy-launches-reserve-now-pay-later-bringing-big-tech-booking-flexibility-to-independent-travel,finviz,0.25
+PYPL,May-26-26,12:00AM,AP Top Financial News at 8:40 p.m. EDT,https://finance.yahoo.com/markets/stocks/articles/ap-top-financial-news-12-040000169.html,finviz,0.2023
+PYPL,May-26-26,12:00AM,AP Top Extended Financial Headlines at 8:39 p.m. EDT,https://finance.yahoo.com/markets/stocks/articles/ap-top-extended-financial-headlines-040000436.html,finviz,0.2023
+PYPL,May-22-26,01:12AM,"Analysis-ECB, banks rift hampers Europe's efforts to loosen reliance on US payments giants",https://finance.yahoo.com/economy/policy/articles/analysis-ecb-banks-rift-hampers-051211210.html,finviz,0.0
+PYPL,May-21-26,07:06AM,Factbox-IPO-bound SpaceX's board is stacked with Musk empire loyalists,https://finance.yahoo.com/markets/stocks/articles/factbox-ipo-bound-spacexs-board-110616776.html,finviz,0.2732
+PYPL,May-20-26,07:55AM,Solana News: Amundi Breaks Into Solana  Europes Largest Asset Manager Launches SOL UCITS Fund,https://finance.yahoo.com/m/43fc8b15-f2bf-36ea-94cb-d160b3fb7873/solana-news%3A-amundi-breaks.html,finviz,0.3612
+PYPL,May-19-26,09:29AM,Africas business leaders push for smarter growth at Paris forum {Business Africa},https://finance.yahoo.com/m/8f01535b-8c90-3cde-b359-19a8b29e255e/africa%E2%80%99s-business-leaders.html,finviz,0.6808
+PYPL,May-13-26,04:46PM,PayPal Partners With Seattle Seahawks: Will it Boost Its Platform?,https://qz.com/paypal-partners-with-seattle-seahawks-will-it-boost-its-platform,finviz,0.4019
+PYPL,May-13-26,03:36PM,Trump's 'war on DEI' reaches PayPal,https://finance.yahoo.com/m/cd865f9f-02c9-3149-ba44-ceead0c16200/trump%27s-%27war-on-dei%27-reaches.html,finviz,-0.5719
+PYPL,May-13-26,12:05PM,Anthropic debuts Claude for Small Business as it continues its enterprise software push,https://finance.yahoo.com/news/anthropic-debuts-claude-for-small-business-as-it-continues-its-enterprise-software-push-160500355.html,finviz,0.0
+PYPL,May-12-26,02:45PM,Kevin Hartzs A* just closed its third fund with $450M,https://finance.yahoo.com/markets/stocks/articles/kevin-hartz-just-closed-third-184505752.html,finviz,0.0
+PYPL,May-12-26,09:00AM,PayPal Announces New Global Goal to Support 25 Million People and Small Businesses by 2030,/news/353416/paypal-announces-new-global-goal-to-support-25-million-people-and-small-businesses-by-2030,finviz,0.4019
+PYPL,May-11-26,09:00AM,Seattle Seahawks and PayPal announce PayPal as the team's Official Fan-to-Fan Payments & Exclusive Digital Ticket Payment Processing Partner,/news/352922/seattle-seahawks-and-paypal-announce-paypal-as-the-teams-official-fan-to-fan-payments-exclusive-digital-ticket-payment-processing-partner,finviz,0.128
+PYPL,May-09-26,10:31PM,Banking groups and crypto advocates clash over stablecoin rewards in Senate bill,https://finance.yahoo.com/markets/crypto/articles/banking-groups-crypto-advocates-clash-023156307.html,finviz,0.4767
+PYPL,May-09-26,03:45AM,U.S. Senate Banking Committee moves to advance Clarity Act crypto framework,https://finance.yahoo.com/markets/crypto/articles/u-senate-banking-committee-moves-074513426.html,finviz,0.4019
+PYPL,May-08-26,09:01AM,"Tech layoffs this week: Cloudflare, Coinbase, Upwork, and others point to AI as they slash jobs",https://finance.yahoo.com/m/ceb5ad18-531b-3cee-a85a-f117afa249c8/tech-layoffs-this-week%3A.html,finviz,-0.2732
+PYPL,May-08-26,05:10AM,Consensus 2026 Highlights Cryptos Growing Confidence and Adoption Challenges,https://finance.yahoo.com/m/a93f849e-9c95-354c-8c55-f93988c6cb47/consensus-2026-highlights.html,finviz,0.6486
+PYPL,May-07-26,09:34PM,"California tech company Cloudflare to lay off more than 1,000 workers, cites AI",https://finance.yahoo.com/sectors/technology/articles/california-tech-company-cloudflare-lay-013404900.html,finviz,0.0
+PYPL,May-07-26,11:09AM,AI-Driven Commerce Momentum Lifts Commerce.com (CMRC) Results as Profitability Improves,https://finance.yahoo.com/m/b7cbca81-afc8-37ab-92fb-cf157866cfe2/ai-driven-commerce-momentum.html,finviz,0.5994
+PYPL,May-07-26,05:59AM,Silicon Valleys playercoach fantasy misses the point of good managers,https://finance.yahoo.com/sectors/technology/articles/silicon-valley-player-coach-fantasy-095902093.html,finviz,0.25
+PYPL,May-07-26,05:25AM,"UK FCA opens competition investigation into PayPal, Visa and Mastercard",https://finance.yahoo.com/m/2d55b776-d801-33fe-820a-5d2fd15287dd/uk-fca-opens-competition.html,finviz,0.0
+PYPL,May-06-26,03:05PM,PayPal Stock Drops Despite Strong Results. Is This a Buying Opportunity?,https://finance.yahoo.com/m/4d1edb34-5061-3f82-8dba-5747bc338b18/paypal-stock-drops-despite.html,finviz,0.0253
+PYPL,May-06-26,02:58PM,"PayPal, Visa, Mastercard Probed by UK Regulators",https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-06-2026/card/paypal-visa-mastercard-probed-by-uk-regulators-wTkKSUsGmNgx3vsRhScq?mod=wsj_FV,finviz,0.0
+PYPL,May-06-26,01:51PM,The PayPal Mafia built a $1.5 billion fintech pioneer. The company they left behind is on life support,https://finance.yahoo.com/markets/stocks/articles/paypal-mafia-built-1-5-175102356.html,finviz,0.4019
+PYPL,May-06-26,01:36PM,AI Layoffs Hit Crypto And Payments As Block Cuts 50%,https://finance.yahoo.com/markets/crypto/articles/ai-layoffs-hit-crypto-payments-173606377.html,finviz,-0.6249
+PYPL,May-06-26,11:49AM,PayPal layoffs: New CEO cuts 20% of workforce in Q1 2026,https://finance.yahoo.com/m/ea892cc7-2423-3ccb-b642-ca54465475f1/paypal-layoffs%3A-new-ceo-cuts.html,finviz,-0.296
+PYPL,May-06-26,06:13AM,PayPal CEO aims to keep company intact,https://finance.yahoo.com/m/d36f9698-dad1-3286-9f83-36fd23ea2381/paypal-ceo-aims-to-keep.html,finviz,0.2023
+PYPL,May-06-26,05:27AM,PayPal Q1 2026 net income drops 14% amid cost-savings push,https://finance.yahoo.com/m/94f69018-20ef-3edf-ae89-125af02c8c43/paypal-q1-2026-net-income.html,finviz,0.0
+PYPL,May-05-26,09:00PM,AI Is Forcing CEOs to Make a Stark Choice: Lay Off Workers or Make Them Do More,https://www.wsj.com/tech/ai/ai-is-forcing-ceos-to-make-a-stark-choice-lay-off-workers-or-make-them-do-more-6b1ed771?mod=wsj_FV,finviz,0.0
+PYPL,May-05-26,02:28PM,PayPal reports first earnings under new CEO,https://finance.yahoo.com/m/60664b7d-fccd-34ec-8b6e-272b46427af0/paypal-reports-first-earnings.html,finviz,0.0
+PYPL,May-05-26,01:26PM,PayPal shares fall as it signals profit decline ahead,https://finance.yahoo.com/m/bfcad3a3-72b2-3b5a-8f47-35224768ec46/paypal-shares-fall-as-it.html,finviz,0.6249
+PYPL,May-05-26,12:51PM,"PayPal Holdings, Inc. Q1 2026 Earnings Call Summary",https://finance.yahoo.com/m/2155b18d-edd9-3fb4-a7b0-f85f646e4383/paypal-holdings%2C-inc.-q1-2026.html,finviz,0.0
+PYPL,May-05-26,12:14PM,Shopifys slowing growth raises red flags for investors,https://finance.yahoo.com/video/shopifys-slowing-growth-raises-red-flags-for-investors-161421676.html,finviz,0.3818
+PYPL,May-05-26,11:49AM,PayPal says its becoming a technology company again  that means AI,https://finance.yahoo.com/sectors/technology/articles/paypal-says-becoming-technology-company-154955287.html,finviz,0.0
+PYPL,May-05-26,11:10AM,PayPal shares slide as outlook overshadows earnings beat,https://finance.yahoo.com/m/5f902613-73a9-39a6-b5f8-dfe8650a76e4/paypal-shares-slide-as.html,finviz,0.296
+PYPL,May-05-26,10:32AM,"PayPal Stock Sinks, Brushing Off Strong Q1 Results",/news/350802/paypal-stock-sinks-brushing-off-strong-q1-results,finviz,0.5106
+PYPL,May-05-26,10:02AM,"Stocks to Watch: Palantir, HSBC, Intel, AMD",https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-05-2026/card/stocks-to-watch-palantir-hsbc-amd-1fUwly1EUKaIxZqN9PVm?mod=wsj_FV,finviz,0.0
+PYPL,May-05-26,09:20AM,PayPal Q1 2026 earnings beat estimates under new CEO,https://finance.yahoo.com/m/eb0e6d59-2826-3c72-8f51-10d10de81e49/paypal-q1-2026-earnings-beat.html,finviz,0.0
+PYPL,May-05-26,09:20AM,PayPal stock pops after new CEO's first earnings report beats expectations,https://qz.com/paypal-earnings-beat-new-ceo-q1-2026-050526,finviz,0.0
+PYPL,May-05-26,07:47AM,PayPal tops estimates as revenue climbs 7%,https://finance.yahoo.com/markets/stocks/articles/paypal-tops-estimates-revenue-climbs-114723123.html,finviz,0.5106
+PYPL,May-05-26,07:21AM,Paypal: Q1 Earnings Snapshot,https://finance.yahoo.com/markets/stocks/articles/paypal-q1-earnings-snapshot-112100622.html,finviz,0.0
+PYPL,May-05-26,07:17AM,PayPal Stock Rises After Earnings. New CEO Is Off to a Good Start.,https://www.barrons.com/articles/paypal-earnings-stock-price-7a662e01?mod=bar_FV,finviz,0.4404
+PYPL,May-05-26,07:13AM,PayPal to Cut Costs After Profit Falls,https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9?mod=wsj_FV,finviz,0.2023
+PYPL,May-05-26,07:11AM,"PayPal Earnings, Revenue Beat Under New CEO. Company Aims To Cut $1.5 Billion In Costs.",https://www.investors.com/news/technology/paypal-stock-pypl-paypal-earnings-news-q12026?mod=IBD_FV,finviz,-0.2732
+PYPL,May-05-26,07:06AM,PayPal's stock rallies after first earnings report of the new era. Here's what to know.,https://www.marketwatch.com/story/paypals-stock-rallies-after-first-earnings-report-of-the-new-era-heres-what-to-know-4310d291?mod=mw_FV,finviz,0.0
+PYPL,May-05-26,07:00AM,PayPal Reports First Quarter 2026 Results,/news/350555/paypal-reports-first-quarter-2026-results,finviz,0.0
+PYPL,May-05-26,04:59AM,AMD headlines Tuesday's earnings slate,https://www.marketwatch.com/livecoverage/stock-market-today-dow-sp500-nasdaq-higher-oil-dips-amd-earnings-on-tap/card/amd-headlines-tuesday-s-earnings-slate-6pSQbbUzWb1K9i5RCaUC?mod=mw_FV,finviz,0.0
+PYPL,May-04-26,07:55PM,Review & Preview: War Redux,https://www.barrons.com/articles/stocks-today-energy-prices-iran-war-23c49bb9?mod=bar_FV,finviz,-0.5994
+PYPL,May-01-26,02:00PM,Yacktman Asset Management's Strategic Moves: A Closer Look at PayPal Holdings Inc.,https://finance.yahoo.com/markets/stocks/articles/yacktman-asset-managements-strategic-moves-180022915.html,finviz,0.3612
+PYPL,May-01-26,07:38AM,PayPal separates Venmo into standalone business unit,https://finance.yahoo.com/m/2cb533c9-dbb6-3969-9b0a-4bc49a56cdfd/paypal-separates-venmo-into.html,finviz,0.0
+PYPL,Apr-30-26,01:00PM,"The Week Ahead: Employment Data, Fed Speeches",/news/349468/the-week-ahead-employment-data-fed-speeches,finviz,0.0
+PYPL,Apr-30-26,12:34PM,Why Meta is paying some creators in stablecoins  not cash,https://finance.yahoo.com/video/why-meta-is-paying-some-creators-in-stablecoins--not-cash-163413439.html,finviz,0.0
+PYPL,Apr-30-26,12:03PM,Field Notes: PayPal Reorganizes as AI and Quantum Reshape Commerce,https://finance.yahoo.com/m/f135098b-9388-3dab-82bf-7453879e875e/field-notes%3A-paypal.html,finviz,0.0
+PYPL,Apr-29-26,04:26PM,PayPal to Reorganize Into Three Business Units in Streamlining Effort,https://www.wsj.com/business/c-suite/paypal-to-reorganize-into-three-business-units-in-streamlining-effort-68c7da27?mod=wsj_FV,finviz,0.0
+PYPL,Apr-29-26,04:05PM,PayPal Announces Strategic Reorganization to Accelerate Growth,/news/348911/paypal-announces-strategic-reorganization-to-accelerate-growth,finviz,0.3818
+PYPL,Apr-29-26,02:37PM,PayPal restructures Venmo into standalone business unit,https://finance.yahoo.com/m/dd830fa3-671f-3756-aca4-81370fca7abf/paypal-restructures-venmo.html,finviz,0.0
+PYPL,Apr-29-26,02:31PM,PayPal makes Venmo a separate unit as CEO Lores looks to boost growth,https://finance.yahoo.com/markets/stocks/articles/paypal-separate-venmo-business-cnbc-183106987.html,finviz,0.6486
+PYPL,Apr-29-26,06:08AM,Inside SpaceX's IPO: Musk's most ambitious plan yet,https://finance.yahoo.com/news/inside-spacexs-ipo-musks-most-100231442.html,finviz,0.5256
+PYPL,Apr-28-26,12:31PM,Why Western Union is trying to get into stablecoin payments,https://finance.yahoo.com/video/why-western-union-is-trying-to-get-into-stablecoin-payments-163107623.html,finviz,0.0
+PYPL,Apr-28-26,09:29AM,"How To Buy PayPal Stock 35% Cheaper, Pocket 11% In The Meantime",https://finance.yahoo.com/m/a459d83c-11f5-3a93-a1d4-fe6659db664e/how-to-buy-paypal-stock-35%25.html,finviz,0.0
+PYPL,Apr-27-26,09:30AM,Elon Musk set to face off against Sam Altman in OpenAI trial,https://finance.yahoo.com/video/elon-musk-set-to-face-off-against-sam-altman-in-openai-trial-133047008.html,finviz,0.0
+PYPL,Apr-27-26,09:00AM,PayPal Brings New Commerce-Grade Identity Solution to Advertising Industry,/news/347861/paypal-brings-new-commerce-grade-identity-solution-to-advertising-industry,finviz,0.3182
+PYPL,Apr-26-26,02:52PM,US Treasury Adds Venmo for Debt Donations as Strategic Bitcoin Reserve Bill Stalls,https://finance.yahoo.com/m/75c49d04-fd59-3c2e-80a4-f6a7a03ace39/us-treasury-adds-venmo-for.html,finviz,-0.1779
+PYPL,Apr-24-26,01:58PM,"Squawk Pod: David Sacks, Anthropic, & Regeneron's deafness cure - 04/24/26  Audio Only",https://www.youtube.com/watch?v=9R2QtEupYVQ,finviz,0.0
+PYPL,2026-06-16,,"Deals: Galaxy Z Fold 7 $700+ off, S26 Ultra $350+ off, early Prime Day Amazon Echo deals from $35, more",http://9to5google.com/2026/06/16/deals-galaxy-z-fold-7-s26-ultra-early-prime-day-echo/,newsapi,0.1779
+PYPL,2026-06-16,,"Baptist World Alliance delegation visits Egypt, Lebanon and Syria, holds dialogues with religious, political leaders",https://freerepublic.com/focus/f-religion/4384003/posts,newsapi,0.0
+PYPL,2026-06-16,,Pizza Hut: 50% Cashback on Online Orders $40 or More ($20 Cap Per Member) @ TopCashback AU,https://www.ozbargain.com.au/node/963757,newsapi,0.0
+PYPL,2026-06-16,,"SpaceX IPO could spur hardware startups, says Sequoia’s Shaun Maguire",https://cryptobriefing.com/spacex-ipo-hardware-startups-sequoia/,newsapi,0.0
+PYPL,2026-06-16,,Darling Charm by Timur type,https://www.fontspace.com/darling-charm-font-f164285,newsapi,0.7579
+PYPL,2026-06-16,,"Pizza Hut, where sales have lagged with arrival of delivery culture, will be sold for $2.7 billion",https://freerepublic.com/focus/f-chat/4384002/posts,newsapi,-0.296
+PYPL,2026-06-16,,Kash Patel Singlehandedly Thwarted Attack On Trump’s UFC Bouncy House Birthday Party!,https://www.wonkette.com/p/kash-patel-singlehandedly-thwarted,newsapi,-0.2003
+PYPL,2026-06-16,,Trump shocks world leaders at G7 with bold reprimand of Israel's bombing of Lebanon - with chilly warning for Bibi,https://freerepublic.com/focus/f-news/4383997/posts,newsapi,-0.34
+PYPL,2026-06-16,,Mindy's Team Joins WorkWhile to accelerate AI Adoption in Enterprise Workforce Management,https://www.prnewswire.com/news-releases/mindys-team-joins-workwhile-to-accelerate-ai-adoption-in-enterprise-workforce-management-302801405.html,newsapi,0.0
+PYPL,2026-06-16,,"""Squatters""",https://freerepublic.com/focus/f-chat/4383992/posts,newsapi,0.0

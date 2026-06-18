@@ -1,0 +1,111 @@
+﻿ticker,date,time,headline,url,source,sentiment
+JPM,Today,11:05AM,Morningstar Wealth to Launch Public/Private Model Portfolios,https://finance.yahoo.com/m/5abe3d7f-c9eb-3bb8-9111-f6e74a0f317a/morningstar-wealth-to-launch.html,finviz,0.4939
+JPM,Today,09:45AM,Bond Rally Fails to Allay Higher-for-Longer Rates Threat,https://finance.yahoo.com/economy/policy/articles/bond-rally-fails-allay-higher-090049114.html,finviz,-0.7351
+JPM,Today,09:35AM,US Retail Sales Rise in Broad Gain Despite Higher Gas Prices,https://finance.yahoo.com/economy/articles/us-retail-sales-rise-broad-133510195.html,finviz,0.5267
+JPM,Today,09:04AM,Morningstar teams up with Wall Street firms to open private markets to retail investors,https://finance.yahoo.com/markets/stocks/articles/morningstar-teams-wall-street-firms-130429918.html,finviz,0.0
+JPM,Today,06:00AM,"Morningstar Teams Up With Apollo, Franklin Templeton and J.P. Morgan on Public/Private Model Portfolios",https://www.barrons.com/advisor/articles/morningstar-apollo-jpmorgan-franklin-model-portfolios-24c81ff8?mod=bar_FV,finviz,0.0
+JPM,Jun-16-26,04:20PM,JPMorganChase to Host Second-Quarter 2026 Earnings Call,https://www.businesswire.com/news/home/20260616607618/en,finviz,0.0
+JPM,Jun-16-26,04:11PM,Dow Notches New High as Tech Stocks Drop: Stock Market Today,https://finance.yahoo.com/m/8f930522-0069-3dff-8806-bbc15445aef3/dow-notches-new-high-as-tech.html,finviz,-0.2732
+JPM,Jun-16-26,04:02PM,Bondholders Forced to Reckon With $4 Billion Tax Threat in Bitter Credit Feud,https://finance.yahoo.com/markets/stocks/articles/bondholders-forced-reckon-4-billion-111211401.html,finviz,-0.8402
+JPM,Jun-16-26,01:33PM,Wall Street caught between cooling tech rally and falling oil prices on Tuesday,https://www.marketwatch.com/livecoverage/stock-market-today-dow-set-to-rise-nasdaq-set-to-ease/card/wall-street-caught-between-cooling-tech-rally-and-falling-oil-prices-on-tuesday-3RnF4rJhuAJb7DLMu9rE?mod=mw_FV,finviz,-0.1531
+JPM,Jun-16-26,11:25AM,A New Survey Says This Popular Type of Work Is Thriving Despite CEO Resistance,https://finance.yahoo.com/m/8efc6b4c-00f9-3040-9e6c-9642c9d18b52/a-new-survey-says-this.html,finviz,0.5023
+JPM,Jun-16-26,08:30AM,JPMorgan Pushes Chase Deeper Into Europe,https://finance.yahoo.com/markets/stocks/articles/jpmorgan-pushes-chase-deeper-europe-123034672.html,finviz,0.0
+JPM,Jun-16-26,07:53AM,JPMorgan targets five EU markets by 2030 in digital bank expansion  report,https://finance.yahoo.com/m/74a1f5f9-b870-371e-954b-564ae8307ff6/jpmorgan-targets.html,finviz,0.0
+JPM,Jun-16-26,03:48AM,STMicro Eyes $1.5 Billion Convertible Bonds After AI-Fueled Jump,https://finance.yahoo.com/markets/stocks/articles/stmicro-eyes-1-5-billion-074858444.html,finviz,0.0
+JPM,Jun-15-26,05:01PM,US Bonds Rally as Traders Trim Fed Rate-Hike Bets on Iran Deal,https://finance.yahoo.com/economy/policy/articles/treasuries-rally-traders-trim-fed-020747498.html,finviz,0.0
+JPM,Jun-15-26,04:21PM,JPMorganChase Announces 2027 Investor Day,https://www.businesswire.com/news/home/20260615939282/en,finviz,0.0
+JPM,Jun-15-26,04:20PM,JPMorganChase Declares Preferred Stock Dividends,https://www.businesswire.com/news/home/20260615647401/en,finviz,0.0
+JPM,Jun-15-26,03:56PM,Yen Short Bets Hit Nine-Year High As Carry Trade Revives,https://finance.yahoo.com/markets/currencies/articles/yen-short-bets-hit-nine-195637436.html,finviz,0.3818
+JPM,Jun-15-26,02:46PM,Nvidia Taps Bond Market for the First Time in Five Years,https://finance.yahoo.com/markets/stocks/articles/nvidia-taps-bond-market-first-184642109.html,finviz,0.0
+JPM,Jun-15-26,02:45PM,Oil Slide to $70 Could Reignite Equity Rally,https://finance.yahoo.com/sectors/energy/articles/oil-slide-70-could-reignite-184533502.html,finviz,0.0
+JPM,Jun-15-26,09:24AM,"Singapore Lines Up JPMorgan, Deutsche Bank For Gold-Clearing Push",https://finance.yahoo.com/markets/commodities/articles/singapore-lines-jpmorgan-deutsche-bank-132417069.html,finviz,0.0
+JPM,Jun-15-26,09:08AM,Frank founder who defrauded JPMorgan is reportedly seeking a Trump pardon,https://qz.com/charlie-javice-trump-pardon-jpmorgan-fraud-061526,finviz,0.3182
+JPM,Jun-15-26,09:00AM,"Meet the New Chase Sapphire Preferred: Earn More Than Ever, Same $95 Annual Fee",https://www.businesswire.com/news/home/20260615099861/en/,finviz,0.0
+JPM,Jun-15-26,09:00AM,JPMorganChase Expands Security and Resiliency Initiative to Canada,https://www.businesswire.com/news/home/20260615498584/en/,finviz,0.4215
+JPM,Jun-15-26,08:52AM,Nvidia plans to raise at least $20 billion in bond sale,https://finance.yahoo.com/markets/stocks/articles/nvidia-plans-raise-least-20-125218375.html,finviz,0.0
+JPM,Jun-15-26,08:51AM,JPMorgan sees further gains for Mag-7 despite concentration risks,https://finance.yahoo.com/markets/stocks/articles/jpmorgan-sees-further-gains-mag-125116359.html,finviz,0.4963
+JPM,Jun-15-26,08:04AM,"Chase Freedom Announces Q3 2026 5% Cash Back Categories: Gas Stations and EV Charging, Public Transit, Select Live Entertainment and United Way",https://www.businesswire.com/news/home/20260615937822/en/,finviz,0.8689
+JPM,Jun-15-26,06:08AM,Morgan Stanleys Wilson Sees US Stock Market Rally Broadening,https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-wilson-sees-us-100823670.html,finviz,0.0
+JPM,Jun-15-26,05:55AM,Birkenstock Readies First Bond Deal in Five Years for Buybacks,https://finance.yahoo.com/markets/stocks/articles/birkenstock-readies-first-bond-deal-095539793.html,finviz,0.0
+JPM,Jun-15-26,01:13AM,London Gold Market Weighs Earlier Auction to Suit Asian Traders,https://finance.yahoo.com/markets/commodities/articles/london-gold-market-weighs-earlier-051332358.html,finviz,0.0
+JPM,Jun-14-26,09:47PM,KTOS Stock Gains Overnight: Why JPMorgan Thinks Kratos Could Be Ready For A Comeback,https://finance.yahoo.com/m/db5d6cf9-b1cf-3a1b-be84-b5b63ea8f2dc/ktos-stock-gains-overnight%3A.html,finviz,0.5994
+JPM,Jun-14-26,12:23PM,Charlie Javice Has Been Seeking a Pardon From Trump After Defrauding JPMorgan,https://www.wsj.com/finance/charlie-javice-has-been-seeking-a-pardon-from-trump-after-defrauding-jpmorgan-0b4e61db?mod=wsj_FV,finviz,0.3182
+JPM,Jun-13-26,02:01PM,Forget 'Too Big to Fail.' How 'Community' Became the Most Controversial Word in Banking.,https://www.barrons.com/articles/community-bank-controversy-regulations-fed-credit-unions-b0bc6b3e?mod=bar_FV,finviz,-0.7574
+JPM,Jun-13-26,08:00AM,"CNBC anchor stunned by $107B US trade deficit drop: Buckle up, this is unreal! Are Trumps tariffs a triumph?",https://finance.yahoo.com/economy/policy/articles/cnbc-anchor-stunned-107b-us-120000399.html,finviz,-0.3382
+JPM,Jun-13-26,12:00AM,Goldman and JPMorgan ease office working rules to counter World Cup disruption,https://finance.yahoo.com/economy/policy/articles/goldman-jpmorgan-ease-office-working-040031748.html,finviz,0.0
+JPM,Jun-12-26,05:57PM,SpaceX Strikes Rare Deal to Pay $0 to Bankers for IPO Greenshoe,https://finance.yahoo.com/news/spacex-strikes-rare-deal-to-pay-0-to-bankers-for-ipo-greenshoe-215727873.html,finviz,-0.4404
+JPM,Jun-12-26,05:50PM,"As SpaceX Makes Musk Trillionaire, Some Dissent on NYCs Streets",https://finance.yahoo.com/markets/stocks/articles/spacex-makes-musk-trillionaire-dissent-215044114.html,finviz,0.0
+JPM,Jun-12-26,03:48PM,SpaceX IPO afterparty set to light up JPMorgan HQ,https://finance.yahoo.com/video/spacex-ipo-afterparty-set-to-light-up-jpmorgan-hq-194855263.html,finviz,0.0
+JPM,Jun-12-26,03:48PM,"ETFs that buy bank stocks rise sharply, with shares of Goldman Sachs jumping",https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-jones-spacex-ipo-first-trade-us-iran-peace-deal/card/etfs-that-buy-bank-stocks-rise-sharply-with-shares-of-goldman-sachs-jumping-xO8i7mjCKu8UjihcX000?mod=mw_FV,finviz,0.296
+JPM,Jun-12-26,03:30PM,JPMorgan Chase Has a Key Role for SpaceX's IPO: Party Host,https://www.wsj.com/finance/banking/jpmorgan-chase-has-a-key-role-for-spacexs-ipo-party-host-88534f80?mod=wsj_FV,finviz,0.4019
+JPM,Jun-12-26,02:46PM,SpaceX IPO's lead underwriters are having a good day too. Their stocks are all rising.,https://www.marketwatch.com/livecoverage/spacex-ipo-stock-price-trading-elon-musk-spcx/card/spacex-ipo-s-lead-underwriters-are-having-a-good-day-too-their-stocks-are-all-rising--Y7VzqAYQo2BKueN4iAsD?mod=mw_FV,finviz,0.4404
+JPM,Jun-12-26,02:16PM,Shipowners On Edge for News on Hormuz as Dark Oil Flows Swell,https://finance.yahoo.com/sectors/energy/articles/shipowners-edge-news-hormuz-dark-181657159.html,finviz,0.0
+JPM,Jun-12-26,09:43AM,SpaceXs Record IPO Is Said to Draw Over $350 Billion in Demand,https://finance.yahoo.com/markets/stocks/articles/spacex-record-ipo-said-draw-134325322.html,finviz,-0.128
+JPM,Jun-12-26,08:54AM,Hedge funds dump Magnificent Seven stocks ahead of SpaceX IPO,https://finance.yahoo.com/m/2abc139a-b5ed-3987-9d74-45ac7b5c1397/hedge-funds-dump-magnificent.html,finviz,0.3182
+JPM,Jun-12-26,08:54AM,Hedge funds sold off big tech stocks to make room for the SpaceX IPO,https://qz.com/hedge-funds-sell-magnificent-seven-spacex-ipo-061226,finviz,0.0
+JPM,Jun-12-26,07:14AM,JPMorgan says investors are overlooking the upside to Wall Street banks that comes from SpaceX and other mega IPOs,https://www.marketwatch.com/story/jpmorgan-says-investors-are-overlooking-the-upside-to-wall-street-banks-that-comes-from-spacex-and-other-mega-ipos-bcea99f4?mod=mw_FV,finviz,0.0
+JPM,Jun-12-26,02:34AM,"Banks Curb Hedge Fund Bets on SK Hynix, Samsung After Rally",https://finance.yahoo.com/markets/stocks/articles/banks-curb-hedge-fund-bets-063410912.html,finviz,0.0
+JPM,Jun-12-26,01:30AM,How 'Community' Became the Most Controversial Word in Banking,https://www.barrons.com/articles/community-banking-regulations-fed-credit-unions-b0bc6b3e?mod=bar_FV,finviz,-0.2716
+JPM,Jun-11-26,08:00PM,SpaceX's IPO is a big win for Goldman Sachs and Morgan Stanley,https://www.marketwatch.com/livecoverage/spacex-ipo-stock-price-trading-elon-musk-spcx/card/spacex-s-ipo-is-a-big-win-for-goldman-sachs-and-morgan-stanley-tKU4Q4is4Weul9xZqldo?mod=mw_FV,finviz,0.5859
+JPM,Jun-11-26,02:44PM,Bezos-Led Prometheus Raises $12 Billion At $41 Billion Valuation,https://finance.yahoo.com/sectors/technology/articles/bezos-led-prometheus-raises-12-184406947.html,finviz,0.0
+JPM,Jun-11-26,01:31PM,CoreWeave AI Funding Goes Global With Euro Junk-Bond Deal,https://finance.yahoo.com/markets/stocks/articles/coreweave-ai-funding-goes-global-153021346.html,finviz,0.0
+JPM,Jun-11-26,12:43PM,SpaceX IPO Draws More Than $100 Billion in Retail Orders,https://finance.yahoo.com/markets/stocks/articles/spacex-ipo-draws-more-70-124106841.html,finviz,0.0
+JPM,Jun-11-26,12:28PM,The Looming Clash Between the Fed and the Bond Market,https://www.barrons.com/articles/fed-inflation-warsh-bond-market-rates-yields-3edbbb10?mod=bar_FV,finviz,-0.128
+JPM,Jun-11-26,12:23PM,Jeff Bezos AI Startup Valued at $41 Billion in Funding Round,https://finance.yahoo.com/sectors/technology/articles/jeff-bezos-ai-startup-valued-162325286.html,finviz,0.4404
+JPM,Jun-11-26,09:21AM,Citigroup Offers Tokenized Shares Of Private Companies To Wealthy Clients,https://finance.yahoo.com/m/c5188dd6-6ddb-359d-8fef-be490a8e6f1f/citigroup-offers-tokenized.html,finviz,0.5719
+JPM,Jun-11-26,09:20AM,Retail Traders Dump Big Tech to Raise Dry Powder to Buy SpaceX,https://finance.yahoo.com/markets/stocks/articles/retail-traders-dump-big-tech-113518770.html,finviz,-0.3818
+JPM,Jun-11-26,07:57AM,JPMorgan puts $20bn into Gulf amid war  report,https://finance.yahoo.com/m/c1eff62f-45f4-370a-ba86-12c4679a0f8b/jpmorgan-puts-%2420bn-into-gulf.html,finviz,-0.5994
+JPM,Jun-10-26,10:25PM,Gold Whipsaws in Choppy Trading as US Completes New Iran Strikes,https://finance.yahoo.com/news/gold-whipsaws-in-choppy-trading-as-us-completes-new-iran-strikes-022520731.html,finviz,-0.3612
+JPM,Jun-10-26,06:09PM,Trump Credits Stealth Operations for Holding Oil Prices Down,https://www.barrons.com/articles/oil-prices-energy-trump-iran-war-45dc39c0?mod=bar_FV,finviz,0.296
+JPM,Jun-10-26,03:43PM,Illumina upgraded to overweight at JPMorgan on clinical demand outlook,https://finance.yahoo.com/sectors/healthcare/articles/illumina-upgraded-overweight-jpmorgan-clinical-194352908.html,finviz,-0.4588
+JPM,Jun-10-26,03:36PM,Tesla Stock Surges Into Bull Case as JPMorgan Lifts Target 227%,https://finance.yahoo.com/markets/stocks/articles/tesla-stock-surges-bull-case-193621115.html,finviz,0.0
+JPM,Jun-10-26,02:43PM,"DoJ subpoenas major banks over account closures, WSJ reports",https://finance.yahoo.com/economy/policy/articles/doj-subpoenas-major-banks-over-184332317.html,finviz,0.0
+JPM,Jun-10-26,02:39PM,Amazon Taps $17.5 Billion Loan as AI Spending Race Intensifies,https://finance.yahoo.com/markets/stocks/articles/amazon-taps-17-5-billion-183906224.html,finviz,0.1779
+JPM,Jun-10-26,01:51PM,Jeanine Pirro's Prosecutors Probe Big Banks for Alleged 'Debanking',https://www.wsj.com/finance/regulation/jeanine-pirros-prosecutors-probe-big-banks-for-alleged-debanking-13568e9b?mod=wsj_FV,finviz,0.0
+JPM,Jun-10-26,01:36PM,Amazon Takes On $17.5B In Fresh Debt To Supercharge AI Expansion,https://finance.yahoo.com/m/bc78608b-91fa-38e4-9ae5-5c967c639fe0/amazon-takes-on-%2417.5b-in.html,finviz,0.128
+JPM,Jun-10-26,01:15PM,SpaceX IPO Is Said to Be More Than Four Times Oversubscribed,https://finance.yahoo.com/markets/stocks/articles/spacex-ipo-said-more-four-171505697.html,finviz,0.0
+JPM,Jun-10-26,12:09PM,Trump Heaps Praise on Citi for M&A Ranking It Doesnt Have,https://finance.yahoo.com/markets/stocks/articles/trump-lavishes-praise-citi-m-141000854.html,finviz,0.5574
+JPM,Jun-10-26,07:53AM,The PE playbook that reformed accounting is coming for law firms,https://finance.yahoo.com/markets/stocks/articles/pe-playbook-reformed-accounting-coming-115350418.html,finviz,0.0
+JPM,Jun-10-26,04:33AM,JPMorgans Lake sees longer road to agentic commerce adoption,https://finance.yahoo.com/m/9a5b9e92-0b18-3b15-a52c-0f48c4dcc348/jpmorgan%E2%80%99s-lake-sees-longer.html,finviz,0.0
+JPM,Jun-09-26,04:35PM,"Wells Fargo, JPMorgan, and Other Big Banks Face Pressure to Address AI Risks",https://www.barrons.com/articles/wells-fargo-jpmorgan-ai-congress-fdce8b64?mod=bar_FV,finviz,-0.3182
+JPM,Jun-09-26,03:15PM,Oil Falls in Choppy Trading After Trump Vows Response to Attack,https://finance.yahoo.com/news/oil-falls-as-israel-and-iran-halt-hostilities-that-risked-talks-062215439.html,finviz,-0.4767
+JPM,Jun-09-26,02:08PM,"JPMorgan keeping a watchful eye on consumer health, executive says",https://finance.yahoo.com/economy/articles/jpmorgan-keeping-watchful-eye-consumer-150916343.html,finviz,0.0
+JPM,Jun-09-26,11:40AM,"AI Selloff a Wake-Up Call for Investors, Wells Fargo Says",https://finance.yahoo.com/markets/stocks/articles/ai-selloff-wake-call-investors-154053589.html,finviz,0.25
+JPM,Jun-09-26,11:14AM,SpaceX IPO Draws Orders for Multiple Times the Shares Available,https://finance.yahoo.com/markets/stocks/articles/spacex-ipo-draws-orders-multiple-151446144.html,finviz,0.296
+JPM,Jun-09-26,11:11AM,"US consumers are still spending, but JPMorgan says the cushion against higher prices is thinning",https://finance.yahoo.com/economy/article/us-consumers-are-still-spending-but-jpmorgan-says-the-cushion-against-higher-prices-is-thinning-151142995.html,finviz,0.0
+JPM,Jun-09-26,10:52AM,JPMorgan Chase plans autonomous AI agents for 2026,https://finance.yahoo.com/m/377aa26b-38f6-3c56-aca8-25901094d775/jpmorgan-chase-plans.html,finviz,0.0
+JPM,Jun-09-26,10:52AM,JPMorgan Chase is planning to deploy longer-running autonomous AI agents in 2026,https://qz.com/jpmorgan-chase-autonomous-ai-agents-2026-060926,finviz,0.0
+JPM,Jun-09-26,10:30AM,Investors should 'go long and do nothing': Market strategist,https://finance.yahoo.com/video/investors-should-go-long-and-do-nothing-market-strategist-143006788.html,finviz,0.0
+JPM,Jun-09-26,10:00AM,Chase Expands Digital Hub for Small Businesses with New Innovative Tools and Insights,https://www.businesswire.com/news/home/20260609784520/en/Client,finviz,0.5106
+JPM,Jun-09-26,09:28AM,SpaceX Targets $1.8 Trillion IPO as Musk Expands AI Empire,https://finance.yahoo.com/markets/stocks/articles/spacex-targets-1-8-trillion-132805529.html,finviz,0.1027
+JPM,Jun-08-26,04:07PM,ILS Talent War Hits $1 Million As Hedge Funds Chase Weather Experts,https://finance.yahoo.com/markets/stocks/articles/ils-talent-war-hits-1-200751409.html,finviz,-0.2732
+JPM,Jun-08-26,03:57PM,Treasuries Pare Drop in Oil-Driven Move Tied to Iran War,https://finance.yahoo.com/economy/policy/articles/treasuries-drop-jobs-data-iran-053552607.html,finviz,-0.6249
+JPM,Jun-08-26,03:09PM,J.P. Morgan Sees a Bigger Qualcomm Shift,https://finance.yahoo.com/markets/stocks/articles/j-p-morgan-sees-bigger-190938891.html,finviz,0.0
+JPM,Jun-08-26,08:34AM,Tate & Lyle Accepts Bid From Ingredion in Loss for London,https://finance.yahoo.com/markets/stocks/articles/tate-lyle-accepts-bid-ingredion-084343560.html,finviz,0.0
+JPM,Jun-07-26,02:00PM,Elon Musk's mom at JPMorgan event: 'I have a genius son',https://finance.yahoo.com/video/elon-musks-mom-jpmorgan-event-180000579.html,finviz,0.0
+JPM,Jun-07-26,07:00AM,"JPMorgan AM, Pictet Break From Pack With One and Done for ECB",https://finance.yahoo.com/economy/policy/articles/jpmorgan-am-pictet-break-pack-110000476.html,finviz,0.0
+JPM,Jun-06-26,03:00PM,"DoubleLine, Oaktree Brace for Potential AI Pain",https://finance.yahoo.com/markets/stocks/articles/doubleline-oaktree-brace-potential-ai-190000976.html,finviz,-0.5106
+JPM,Jun-06-26,09:46AM,"JPMorgan, Citi, and Bank of America Just Built a Tokenized Payment Network to Kill Stablecoins",https://finance.yahoo.com/m/bd89134a-6f50-3253-aba9-c86ff23b1d2b/jpmorgan%2C-citi%2C-and-bank-of.html,finviz,-0.6908
+JPM,Jun-06-26,09:15AM,Worthy Value Stocks to Consider Now,https://finance.yahoo.com/m/e431a216-4cf0-39d0-8850-aadd7f70380d/worthy-value-stocks-to.html,finviz,0.6486
+JPM,Jun-05-26,05:20PM,"Investing opportunity across the economy with AI wave, says JPMorgan's Stephanie Aliaga",https://www.youtube.com/watch?v=B583DY_h2rc,finviz,0.4215
+JPM,Jun-05-26,04:43PM,JPMorgan Turns Rosy on Tesla a Day After Dimon Lauds Musk,https://finance.yahoo.com/markets/stocks/articles/jpmorgan-turns-rosy-tesla-day-204335964.html,finviz,0.0
+JPM,Jun-05-26,04:09PM,Weekly Wrap: Bitcoin Hits Two-Year Low Amid Relentless Selling,https://finance.yahoo.com/m/02ea58e8-cfbc-3075-bdc2-861987efd7bc/weekly-wrap%3A-bitcoin-hits.html,finviz,-0.2263
+JPM,Jun-05-26,03:43PM,Citigroup Economists Maintain Lonely Call for Fed Rate Cuts,https://finance.yahoo.com/economy/policy/articles/citigroup-economists-maintain-lonely-call-194353882.html,finviz,-0.5719
+JPM,Jun-05-26,02:46PM,Goldman Is Priced Like a Tech Stock. Investors Can Find Better Deals Elsewhere.,https://www.barrons.com/articles/goldman-sachs-stock-tech-spacex-ipo-984aa3d4?mod=bar_FV,finviz,0.6597
+JPM,Jun-05-26,02:28PM,JPMorgan May Have a Private Credit Target,https://finance.yahoo.com/markets/stocks/articles/jpmorgan-may-private-credit-target-182858155.html,finviz,0.3818
+JPM,Jun-05-26,01:48PM,"This credit-card pointsmaxxer booked a $16,000 first-class Emirates flight for $400 - and you can, too",https://www.marketwatch.com/story/this-credit-card-pointsmaxxer-booked-a-16-000-first-class-emirates-flight-for-400-and-you-can-too-46f99294?mod=mw_FV,finviz,0.0
+JPM,Jun-05-26,01:24PM,Tesla Gets 227.6% Target Boost As JPMorgan Upgrades Rating,https://finance.yahoo.com/markets/stocks/articles/tesla-gets-227-6-target-172449965.html,finviz,0.4019
+JPM,Jun-05-26,01:22PM,JPMorgan Interest Swirls Around Carlyle Unit With $194 Billion AUM,https://finance.yahoo.com/markets/stocks/articles/jpmorgan-interest-swirls-around-carlyle-172227438.html,finviz,0.4588
+JPM,Jun-05-26,11:20AM,Giants' Kayvon Thibodeaux shares NIL money advice through new JPMorgan partnership,https://www.youtube.com/watch?v=NDp1kg2Mups,finviz,0.296
+JPM,Jun-05-26,10:23AM,"JP Morgan upgrades Tesla to neutral, raises price target to $475",https://finance.yahoo.com/m/b6efebef-b64e-3753-9151-fbc6fcde39fc/jp-morgan-upgrades-tesla-to.html,finviz,0.368
+JPM,Jun-05-26,10:23AM,"JP Morgan drops its bearish Tesla call, triples price target to $475",https://qz.com/jp-morgan-tesla-upgrade-neutral-price-target-060526,finviz,0.368
+JPM,2026-06-16,,JPMorgan raises power and AI capex estimates amid strong year for high-yield data center debt,https://cryptobriefing.com/jpmorgan-ai-capex-data-center-debt/,newsapi,0.2023
+JPM,2026-06-16,,Nvidia sees strong initial trading volume for $25B bond offering,https://cryptobriefing.com/nvidia-25b-bond-offering-trading-volume/,newsapi,0.5106
+JPM,2026-06-16,,"Dow Surges Over 350 Points to Record 52,028 as Iran Peace Deal Eases Global Tensions",https://www.ibtimes.com.au/dow-jones-record-high-us-iran-peace-deal-1870698,newsapi,0.4767
+JPM,2026-06-16,,"Palantir upgraded, Rocket Companies downgraded: Wall Street's top analyst calls",https://finance.yahoo.com/markets/stocks/articles/palantir-upgraded-rocket-companies-downgraded-134018537.html,newsapi,0.2023
+JPM,2026-06-16,,Strategy’s Saylor Unveils Five-Layer Bitcoin Economy Model — How It Works,https://bitcoinfoundation.org/news/bitcoin/saylor-bitcoin-economy/,newsapi,0.0
+JPM,2026-06-16,,AI-Driven Ion Exchange Materials Market Attracts $73M in Investment Funding as Water Treatment Digitization Accelerates,https://www.globenewswire.com/news-release/2026/06/16/3312593/0/en/AI-Driven-Ion-Exchange-Materials-Market-Attracts-73M-in-Investment-Funding-as-Water-Treatment-Digitization-Accelerates.html,newsapi,0.4019
+JPM,2026-06-16,,Chainguard's new Athena coalition uses AI to fix open-source flaws - before attackers exploit them,https://www.zdnet.com/article/chainguard-athena-coalition-fixes-open-source-flaws-before-ai-attackers-exploit/,newsapi,-0.6249
+JPM,2026-06-16,,JPMorgan targets five EU markets by 2030 in digital bank expansion – report,https://biztoc.com/x/93c3ef87a384b986,newsapi,0.0
+JPM,2026-06-16,,Morning Minute: HYPE Soars to ATH as SPCX Takes Off,https://decrypt.co/371280/morning-minute-hype-soars-to-ath-as-spcx-takes-off,newsapi,0.0
+JPM,2026-06-16,,Goldman Traders See Room for Rally to Broaden Beyond AI Winners,https://financialpost.com/pmn/business-pmn/goldman-traders-see-room-for-rally-to-broaden-beyond-ai-winners,newsapi,0.4767
