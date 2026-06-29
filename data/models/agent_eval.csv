@@ -1,0 +1,4 @@
+ticker,tools_called,tool_accuracy,has_signal,response_len
+NVDA,"['PriceTool', 'SentimentTool', 'QuantTool', 'PriceTool', 'RAGTool']",1.0,True,734
+TSLA,"['PriceTool', 'SentimentTool', 'QuantTool', 'RAGTool']",1.0,True,740
+AAPL,"['PriceTool', 'SentimentTool', 'QuantTool', 'RAGTool']",1.0,True,774
