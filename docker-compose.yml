@@ -1,0 +1,13 @@
+services:
+  backend:
+    build: .
+    image: investment-agent-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      # Persist the SQLite MemoryStore outside the container so
+      # recommendation history survives rebuilds/restarts.
+      - ./data/memory:/app/data/memory
+    restart: unless-stopped

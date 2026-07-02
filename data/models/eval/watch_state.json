@@ -1,0 +1,32 @@
+{
+  "AAPL": {
+    "ticker": "AAPL",
+    "signal": "BUY",
+    "confidence": "MEDIUM",
+    "checked_at": "2026-07-02T12:10:46.930298+00:00"
+  },
+  "NVDA": {
+    "ticker": "NVDA",
+    "signal": "BUY",
+    "confidence": "MEDIUM",
+    "checked_at": "2026-07-02T12:11:05.286469+00:00"
+  },
+  "TSLA": {
+    "ticker": "TSLA",
+    "signal": "HOLD",
+    "confidence": "MEDIUM",
+    "checked_at": "2026-07-02T12:11:27.511406+00:00"
+  },
+  "AMD": {
+    "ticker": "AMD",
+    "signal": "BUY",
+    "confidence": "MEDIUM",
+    "checked_at": "2026-07-02T12:11:44.372081+00:00"
+  },
+  "MSFT": {
+    "ticker": "MSFT",
+    "signal": "BUY",
+    "confidence": "MEDIUM",
+    "checked_at": "2026-07-02T12:12:02.546801+00:00"
+  }
+}

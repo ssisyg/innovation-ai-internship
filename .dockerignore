@@ -1,0 +1,50 @@
+# ---- VCS / editor ----
+.git
+.gitignore
+.vscode
+.idea
+
+# ---- Python ----
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---- Notebooks & checkpoints (dev-only, not needed at runtime) ----
+*.ipynb
+.ipynb_checkpoints/
+
+# ---- Frontend (deployed separately, e.g. Vercel) ----
+frontend/
+
+# ---- Tests (not needed inside the runtime image) ----
+tests/
+
+# ---- Secrets: never bake these into an image layer ----
+.env
+*.env
+
+# ---- Data not needed at runtime by backend/agent.py ----
+# (agent.py only reads data/models/{best_model.pkl,best_model_name.pkl,
+#  shap/shap_importance.csv}, data/ml/{X_test.csv,test_meta.csv,
+#  schema.pkl,scaler.pkl}, data/sentiment/news_with_sentiment.csv,
+#  data/raw/*_price.csv, and data/rag/chroma_db/)
+data/news/
+data/eda/
+data/processed/
+data/backtest/
+data/features/
+data/ml/X_train.csv
+data/ml/y_train.csv
+data/ml/train_meta.csv
+data/ml/full_dataset.csv
+data/ml/feature_cols.pkl
+data/models/*.png
+data/models/shap/shap_explainer.pkl
+data/models/shap/*.png
+data/models/model_comparison.csv
+data/sentiment/*.png
+data/sentiment/sentiment_summary.csv

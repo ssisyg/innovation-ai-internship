@@ -11,7 +11,7 @@ import numpy as np
 import yfinance as yf
 import ta
 
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import TypedDict, Annotated, Sequence, Optional
 from dotenv import load_dotenv
 
@@ -306,7 +306,7 @@ class MemoryStore:
             """INSERT INTO recommendations (timestamp, ticker, signal, reasoning, tool_data)
                VALUES (?, ?, ?, ?, ?)""",
             (
-                datetime.utcnow().isoformat(),
+                datetime.now(timezone.utc).isoformat(),
                 ticker,
                 signal,
                 reasoning,
@@ -348,9 +348,24 @@ TOOLS AVAILABLE:
 - PriceTool    → current price, RSI, MACD, technical indicators
 - SentimentTool → news sentiment scores (FinBERT)
 - QuantTool    → ML model next-day prediction + SHAP explanation
-- RAGTool      → semantic search over financial news (optional)
+- RAGTool      → semantic search over financial news (conditional, see below)
 
-WORKFLOW: Call Price → Sentiment → Quant → RAG (if needed), then give final answer.
+WORKFLOW: Always call Price → Sentiment → Quant, in that order. Then
+decide whether to call RAGTool using the rule below before giving your
+final answer.
+
+RAGTOOL RULE (evaluate this yourself from the tool results you already
+have — do not guess):
+- Call RAGTool if SentimentTool's `signal` is "NEUTRAL", OR
+- Call RAGTool if SentimentTool's `signal` and QuantTool's `signal`
+  point in different directions (e.g. one is bullish/BUY and the
+  other is bearish/SELL), OR
+- Call RAGTool if you are not confident enough to state HIGH or
+  MEDIUM confidence in your final answer without it.
+- Otherwise RAGTool is optional — skip it and go straight to your
+  final answer to keep latency down.
+When you skip RAGTool, do not claim to have reviewed specific news
+articles in your reasoning.
 
 CRITICAL OUTPUT FORMAT (MANDATORY — NO EXCEPTIONS):
 Your final answer MUST start with exactly one of these lines, with NOTHING before it:
