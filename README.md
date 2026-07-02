@@ -1,163 +1,115 @@
-📊 Investment Agent System (Week 11–12)
-🚀 Overview
+# 🚀 AI Investment Agent System
 
-This project is an end-to-end LLM-powered investment analysis agent system built with LangGraph + FastAPI + Docker, designed for real-world financial reasoning, tool orchestration, and automated evaluation.
+A production-grade multi-agent AI system for investment analysis, featuring tool-augmented reasoning, real-time evaluation, and full CI/CD + Docker deployment.
 
-It supports:
+---
 
-Multi-tool agent reasoning (Price / Sentiment / Quant / RAG)
-Streaming inference via FastAPI (SSE)
-Persistent memory (ChromaDB-based)
-Full evaluation framework (latency / accuracy / groundedness / hallucination)
-CI/CD pipeline with automated testing and Docker validation
-🧠 System Architecture
-User Request
-    ↓
-FastAPI (/analyze, /history)
-    ↓
-LangGraph Agent (ReAct loop)
-    ↓
-4 Tools
-   ├── PriceTool
-   ├── SentimentTool
-   ├── QuantTool
-   └── RAGTool
-    ↓
-Memory Layer (ChromaDB)
-    ↓
-Final Investment Decision (BUY / SELL / HOLD)
-⚙️ Core Features
-1. LangGraph Agent (ReAct-based)
-Iterative reasoning loop (Think → Act → Observe)
-Dynamically decides which tools to call
-Supports multi-step financial analysis
-2. Tool System (4 Core Tools)
-Tool	Function
-PriceTool	Market price + indicators
-SentimentTool	News sentiment scoring
-QuantTool	ML-based prediction (up_probability)
-RAGTool	News retrieval + context grounding
-3. Streaming API (FastAPI SSE)
-Real-time token / tool streaming
-Frontend-ready event stream
-Supports error event handling
+## 📌 Project Overview
 
-Endpoints:
+This project builds an **LLM-powered investment agent** that analyzes stock tickers using:
 
-POST /analyze
-GET  /history
-GET  /health
-4. Memory System
-Persistent conversation & analysis storage
-Built on ChromaDB
-Enables historical reasoning context injection
-5. Evaluation Framework (Week 12)
+- 📊 Price data analysis
+- 🧠 Sentiment analysis
+- 📈 Quantitative prediction model (SHAP-based)
+- 🌐 News RAG retrieval
 
-Automated evaluation across multiple dimensions:
+The agent is built using **LangGraph** and exposes both:
+- REST API (FastAPI)
+- Streaming execution (SSE)
 
-Metrics:
-Tool Calling Accuracy
-Response Latency
-Groundedness (vs QuantTool signal)
-Hallucination Detection
+---
+
+## 🧠 Key Features
+
+### 🔹 Multi-tool Agent (LangGraph)
+- Tool orchestration with structured reasoning loop
+- Supports:
+  - PriceTool
+  - SentimentTool
+  - QuantTool
+  - RAGTool
+
+---
+
+### 🔹 Real-time Streaming API
+- Server-Sent Events (SSE)
+- Token-level + tool-level streaming
+- Frontend-ready design
+
+---
+
+### 🔹 Memory System
+- Persistent conversation memory
+- Redis / local memory abstraction
+- Historical context injection
+
+---
+
+### 🔹 Evaluation Framework (Week 12)
+Automated agent benchmarking across:
+
+- Tool calling accuracy
+- Latency measurement
+- Groundedness vs Quant signal
+- Hallucination detection
+
 Output:
-CSV report
-JSON summary
-Visualization charts
+- CSV report
+- JSON summary
+- Performance visualization
 
-Example:
+---
 
-data/models/eval/
- ├── evaluation_report.csv
- ├── evaluation_summary.json
- └── evaluation_chart.png
-🐳 Docker Deployment
-Build image
-docker build -t investment-agent-backend .
-Run container
-docker run -p 8000:8000 --env-file .env \
--v ${PWD}/data/memory:/app/data/memory \
-investment-agent-backend
-Health check
-curl http://localhost:8000/health
+### 🔹 Observability (LangSmith)
+- Full tracing of:
+  - Tool calls
+  - Agent decisions
+  - Execution graph
 
-Expected response:
+---
 
-{"status": "healthy"}
-🔁 CI/CD Pipeline (GitHub Actions)
+### 🔹 Dockerized Deployment
+- Multi-stage Docker build
+- CPU-only optimized Torch
+- Lightweight runtime image
+- `/health` monitoring endpoint
 
-Located at:
+---
 
-.github/workflows/ci.yml
-Pipeline stages:
-1. Test Job
-Install requirements-backend.txt
-Install requirements-test.txt
-Run pytest -v
-2. Docker Build Job (depends on test)
-Build Docker image
-Start container
-Validate /health endpoint
-Print logs for debugging
+### 🔹 CI/CD Pipeline (GitHub Actions)
 
-⚠️ No secrets required (fully mock-based testing)
+Automatically runs:
 
-🧪 Testing
+#### 1. Test Stage
+- pytest execution
+- mock-based agent tests
+- memory + tool validation
 
-Run locally:
+#### 2. Docker Build Stage
+- Docker image build
+- container health check
+- ensures production readiness
 
-pytest -v
+---
 
-Test coverage includes:
+## 🏗️ System Architecture
 
-Agent logic
-API endpoints
-Memory system
-Tool execution
-Streaming behavior
-📈 Evaluation Example Output
-{
-  "n_tickers": 5,
-  "avg_latency_sec": 3.21,
-  "avg_tool_accuracy": 0.92,
-  "groundedness_rate": 0.84,
-  "hallucination_rate": 0.06
-}
-📦 Project Structure
-innovation-ai-internship/
-├── backend/
-├── scripts/
-│   ├── evaluate_agent.py
-│   └── watch_loop.py
-├── tests/
-├── data/
-├── docker-compose.yml
-├── Dockerfile
-├── requirements-backend.txt
-├── requirements-test.txt
-└── .github/workflows/ci.yml
-🧩 Tech Stack
-LangGraph
-FastAPI
-ChromaDB
-PyTorch (CPU-only)
-scikit-learn
-Docker
-GitHub Actions
-pytest
-🚀 Key Improvements (Week 11–12)
-Added full CI/CD pipeline
-Introduced evaluation framework
-Dockerized full system (multi-stage build)
-Optimized dependencies (runtime vs dev split)
-Added streaming + error handling robustness
-Enabled reproducible testing environment
-📌 Notes
-CI runs fully mock-based (no external API keys required)
-Docker build is CPU-only optimized
-Evaluation framework runs real LLM inference per ticker
-📫 Future Improvements
-Add Redis caching layer
-Add GPU support for embedding models
-Add frontend dashboard for evaluation metrics
-Improve hallucination detection with semantic matching
+```mermaid
+graph TD
+    A[Client / Frontend] --> B[FastAPI Server]
+    B --> C[LangGraph Agent]
+
+    C --> D[Price Tool]
+    C --> E[Sentiment Tool]
+    C --> F[Quant Model + SHAP]
+    C --> G[RAG Retriever]
+
+    D --> H[Market Data]
+    E --> I[News / Social Signals]
+    F --> J[ML Model Inference]
+    G --> K[Vector DB (Chroma)]
+
+    C --> L[Memory Store]
+    C --> M[LangSmith Tracing]
+
+    B --> N[Streaming SSE Response]
