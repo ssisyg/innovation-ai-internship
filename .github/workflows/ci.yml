@@ -46,15 +46,18 @@ jobs:
           key: hf-all-MiniLM-L6-v2
 
       # No real API key needed: tests/conftest.py sets placeholder env
-      # vars, and every test that touches the LLM
-      # (tests/test_agent_logic.py) mocks `llm_with_tools` directly, so
-      # nothing here ever makes a real OpenAI call. No GitHub Secrets
-      # required for this job.
+      # vars via os.environ.setdefault(...), and every test that
+      # touches the LLM (tests/test_agent_logic.py) mocks
+      # `llm_with_tools` directly, so nothing here ever makes a real
+      # OpenAI call. API_KEY is set explicitly here (matching
+      # conftest.py's default and test_main.py's VALID_API_KEY) rather
+      # than left unset, so a CI runner's shell environment can never
+      # silently override it to something the tests don't expect.
       - name: Run pytest
         env:
           OPENAI_API_KEY: ci-placeholder-not-a-real-key
           OPENAI_BASE_URL: https://api.openai.com/v1
-          API_KEY: ci-placeholder
+          API_KEY: test-api-key
         run: pytest -v
 
   docker-build:
