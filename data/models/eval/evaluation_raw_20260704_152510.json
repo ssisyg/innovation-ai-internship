@@ -1,0 +1,1489 @@
+[
+  {
+    "ticker": "AAPL",
+    "latency_sec": 13.34,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AAPL",
+            "current_price": 250.6,
+            "rsi": 60.23,
+            "macd": 5.6398,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AAPL",
+            "avg_sentiment": 0.273,
+            "signal": "BULLISH",
+            "sample_headlines": [
+              "LGBTQ consumers cut spending at Target, Walmart, Amazon over DEI",
+              "Apple Investors Are Tired of AI Promises, Want Tangible Progress",
+              "Apple Looks Beyond the iPhone Upgrade Cycle"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AAPL",
+            "model": "XGBoost",
+            "prediction": "UP",
+            "up_probability": 0.59,
+            "confidence_interval": [
+              0.49,
+              0.69
+            ],
+            "signal": "BUY",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: BUY\nConfidence: MEDIUM\nReasoning:\n- Technicals are constructive: AAPL is trading at 250.60 with RSI at 60.23, which is not yet overbought, while MACD is positive at 5.6398, suggesting upward momentum remains intact.\n- Sentiment is supportive: news sentiment is BULLISH with an average sentiment score of 0.273, indicating moderately positive market tone around the stock.\n- Quant model supports upside: the XGBoost model predicts next-day movement UP with a 0.59 probability and a BUY signal, though the confidence interval of 0.49\u20130.69 keeps conviction at medium rather than high.\nRisk Factors:\n- The quant signal is not overwhelming; the lower end of the confidence interval falls below 0.50, meaning near-term direction remains uncertain.\n- AAPL remains sensitive to expectations around AI execution, iPhone demand, valuation, regulatory scrutiny, and broader mega-cap tech sentiment.\n\nAdditional Analysis:\nAAPL\u2019s setup is moderately favorable. The combination of bullish sentiment, positive MACD momentum, and a quantitative BUY signal argues for upside continuation. However, RSI near 60 suggests the stock has already gained momentum, so the risk/reward is less attractive than it would be after a pullback.\n\nFor investors already holding AAPL, the data supports maintaining or modestly adding to the position. For new buyers, a staggered entry may be preferable given the stock\u2019s elevated level and only moderate model confidence. A near-term pullback or consolidation would likely improve entry quality.\n\nOverall recommendation: BUY, but with position sizing discipline."
+  },
+  {
+    "ticker": "ABNB",
+    "latency_sec": 11.05,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "ABNB",
+            "current_price": 131.81,
+            "rsi": 44.67,
+            "macd": -0.7355,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "ABNB",
+            "avg_sentiment": 0.193,
+            "signal": "BULLISH",
+            "sample_headlines": [
+              "Residence Acquires Influencer Agency  GateMaker",
+              "SpaceX becomes retail's biggest IPO trade: Chart of the Day",
+              "Heres how SpaceXs debut stacks up against other major IPOs"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "ABNB",
+            "model": "XGBoost",
+            "prediction": "UP",
+            "up_probability": 0.616,
+            "confidence_interval": [
+              0.516,
+              0.716
+            ],
+            "signal": "BUY",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: BUY\nConfidence: MEDIUM\nReasoning:\n- Quant model is constructive: XGBoost predicts next-day upside with a 61.6% up probability and a BUY signal, supported by volatility, recent returns, and volume-related features.\n- Sentiment is positive: news sentiment signal is BULLISH with an average sentiment score of 0.193.\n- Technical picture is mixed but not deeply bearish: RSI at 44.67 is neutral, while MACD is negative, suggesting momentum has not fully turned positive yet.\nRisk Factors:\n- MACD remains negative, indicating short-term momentum risk and the possibility of continued consolidation.\n- Model confidence is moderate rather than strong, and the confidence interval includes only a modest edge above 50%.\n\nAdditional Analysis:\nABNB screens as a cautious BUY rather than an aggressive one. The strongest support for the recommendation comes from the quantitative model and positive sentiment backdrop. However, technical indicators are not yet confirming a strong breakout: RSI is in neutral territory and MACD remains below zero, implying that buyers have not fully regained control.\n\nFor investors with a short- to medium-term horizon, ABNB may be attractive if the stock begins to stabilize above recent support and momentum improves. A more conservative entry would wait for MACD improvement or RSI recovery toward the 50\u201360 range. Existing holders can continue to hold, while new buyers should consider scaling in rather than taking a full position immediately."
+  },
+  {
+    "ticker": "AMAT",
+    "latency_sec": 15.02,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AMAT",
+            "current_price": 161.62,
+            "rsi": 38.73,
+            "macd": -3.4726,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AMAT",
+            "avg_sentiment": 0.221,
+            "signal": "BULLISH",
+            "sample_headlines": [
+              "Applied Materials Unveils SENZ, a Fully Integrated Visual System for Next-Gen Smart Glasses",
+              "MU, AMAT Stocks Rise Premarket: Analysts Justify Bull Case For Memory Darlings Amid Supply Crunch",
+              "Citi lifts PTs on AMAT, LRCX, & KLAC amid booming WFE demand"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AMAT",
+            "model": "XGBoost",
+            "prediction": "UP",
+            "up_probability": 0.556,
+            "confidence_interval": [
+              0.456,
+              0.656
+            ],
+            "signal": "BUY",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: BUY\nConfidence: MEDIUM\nReasoning:\n- Sentiment is positive: AMAT\u2019s news sentiment signal is BULLISH with an average sentiment score of 0.221, supported by favorable themes around WFE demand, memory spending, and analyst target-price revisions.\n- Quant model is constructive: the XGBoost next-day model predicts UP with a BUY signal and 55.6% up probability, though the confidence interval is wide.\n- Technicals are mixed but not prohibitive: RSI at 38.73 is neutral and approaching oversold territory, while MACD is negative, suggesting near-term momentum remains weak despite improving risk/reward.\nRisk Factors:\n- Negative MACD indicates short-term bearish momentum could persist before any rebound.\n- Semiconductor capital equipment demand is cyclical and sensitive to memory pricing, foundry capex, export controls, and macro/interest-rate conditions.\n\nAdditional Analysis:\nAMAT screens as a selective BUY rather than an aggressive BUY. The strongest support for the recommendation comes from alignment between sentiment and the quant model: both point positively. Positive industry commentary around wafer fab equipment demand and memory spending is particularly relevant because Applied Materials is leveraged to semiconductor manufacturing capex across logic, foundry, DRAM, NAND, and advanced packaging.\n\nHowever, the setup is not high-confidence. The model\u2019s 55.6% probability of an up move is only modest, and the confidence interval spans below and above 50%, so the predictive edge is present but not overwhelming. Meanwhile, technical momentum remains challenged, with MACD negative and RSI below the midpoint, implying investors may get a better entry if weakness continues.\n\nFor investors already holding AMAT, I would continue holding and consider adding selectively on weakness. For new buyers, a staged entry is preferable to a full-position purchase, given the still-negative short-term momentum."
+  },
+  {
+    "ticker": "AMD",
+    "latency_sec": 11.29,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AMD",
+            "current_price": 122.44,
+            "rsi": 36.29,
+            "macd": -4.8561,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AMD",
+            "avg_sentiment": 0.127,
+            "signal": "BULLISH",
+            "sample_headlines": [
+              "Is Micron Stock's Data Center Engine Stalling, Or Just Drowned Out By AI?",
+              "Wall Street ticks up ahead of first Fed policy decision under Warsh",
+              "Nvidia Stocks Biggest Threat Now Costs $1,499 and Fits on a Desk?"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AMD",
+            "model": "XGBoost",
+            "prediction": "UP",
+            "up_probability": 0.613,
+            "confidence_interval": [
+              0.513,
+              0.713
+            ],
+            "signal": "BUY",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: BUY\nConfidence: MEDIUM\nReasoning:\n- Quant model is constructive: XGBoost predicts next-day upside with a 61.3% up probability and a BUY signal.\n- Sentiment is supportive: news sentiment is mildly positive with a BULLISH signal, aligning with the quant model.\n- Technicals are mixed but not prohibitive: RSI at 36.29 is near oversold/neutral territory, suggesting downside momentum may be easing, though MACD remains negative.\nRisk Factors:\n- MACD is still negative, indicating AMD remains in a bearish technical trend in the near term.\n- Sentiment strength is only modest, and AI/semiconductor expectations can reverse quickly if growth or margin assumptions disappoint.\n\nAdditional Analysis:\nAMD screens as a tactical BUY rather than a high-conviction aggressive buy. The strongest factor is alignment between the quant model and sentiment: both point positively, while the RSI suggests the stock may be closer to a potential stabilization zone after weakness.\n\nHowever, the negative MACD argues against assuming an immediate sustained breakout. A prudent approach would be to build exposure gradually rather than all at once. For investors already holding AMD, the current setup supports maintaining or modestly adding to the position, especially if the investment horizon is medium to long term and the investor is comfortable with semiconductor volatility.\n\nA stronger BUY case would require confirmation from improving price momentum, such as a MACD turn upward, stabilization above short-term moving averages, or higher-volume upside moves. Conversely, if AMD breaks down further while MACD remains negative, the risk/reward would weaken and the signal could shift closer to HOLD."
+  },
+  {
+    "ticker": "AMZN",
+    "latency_sec": 9.61,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AMZN",
+            "current_price": 221.3,
+            "rsi": 52.26,
+            "macd": 4.5308,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AMZN",
+            "avg_sentiment": 0.482,
+            "signal": "BULLISH",
+            "sample_headlines": [
+              "SpaceX Jumps 49%, Overtakes Amazon In Market Value",
+              "Amazon Stock Slips on Report of Possible Lawsuit That Could Cost Billions",
+              "SpaceX stock slips for first time, poised to end 3-day surge"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AMZN",
+            "model": "XGBoost",
+            "prediction": "UP",
+            "up_probability": 0.651,
+            "confidence_interval": [
+              0.551,
+              0.751
+            ],
+            "signal": "BUY",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: BUY\nConfidence: MEDIUM\nReasoning:\n- Technicals are constructive but not overextended: AMZN trades at $221.30 with RSI at 52.26, indicating neutral momentum rather than an overbought setup; MACD is positive at 4.5308, supporting a favorable trend bias.\n- Sentiment is supportive: the sentiment model shows a BULLISH signal with average sentiment of 0.482, despite some headline-level risk around potential litigation.\n- Quant model is aligned with the bullish view: the XGBoost model predicts next-day upside with a 65.1% probability and a BUY signal, with key drivers including Bollinger Band width, recent returns, and volume.\nRisk Factors:\n- Legal/regulatory risk remains relevant, especially given headlines referencing a possible lawsuit that could cost billions.\n- The quantitative signal is short-horizon and probabilistic; a 65.1% up probability is supportive but not strong enough for high confidence.\n\nAdditional Analysis:\nAMZN currently presents a favorable near-term setup because sentiment, technical momentum, and the machine-learning forecast are directionally aligned. The RSI suggests the stock is not excessively stretched, while the positive MACD indicates trend support. The quant model\u2019s confidence interval of 55.1%\u201375.1% for upside probability reinforces a positive skew, but the range also implies meaningful uncertainty.\n\nOverall, the recommendation is BUY for investors comfortable with near-term volatility and headline risk. For risk-managed positioning, a staged entry or adding on pullbacks would be preferable to aggressively chasing strength."
+  },
+  {
+    "ticker": "ARM",
+    "latency_sec": 12.7,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "ARM",
+            "current_price": 125.91,
+            "rsi": 38.03,
+            "macd": -3.0843,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "ARM",
+            "avg_sentiment": 0.239,
+            "signal": "BULLISH",
+            "sample_headlines": [
+              "Bernstein flags structural beneficiaries of the CPU renaissance",
+              "SpaceX becomes retail's biggest IPO trade: Chart of the Day",
+              "The Best Semiconductor ETFs: How You Can Mine the AI Gold Rush"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "ARM",
+            "model": "XGBoost",
+            "prediction": "UP",
+            "up_probability": 0.518,
+            "confidence_interval": [
+              0.418,
+              0.618
+            ],
+            "signal": "HOLD",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: HOLD\nConfidence: MEDIUM\nReasoning:\n- Technicals are mixed-to-soft: ARM trades at $125.91 with RSI at 38.03, which is not oversold but shows weakened momentum; MACD is negative at -3.0843, indicating bearish short-term momentum.\n- News sentiment is supportive: sentiment signal is BULLISH with positive semiconductor/AI-related thematic coverage, suggesting investor interest remains constructive.\n- Quant model is not strong enough for a BUY: XGBoost predicts slight next-day upside, but the up probability is only 51.8% with a wide confidence interval, and the model\u2019s final signal is HOLD.\nRisk Factors:\n- ARM\u2019s valuation remains highly sensitive to AI and semiconductor growth expectations; any disappointment in licensing/royalty growth could pressure the stock.\n- Negative momentum indicators may continue to weigh on the shares in the near term, especially if broader semiconductor sentiment weakens.\n\nAdditional Analysis:\nARM remains a high-quality semiconductor IP business with long-term exposure to AI, mobile, cloud, automotive, and edge-computing demand. However, the current setup does not provide a compelling enough risk/reward for a fresh BUY signal.\n\nThe bullish sentiment backdrop suggests investors still view ARM as a structural beneficiary of semiconductor and AI infrastructure trends. That said, sentiment alone is insufficient because the quantitative signal is weak and technical momentum is currently unfavorable.\n\nFor investors already holding ARM, maintaining the position is reasonable if the investment horizon is long term and volatility is acceptable. For new buyers, a better entry may emerge if either:\n- RSI approaches oversold levels with signs of stabilization,\n- MACD begins to improve,\n- or the quant model\u2019s upside probability strengthens materially above the current 51.8%.\n\nOverall, ARM is best rated HOLD at this point: attractive long-term story, but near-term evidence is not strong enough to justify an aggressive BUY."
+  },
+  {
+    "ticker": "AVGO",
+    "latency_sec": 14.78,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool",
+      "RAGTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AVGO",
+            "current_price": 232.98,
+            "rsi": 64.86,
+            "macd": 17.7601,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AVGO",
+            "avg_sentiment": 0.109,
+            "signal": "BULLISH",
+            "sample_headlines": [
+              "Stocks to Watch: SpaceX, Intel, BMW",
+              "Wall Street ticks up ahead of first Fed policy decision under Warsh",
+              "Snubbing Nvidia for Adobe Costs Florida Stock-Picker $50 Billion"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "AVGO",
+            "model": "XGBoost",
+            "prediction": "DOWN",
+            "up_probability": 0.463,
+            "confidence_interval": [
+              0.363,
+              0.563
+            ],
+            "signal": "HOLD",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "RAGTool": [
+        {
+          "success": true,
+          "data": {
+            "query": "AVGO Broadcom recent financial news AI semiconductor VMware earnings outlook investment risks",
+            "results": [
+              {
+                "headline": "The Spill: Is Broadcom (AVGO) the Other AI Trade?",
+                "ticker": "AVGO",
+                "sentiment": "neutral",
+                "relevance": 0.257
+              },
+              {
+                "headline": "What A Patient Investor Really Pays For Broadcom Stock",
+                "ticker": "AVGO",
+                "sentiment": "neutral",
+                "relevance": 0.15
+              },
+              {
+                "headline": "Broadcom Stock And The Ninety-Billion-Dollar Roadmap",
+                "ticker": "AVGO",
+                "sentiment": "neutral",
+                "relevance": 0.149
+              },
+              {
+                "headline": "The Software Engine The Broadcom Stock Bears Overlook",
+                "ticker": "AVGO",
+                "sentiment": "neutral",
+                "relevance": 0.147
+              },
+              {
+                "headline": "Beyond the Sticker Price: What a Patient Investor Really Pays for Broadcom Stock",
+                "ticker": "AVGO",
+                "sentiment": "neutral",
+                "relevance": 0.104
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: HOLD\nConfidence: MEDIUM\nReasoning:\n- Technicals are constructive but not a clean entry: AVGO trades at 232.98 with RSI 64.86, indicating positive momentum but approaching overbought territory; MACD is strongly positive at 17.7601.\n- News sentiment is modestly positive, with SentimentTool showing a BULLISH signal and average sentiment of 0.109.\n- Quant model is not confirming upside: XGBoost predicts DOWN next day with only 46.3% up probability and a HOLD signal, suggesting near-term risk/reward is mixed.\nRisk Factors:\n- Elevated momentum and valuation sensitivity could make AVGO vulnerable to pullbacks if AI/semi expectations cool.\n- Quant model uncertainty is meaningful, with the confidence interval spanning both downside and upside scenarios.\n\nAdditional Analysis:\nAVGO remains a high-quality semiconductor and infrastructure software name with strong exposure to AI networking, custom silicon, and enterprise software through VMware. The longer-term strategic setup is attractive, but the current signal mix argues against aggressively adding at this level.\n\nThe most balanced recommendation is HOLD for existing investors. Investors without a position may consider waiting for a pullback or a stronger confirmation from quant/price action before buying. If already long, the positive MACD and bullish sentiment support maintaining exposure, but RSI near 65 and the model\u2019s next-day DOWN prediction suggest avoiding chase buying in the near term.\n\nOverall: AVGO is fundamentally attractive, but the short-term setup is mixed, making HOLD the best current recommendation."
+  },
+  {
+    "ticker": "BAC",
+    "latency_sec": 10.48,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "BAC",
+            "current_price": 42.45,
+            "rsi": 40.93,
+            "macd": -0.3064,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "BAC",
+            "avg_sentiment": 0.138,
+            "signal": "BULLISH",
+            "sample_headlines": [
+              "US Retail Sales Rise in Broad Gain Despite Higher Gas Prices",
+              "BofA Study Finds Longevity and Accelerating Wealth Transfer Are Making Family Finances More Complex",
+              "AI Strategy, Double-Digit Growth Put BofA Stock In Focus"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "BAC",
+            "model": "XGBoost",
+            "prediction": "UP",
+            "up_probability": 0.571,
+            "confidence_interval": [
+              0.471,
+              0.671
+            ],
+            "signal": "BUY",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: BUY\nConfidence: MEDIUM\nReasoning:\n- Sentiment is positive for BAC, with the sentiment tool showing a BULLISH signal and average sentiment of 0.138.\n- Quant model indicates upside, with an XGBoost next-day prediction of UP and a BUY signal, supported by a 57.1% up probability.\n- Technicals are mixed but not decisively bearish: RSI is neutral at 40.93, while MACD is negative, suggesting near-term momentum is soft but not oversold panic.\nRisk Factors:\n- MACD remains negative, indicating weak short-term momentum and potential for continued consolidation.\n- Quant confidence is moderate rather than strong, with the confidence interval crossing below 50%, so the prediction is not highly decisive.\n\nAdditional Analysis:\nBAC appears suitable for a selective BUY or gradual accumulation rather than an aggressive entry. The recommendation is supported primarily by positive sentiment and a modestly bullish quantitative signal, while technicals suggest investors should be mindful of near-term volatility.\n\nFor investors already holding BAC, the data supports maintaining exposure and potentially adding on weakness. For new buyers, a staged entry may be preferable given the neutral RSI and negative MACD.\n\nSuggested stance: BUY on a medium-confidence basis, with emphasis on position sizing and monitoring whether momentum improves."
+  },
+  {
+    "ticker": "BLK",
+    "latency_sec": 14.75,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool",
+      "RAGTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "BLK",
+            "current_price": 995.61,
+            "rsi": 46.92,
+            "macd": 4.7486,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "BLK",
+            "avg_sentiment": 0.11,
+            "signal": "BULLISH",
+            "sample_headlines": [
+              "Kraken Unit Inks $100 Million Private Loan With New Gulf Firm",
+              "Bondholders Forced to Reckon With $4 Billion Tax Threat in Bitter Credit Feud",
+              "SpaceX $75B IPO faces wild meme-stock trading frenzy"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "BLK",
+            "model": "XGBoost",
+            "prediction": "UP",
+            "up_probability": 0.539,
+            "confidence_interval": [
+              0.439,
+              0.639
+            ],
+            "signal": "HOLD",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "RAGTool": [
+        {
+          "success": true,
+          "data": {
+            "query": "BlackRock BLK recent financial news earnings assets under management ETF flows acquisition outlook risks",
+            "results": [
+              {
+                "headline": "BlackRock Launches Space ETF as Sector Pulls In $8 Billion",
+                "ticker": "BLK",
+                "sentiment": "neutral",
+                "relevance": 0.147
+              },
+              {
+                "headline": "BlackRock's Bitcoin ETF Sees $1 Billion Weekly Outflow",
+                "ticker": "BLK",
+                "sentiment": "neutral",
+                "relevance": 0.095
+              },
+              {
+                "headline": "BlackRock Scales Back Equities After Generational Earnings",
+                "ticker": "BLK",
+                "sentiment": "neutral",
+                "relevance": 0.075
+              },
+              {
+                "headline": "BlackRock Canada Announces Final April Cash Distributions for the iShares Premium Money Market ETF",
+                "ticker": "BLK",
+                "sentiment": "neutral",
+                "relevance": 0.074
+              },
+              {
+                "headline": "Vanguard Dethrones BlackRock as Americas Definitive King of ETFs",
+                "ticker": "BLK",
+                "sentiment": "neutral",
+                "relevance": 0.039
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: HOLD\nConfidence: MEDIUM\nReasoning:\n- Technical picture is mixed: BLK trades at $995.61 with RSI at 46.92, indicating neither overbought nor oversold conditions, while MACD is positive but not strong enough alone to justify a BUY.\n- Sentiment is mildly positive, with FinBERT average sentiment of 0.11 and a BULLISH signal, but the recent retrieved headlines are mostly neutral rather than strongly supportive.\n- Quant model predicts next-day upside, but only with a 53.9% up probability and a HOLD signal, suggesting the expected edge is modest and not compelling.\nRisk Factors:\n- BLK remains sensitive to broad equity and bond market direction, ETF flows, fee pressure, and investor risk appetite.\n- Competition in ETFs and asset management remains intense, with headlines noting Vanguard gaining share versus BlackRock in the Americas ETF market.\n\nAdditional Analysis:\nBLK appears fundamentally high quality, but the available short-term indicators do not support an aggressive entry. The stock\u2019s technical setup is balanced, sentiment is constructive but not strongly bullish, and the quant model\u2019s probability of upside is only marginal. \n\nFor existing investors, holding remains reasonable given BlackRock\u2019s scale, ETF franchise, and long-term exposure to global capital market growth. For new investors, a better setup would likely require either a pullback to improve valuation/risk-reward or stronger confirmation from momentum, earnings revisions, fund-flow data, or a higher-conviction quant signal.\n\nInvestment stance: maintain exposure, but avoid adding aggressively at current levels unless broader market conditions and BLK-specific momentum improve."
+  },
+  {
+    "ticker": "COIN",
+    "latency_sec": 13.32,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool",
+      "RAGTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "COIN",
+            "current_price": 255.56,
+            "rsi": 39.86,
+            "macd": -4.8197,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "COIN",
+            "avg_sentiment": 0.055,
+            "signal": "NEUTRAL",
+            "sample_headlines": [
+              "SEC Proposal to Scrap Decades-Old Stock Rule Has a Clear Winner: Crypto",
+              "Hyperliquid Open Interest Tops $10B as Perps Move Into Equities and Commodities",
+              "Coinbase Global Launches New A.I. Advisor"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "COIN",
+            "model": "XGBoost",
+            "prediction": "UP",
+            "up_probability": 0.525,
+            "confidence_interval": [
+              0.425,
+              0.625
+            ],
+            "signal": "HOLD",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "RAGTool": [
+        {
+          "success": true,
+          "data": {
+            "query": "COIN Coinbase recent news SEC crypto AI advisor Hyperliquid equities commodities sentiment investment risks catalysts",
+            "results": [
+              {
+                "headline": "Coinbase is launching AI tools that give investment advice and make trades on your behalf",
+                "ticker": "COIN",
+                "sentiment": "neutral",
+                "relevance": 0.249
+              },
+              {
+                "headline": "Coinbase Stock Is Struggling. Why Crypto Trading Could Be Slow to Recover.",
+                "ticker": "COIN",
+                "sentiment": "negative",
+                "relevance": 0.185
+              },
+              {
+                "headline": "U.S. Approval Ushers in New Era of High Leverage Crypto Trading. What It Means For Coinbase",
+                "ticker": "COIN",
+                "sentiment": "positive",
+                "relevance": 0.161
+              },
+              {
+                "headline": "Coinbase, other stocks surge as major crypto bill advances",
+                "ticker": "COIN",
+                "sentiment": "neutral",
+                "relevance": 0.142
+              },
+              {
+                "headline": "Coinbase and Other Crypto Stocks Are Falling. Several Possible Reasons for the Bad Day.",
+                "ticker": "COIN",
+                "sentiment": "negative",
+                "relevance": 0.136
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: HOLD\n\nConfidence: MEDIUM\n\nReasoning:\n- Technicals are mixed-to-soft: COIN is trading at $255.56 with RSI at 39.86, which is not oversold but shows weakening momentum; MACD is negative at -4.8197, indicating bearish short-term trend pressure.\n- Sentiment is neutral: average news sentiment is only slightly positive at 0.055, with headlines showing a mix of potential catalysts such as crypto regulatory developments and Coinbase AI tools, offset by concerns about slower crypto trading recovery.\n- Quant model does not justify an aggressive BUY: the XGBoost model predicts next-day upside, but only with a 52.5% probability and a wide confidence interval, resulting in a HOLD signal rather than a high-conviction positive setup.\n\nRisk Factors:\n- COIN remains highly sensitive to crypto market volumes, Bitcoin price action, regulatory headlines, and risk appetite; a slowdown in trading activity could pressure revenue and margins.\n- Technical momentum is currently negative, and mixed news flow could lead to continued volatility or downside if crypto-related catalysts fail to materialize.\n\nAdditional Analysis:\nCOIN appears best treated as a high-beta, catalyst-driven holding rather than a fresh high-conviction entry at current levels. The long-term thesis may remain attractive if U.S. crypto regulation becomes clearer, institutional activity expands, and Coinbase successfully diversifies revenue through products like derivatives, subscriptions, staking, custody, and AI-enabled tools. However, the current setup does not show enough alignment across technicals, sentiment, and quantitative signals to support a BUY.\n\nFor existing investors, HOLD is appropriate while monitoring whether momentum stabilizes and whether crypto trading volumes improve. For new investors, a better entry may come from either a pullback toward stronger technical support or confirmation of renewed upside momentum."
+  },
+  {
+    "ticker": "COST",
+    "latency_sec": 14.03,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool",
+      "RAGTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "COST",
+            "current_price": 914.84,
+            "rsi": 34.36,
+            "macd": -1.3553,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "COST",
+            "avg_sentiment": 0.055,
+            "signal": "NEUTRAL",
+            "sample_headlines": [
+              "LGBTQ consumers cut spending at Target, Walmart, Amazon over DEI",
+              "The Number That Could Test Walmart Stock",
+              "Costcos dominance shows why its Pensacola debut matters"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "COST",
+            "model": "XGBoost",
+            "prediction": "DOWN",
+            "up_probability": 0.342,
+            "confidence_interval": [
+              0.242,
+              0.442
+            ],
+            "signal": "SELL",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "RAGTool": [
+        {
+          "success": true,
+          "data": {
+            "query": "COST Costco recent financial news earnings membership fee valuation sales growth risks",
+            "results": [
+              {
+                "headline": "Costco's value strategy, membership growth support outlook after strong quarter, says Jefferies",
+                "ticker": "COST",
+                "sentiment": "positive",
+                "relevance": 0.28
+              },
+              {
+                "headline": "Costco Tops Sales Views But Earnings, Membership Numbers Fall Short",
+                "ticker": "COST",
+                "sentiment": "positive",
+                "relevance": 0.247
+              },
+              {
+                "headline": "Here's How Much Costco Stock Is Expected to Move After Earnings",
+                "ticker": "COST",
+                "sentiment": "neutral",
+                "relevance": 0.228
+              },
+              {
+                "headline": "Costco Wholesale Corp (COST) Q3 2026 Earnings Call Highlights: Strong Sales Growth and Digital ...",
+                "ticker": "COST",
+                "sentiment": "positive",
+                "relevance": 0.217
+              },
+              {
+                "headline": "Costco's April Sales Reinforce Its Case as the Ultimate Defensive Stock",
+                "ticker": "COST",
+                "sentiment": "neutral",
+                "relevance": 0.217
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: HOLD\nConfidence: MEDIUM\nReasoning:\n- Technical setup is weak-to-neutral: RSI is 34.36, near oversold but not yet a clear reversal signal, while MACD is negative at -1.3553, indicating near-term momentum remains soft.\n- Sentiment is neutral overall, with average sentiment only slightly positive at 0.055; recent news does not provide a strong directional catalyst.\n- Quant model is bearish for the next trading day, predicting DOWN with only 34.2% upside probability, but RAG results highlight supportive longer-term factors such as Costco\u2019s value strategy, membership growth, sales resilience, and defensive profile.\nRisk Factors:\n- Short-term downside risk remains elevated due to negative momentum and the quant model\u2019s SELL signal.\n- Valuation risk is important for COST: even high-quality defensive retailers can underperform if growth or membership metrics fall short of elevated expectations.\n\nAdditional Analysis:\nCostco remains a high-quality compounder with strong brand loyalty, recurring membership revenue, resilient consumer demand, and a defensive business model. However, the current tool signals do not support a fresh BUY at this moment. The technical picture is not yet constructive, sentiment is not decisively positive, and the quant model points to near-term weakness.\n\nFor existing investors, HOLD is appropriate unless the position size is excessive or the investor has a short-term trading mandate. For new investors, waiting for either a stronger technical reversal, improved sentiment, or a more attractive entry point would be prudent."
+  },
+  {
+    "ticker": "CRM",
+    "latency_sec": 15.64,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool",
+      "RAGTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "CRM",
+            "current_price": 331.87,
+            "rsi": 47.12,
+            "macd": 2.7607,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "CRM",
+            "avg_sentiment": -0.055,
+            "signal": "NEUTRAL",
+            "sample_headlines": [
+              "Wall Street ticks up ahead of first Fed policy decision under Warsh",
+              "Snubbing Nvidia for Adobe Costs Florida Stock-Picker $50 Billion",
+              "Big Tech-backed coalition for carbon removal increases funding by $915 million, adds Anthropic"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "CRM",
+            "model": "XGBoost",
+            "prediction": "DOWN",
+            "up_probability": 0.348,
+            "confidence_interval": [
+              0.248,
+              0.448
+            ],
+            "signal": "SELL",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "RAGTool": [
+        {
+          "success": true,
+          "data": {
+            "query": "CRM Salesforce recent financial news earnings guidance AI growth margins analyst sentiment",
+            "results": [
+              {
+                "headline": "Salesforce posted a record quarter and beat earnings estimates   but soft guidance tempered the rally",
+                "ticker": "CRM",
+                "sentiment": "neutral",
+                "relevance": 0.106
+              },
+              {
+                "headline": "Salesforce Q1 FY2027 earnings beat, guidance disappoints",
+                "ticker": "CRM",
+                "sentiment": "negative",
+                "relevance": 0.04
+              },
+              {
+                "headline": "CRM Stock Slips In Early Trade - This Analyst Says Salesforce Results, Outlook Unlikely To Win Over Either Bulls Or Bears",
+                "ticker": "CRM",
+                "sentiment": "positive",
+                "relevance": 0.002
+              },
+              {
+                "headline": "AI server sales push Dell stock to new heights: Earnings takeaways",
+                "ticker": "CRM",
+                "sentiment": "neutral",
+                "relevance": -0.026
+              },
+              {
+                "headline": "CRM Stock Jumps Amid Software Rally  Company Expands AI Push With Contentful Acquisition",
+                "ticker": "CRM",
+                "sentiment": "positive",
+                "relevance": -0.029
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: SELL\nConfidence: MEDIUM\nReasoning:\n- Quant model is bearish: XGBoost predicts next-day DOWN with only 34.8% up probability, driven by volatility/bollinger-band width, recent returns, and volume features.\n- Sentiment is not supportive: FinBERT average sentiment is slightly negative at -0.055 with a NEUTRAL signal, so there is no strong news-based catalyst offsetting the quantitative weakness.\n- News retrieval is mixed-to-negative: Salesforce has beaten earnings estimates, but soft/disappointing guidance appears to be limiting upside enthusiasm.\nRisk Factors:\n- Technicals are not decisively bearish: RSI is neutral at 47.12 and MACD is positive, which could support a rebound.\n- Salesforce\u2019s AI-related product momentum, margin discipline, or a broader software-sector rally could quickly invalidate a short-term SELL call.\n\nAdditional Analysis:\nCRM currently trades at $331.87, with technical indicators showing a balanced setup rather than a clear breakdown. RSI near 47 suggests neither overbought nor oversold conditions, while the positive MACD indicates some residual upward momentum. However, the quantitative model\u2019s next-day prediction is meaningfully tilted lower, and the news backdrop does not provide enough confirmation for a bullish stance.\n\nFor short-term or tactical positioning, I would treat CRM as an underweight / trim candidate rather than an outright aggressive short, because the technical picture is not strongly negative. For longer-term investors, the recommendation is closer to \u201cavoid adding here\u201d until guidance improves, AI monetization becomes more visible, or the stock offers a more attractive entry point."
+  },
+  {
+    "ticker": "DDOG",
+    "latency_sec": 17.24,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool",
+      "RAGTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "DDOG",
+            "current_price": 144.17,
+            "rsi": 44.6,
+            "macd": 0.8563,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "DDOG",
+            "avg_sentiment": 0.202,
+            "signal": "BULLISH",
+            "sample_headlines": [
+              "Datadog upgraded, Accenture downgraded: Wall Street's top analyst calls",
+              "Truist raises Datadog to Buy, sees continued upside momentum in shares",
+              "Datadog's Dash Conference Triggers a Wave of Analyst Upgrades"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "DDOG",
+            "model": "XGBoost",
+            "prediction": "DOWN",
+            "up_probability": 0.473,
+            "confidence_interval": [
+              0.373,
+              0.573
+            ],
+            "signal": "HOLD",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "RAGTool": [
+        {
+          "success": true,
+          "data": {
+            "query": "DDOG Datadog recent analyst upgrades earnings growth risks valuation cloud observability AI security news",
+            "results": [
+              {
+                "headline": "First-Quarter Revenue Growth Puts Datadogs (DDOG) AI Platform Momentum in Focus",
+                "ticker": "DDOG",
+                "sentiment": "positive",
+                "relevance": 0.331
+              },
+              {
+                "headline": "Is Trending Stock Datadog, Inc. (DDOG) a Buy Now?",
+                "ticker": "DDOG",
+                "sentiment": "neutral",
+                "relevance": 0.235
+              },
+              {
+                "headline": "Datadog Cashes in on Every Company's Need to Upgrade AI",
+                "ticker": "DDOG",
+                "sentiment": "neutral",
+                "relevance": 0.216
+              },
+              {
+                "headline": "Datadog Surges After Earnings. These Software Stocks Are Rising Too.",
+                "ticker": "DDOG",
+                "sentiment": "neutral",
+                "relevance": 0.197
+              },
+              {
+                "headline": "Datadog stock soared after blowout earnings and new AI lab deals lifted its outlook",
+                "ticker": "DDOG",
+                "sentiment": "neutral",
+                "relevance": 0.178
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: HOLD\nConfidence: MEDIUM\nReasoning:\n- Technicals are mixed-to-neutral: RSI is 44.6, suggesting neither oversold nor overbought conditions, while MACD is modestly positive.\n- News and analyst sentiment are constructive, with recent bullish headlines around analyst upgrades, AI platform momentum, and earnings strength.\n- Quant model is not confirming a strong upside setup: next-day prediction is DOWN with only 47.3% up probability, making the near-term risk/reward inconclusive.\nRisk Factors:\n- Valuation risk remains meaningful for a high-growth software name like Datadog, especially if revenue growth or margin expansion disappoints.\n- Near-term price action could remain choppy given the quant model\u2019s weak directional conviction and sensitivity to recent returns, volume, and volatility indicators.\n\nAdditional Analysis:\nDatadog appears fundamentally well-positioned in cloud observability, infrastructure monitoring, security, and AI-related workloads. The qualitative news backdrop is favorable, with analyst upgrades and commentary pointing to continued enterprise demand and AI-driven platform momentum.\n\nHowever, the investment case is not clean enough for a BUY at the current setup. The technical picture is not strongly bullish, and the quant model\u2019s next-day outlook leans slightly negative with a wide confidence interval. That suggests the stock may need either a better entry point or stronger technical confirmation before a higher-conviction recommendation is warranted.\n\nFor existing investors, HOLD is appropriate. For new investors, a staged-entry approach may be preferable, especially on pullbacks or after confirmation of stronger momentum. A shift to BUY would require improving technical strength, stronger model confirmation, or additional evidence that AI and platform expansion are translating into sustained revenue acceleration."
+  },
+  {
+    "ticker": "DXCM",
+    "latency_sec": 12.21,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "DXCM",
+            "current_price": 78.0,
+            "rsi": 51.01,
+            "macd": 1.0399,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "DXCM",
+            "avg_sentiment": 0.346,
+            "signal": "BULLISH",
+            "sample_headlines": [
+              "Analysts' Top S&P 500 Stocks to Buy Now",
+              "Insulet Corp. stock outperforms competitors on strong trading day",
+              "DexCom Inc. stock outperforms competitors on strong trading day"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "DXCM",
+            "model": "XGBoost",
+            "prediction": "UP",
+            "up_probability": 0.524,
+            "confidence_interval": [
+              0.424,
+              0.624
+            ],
+            "signal": "HOLD",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: HOLD\nConfidence: MEDIUM\nReasoning:\n- DXCM\u2019s technical setup is balanced: RSI at 51.01 is neutral, while MACD at 1.0399 is modestly positive, suggesting some upward momentum but not an overbought or high-conviction breakout condition.\n- News sentiment is supportive, with SentimentTool showing a BULLISH signal and average sentiment of 0.346, indicating generally favorable market tone around the stock.\n- The QuantTool model predicts next-day upside, but only with a 52.4% probability and a HOLD signal, meaning the statistical edge is weak and not strong enough to justify an outright BUY.\nRisk Factors:\n- The quant model\u2019s confidence interval is wide, indicating meaningful uncertainty around the next-day prediction.\n- DXCM remains exposed to competitive pressure in diabetes technology, reimbursement dynamics, and valuation sensitivity if growth expectations disappoint.\n\nAdditional Analysis:\nDXCM appears to have a constructive but not decisive setup. The bullish sentiment and positive MACD suggest investors may be warming to the stock, but the neutral RSI and low-conviction quantitative signal argue against aggressive accumulation at this point.\n\nFor existing holders, maintaining the position looks reasonable while monitoring whether momentum improves. A stronger BUY case would require confirmation from either improving price action, stronger model probability, or a more compelling fundamental/news catalyst. For new investors, a staged entry or waiting for a pullback/technical confirmation may be preferable to buying aggressively immediately.\n\nOverall, DXCM is best viewed as a quality growth healthcare name with improving sentiment, but current evidence supports HOLD rather than a high-conviction BUY."
+  },
+  {
+    "ticker": "EBAY",
+    "latency_sec": 18.48,
+    "tools_called": [
+      "PriceTool",
+      "SentimentTool",
+      "QuantTool",
+      "RAGTool"
+    ],
+    "tool_results": {
+      "PriceTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "EBAY",
+            "current_price": 60.75,
+            "rsi": 41.86,
+            "macd": 0.0856,
+            "rsi_signal": "NEUTRAL",
+            "data_source": "local_csv",
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "SentimentTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "EBAY",
+            "avg_sentiment": -0.191,
+            "signal": "BEARISH",
+            "sample_headlines": [
+              "Payoneer to be acquired by Nuvei in $2.75B all-cash deal",
+              "Canada's Nuvei to buy Payoneer for $2.75 billion in cross-border payments push",
+              "17,000 coffee makers sold by Amazon and Walmart are being recalled after dozens of reported burn injuries"
+            ]
+          }
+        }
+      ],
+      "QuantTool": [
+        {
+          "success": true,
+          "data": {
+            "ticker": "EBAY",
+            "model": "XGBoost",
+            "prediction": "UP",
+            "up_probability": 0.526,
+            "confidence_interval": [
+              0.426,
+              0.626
+            ],
+            "signal": "HOLD",
+            "top_shap_features": [
+              {
+                "feature": "BB_width",
+                "mean_abs_shap": 0.081934415
+              },
+              {
+                "feature": "Return_3d",
+                "mean_abs_shap": 0.06440248
+              },
+              {
+                "feature": "Volume",
+                "mean_abs_shap": 0.062256422
+              },
+              {
+                "feature": "Return_1d",
+                "mean_abs_shap": 0.05997562
+              },
+              {
+                "feature": "Return_5d",
+                "mean_abs_shap": 0.05410173
+              }
+            ],
+            "data_as_of": "2024-12-30"
+          }
+        }
+      ],
+      "RAGTool": [
+        {
+          "success": true,
+          "data": {
+            "query": "EBAY recent financial news earnings outlook marketplace growth risks investor sentiment",
+            "results": [
+              {
+                "headline": "Why Did ARM, SLS, EBAY Stocks Surge To 52-Week Highs?",
+                "ticker": "EBAY",
+                "sentiment": "neutral",
+                "relevance": 0.132
+              },
+              {
+                "headline": "GameStop Slips as eBay Mega-Deal Doubts Trigger Investor Alarm",
+                "ticker": "EBAY",
+                "sentiment": "negative",
+                "relevance": 0.014
+              },
+              {
+                "headline": "GameStop Raises Economic Exposure to eBay",
+                "ticker": "EBAY",
+                "sentiment": "neutral",
+                "relevance": 0.009
+              },
+              {
+                "headline": "GameStop increases stake in eBay to more than 6%",
+                "ticker": "EBAY",
+                "sentiment": "neutral",
+                "relevance": -0.014
+              },
+              {
+                "headline": "GameStop Increases eBay Stake to Over 6%",
+                "ticker": "EBAY",
+                "sentiment": "neutral",
+                "relevance": -0.014
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "final_response": "Final Signal: HOLD\nConfidence: LOW\nReasoning:\n- Technicals are mixed/neutral: RSI is 41.86, which is not oversold but leans weak, while MACD is slightly positive at 0.0856.\n- Quant model predicts next-day upside, but only with a modest 52.6% up probability and a wide confidence interval, resulting in a HOLD signal rather than a clear BUY.\n- Sentiment is bearish, with average news sentiment at -0.191; retrieved news is mixed-to-negative and does not provide enough positive catalyst support.\nRisk Factors:\n- Bearish or unclear news flow could pressure near-term momentum, especially if investor concerns around strategic stakes or deal speculation persist.\n- The quant signal is weak and short-term, so price action may be highly sensitive to broader market moves, earnings expectations, and consumer spending trends.\n\nAdditional Analysis:\nEBAY currently does not present a strong enough setup for a BUY or SELL. The stock\u2019s technical profile is broadly neutral: RSI near 42 suggests some softness but not a capitulation or high-conviction rebound setup, while the slightly positive MACD indicates only mild constructive momentum.\n\nThe ML model leans marginally positive for the next trading day, but the probability is not strong enough to override bearish sentiment. The most important model features were Bollinger Band width, short-term returns, and volume, suggesting the prediction is being driven mainly by recent volatility and short-term trading behavior rather than a robust directional edge.\n\nNews sentiment is the main caution flag. The sentiment tool returned a bearish signal, and the semantic news search showed mixed headlines, including neutral references to EBAY reaching highs and negative concern tied to GameStop/eBay exposure. However, the retrieved items appear somewhat event-specific and not necessarily reflective of a broad deterioration in EBAY fundamentals, which is why a SELL signal is not justified.\n\nOverall, EBAY looks like a HOLD: existing investors may continue to hold while monitoring momentum and news flow, but new buyers may want to wait for either stronger positive sentiment, a clearer technical breakout, or improved quant conviction."
+  }
+]

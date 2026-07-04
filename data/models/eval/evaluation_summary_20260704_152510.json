@@ -1,0 +1,9 @@
+{
+  "n_tickers": 15,
+  "avg_latency_sec": 13.6,
+  "avg_core_tool_accuracy": 1.0,
+  "rag_called_rate": 0.47,
+  "rag_policy_followed_rate": 1.0,
+  "groundedness_rate": 0.93,
+  "hallucination_rate": 0.0
+}

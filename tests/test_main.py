@@ -43,7 +43,11 @@ class TestPublicEndpoints:
     def test_health(self):
         resp = client.get("/health")
         assert resp.status_code == 200
-        assert resp.json() == {"status": "healthy"}
+        body = resp.json()
+        assert body["status"] == "healthy"
+        # redis is optional infra (caching/rate-limiting) -- health should
+        # report its state but never depend on it to return 200.
+        assert body["redis"] in ("connected", "unavailable")
 
 
 class TestAuth:
@@ -184,3 +188,99 @@ class TestAnalyzeStream:
 
         assert events[-1]["type"] == "error"
         assert "graph exploded" in events[-1]["message"]
+
+
+class TestAnalyzeCache:
+    """
+    Proves the Redis cache added in main.py actually does something:
+    an identical (ticker, query) request within the TTL must be served
+    from cache without invoking the LangGraph agent a second time.
+
+    Redis itself is faked (not a real connection) so this test doesn't
+    depend on infra being up -- same reasoning as mocking agent_app.stream
+    elsewhere in this file. See backend/main.py's try/except around every
+    redis_client call: cache misses/errors always fall through to a real
+    run, so this also implicitly documents that fallback contract.
+    """
+
+    def test_repeat_request_hits_cache_and_skips_agent(self, monkeypatch):
+        call_count = {"n": 0}
+
+        def fake_stream(state):
+            call_count["n"] += 1
+            yield {
+                "agent": {
+                    "messages": [
+                        AIMessage(content="Final Signal: BUY\nConfidence: HIGH\nReasoning:\n- momentum\n")
+                    ]
+                }
+            }
+
+        store = {}
+
+        async def fake_get(key):
+            return store.get(key)
+
+        async def fake_set(key, value, ex=None):
+            store[key] = value
+
+        monkeypatch.setattr("backend.main.agent_app.stream", fake_stream)
+        monkeypatch.setattr("backend.main.memory.save", lambda **kwargs: None)
+        monkeypatch.setattr("backend.main.redis_client.get", fake_get)
+        monkeypatch.setattr("backend.main.redis_client.set", fake_set)
+
+        payload = {"ticker": "AAPL", "query": "Should I buy?"}
+        headers = {"x-api-key": VALID_API_KEY}
+
+        # First call: cache is empty -> real run, and it populates the cache.
+        with client.stream("POST", "/analyze", json=payload, headers=headers) as resp:
+            first_events = [
+                json.loads(line[len("data: "):])
+                for line in resp.iter_lines()
+                if line.startswith("data: ")
+            ]
+        assert call_count["n"] == 1
+        assert first_events[-1] == {"type": "done", "signal": "BUY"}
+
+        # Second, identical call: must be served from cache -- the agent
+        # is never invoked again, and the done event is flagged cached.
+        with client.stream("POST", "/analyze", json=payload, headers=headers) as resp:
+            second_events = [
+                json.loads(line[len("data: "):])
+                for line in resp.iter_lines()
+                if line.startswith("data: ")
+            ]
+        assert call_count["n"] == 1  # <-- the whole point: agent NOT called again
+        assert second_events[-1] == {"type": "done", "signal": "BUY", "cached": True}
+
+    def test_different_query_is_not_a_cache_hit(self, monkeypatch):
+        call_count = {"n": 0}
+
+        def fake_stream(state):
+            call_count["n"] += 1
+            yield {
+                "agent": {
+                    "messages": [AIMessage(content="Final Signal: HOLD\nConfidence: LOW\nReasoning:\n- n/a\n")]
+                }
+            }
+
+        store = {}
+
+        async def fake_get(key):
+            return store.get(key)
+
+        async def fake_set(key, value, ex=None):
+            store[key] = value
+
+        monkeypatch.setattr("backend.main.agent_app.stream", fake_stream)
+        monkeypatch.setattr("backend.main.memory.save", lambda **kwargs: None)
+        monkeypatch.setattr("backend.main.redis_client.get", fake_get)
+        monkeypatch.setattr("backend.main.redis_client.set", fake_set)
+
+        headers = {"x-api-key": VALID_API_KEY}
+        with client.stream("POST", "/analyze", json={"ticker": "AAPL", "query": "query one"}, headers=headers) as resp:
+            list(resp.iter_lines())
+        with client.stream("POST", "/analyze", json={"ticker": "AAPL", "query": "query two"}, headers=headers) as resp:
+            list(resp.iter_lines())
+
+        assert call_count["n"] == 2  # different cache keys -> agent runs both times

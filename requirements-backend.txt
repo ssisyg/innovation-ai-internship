@@ -31,6 +31,15 @@ fastapi>=0.115.0
 uvicorn[standard]>=0.32.0
 pydantic>=2.9.0
 
+# --- caching / rate limiting ---
+# redis: caches full /analyze results per (ticker, query) for
+#        ANALYZE_CACHE_TTL seconds, so repeat requests skip the ReAct
+#        loop and LLM calls entirely.
+# slowapi: per-IP rate limiting on /analyze, backed by the same Redis
+#        instance so it works correctly across multiple backend replicas.
+redis>=5.0.0
+slowapi>=0.1.9
+
 # --- data ---
 pandas>=2.2.0
 numpy>=1.26.0

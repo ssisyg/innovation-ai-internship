@@ -1,4 +1,12 @@
 services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
   backend:
     build: .
     image: investment-agent-backend
@@ -6,8 +14,16 @@ services:
       - "8000:8000"
     env_file:
       - .env
+    environment:
+      # 覆盖 .env 里的 REDIS_URL（如果有的话），确保容器间用服务名互相访问
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - redis
     volumes:
       # Persist the SQLite MemoryStore outside the container so
       # recommendation history survives rebuilds/restarts.
       - ./data/memory:/app/data/memory
     restart: unless-stopped
+
+volumes:
+  redis_data:
