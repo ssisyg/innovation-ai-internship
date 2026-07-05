@@ -11,6 +11,21 @@ jobs:
     name: Backend tests
     runs-on: ubuntu-latest
 
+    # slowapi's rate limiter on /analyze opens its own Redis connection
+    # (independent of the app's async redis_client used for caching) the
+    # moment a request comes in -- it has no graceful offline fallback,
+    # so unlike the caching path, CI needs a real Redis to talk to.
+    services:
+      redis:
+        image: redis:7-alpine
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 5
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -58,6 +73,7 @@ jobs:
           OPENAI_API_KEY: ci-placeholder-not-a-real-key
           OPENAI_BASE_URL: https://api.openai.com/v1
           API_KEY: test-api-key
+          REDIS_URL: redis://localhost:6379/0
         run: pytest -v
 
   docker-build:
