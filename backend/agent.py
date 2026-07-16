@@ -36,8 +36,13 @@ SHAP_IMP     = pd.read_csv("data/models/shap/shap_importance.csv")
 SCHEMA       = joblib.load("data/ml/schema.pkl")
 SCALER       = joblib.load("data/ml/scaler.pkl")
 SENTIMENT_DF = pd.read_csv("data/sentiment/news_with_sentiment.csv")
-SIMILAR_CASE_INDEX = joblib.load("data/models/similar_case_index.pkl")
-SIMILAR_CASE_INFO  = pd.read_csv("data/models/similar_case_info.csv", parse_dates=["date"])
+try:
+    SIMILAR_CASE_INDEX = joblib.load("data/models/similar_case_index.pkl")
+    SIMILAR_CASE_INFO  = pd.read_csv("data/models/similar_case_info.csv", parse_dates=["date"])
+except FileNotFoundError:
+    SIMILAR_CASE_INDEX = None
+    SIMILAR_CASE_INFO  = None
+    print("警告: similar_case_index 未找到，SimilarCaseTool 将不可用")
 
 
 # Week 8 QuantTool 用的预计算特征缓存（已经过 scaler，直接送模型）
@@ -367,6 +372,8 @@ def RAGTool(query: str, ticker: str = None) -> dict:
 @tool
 def SimilarCaseTool(ticker: str) -> dict:
     """Find historically similar market situations (based on technical + sentiment feature similarity) and how they resolved next-day."""
+    if SIMILAR_CASE_INDEX is None:
+        return {"success": False, "error": "SimilarCaseTool index not available"}
     try:
         # 复用跟QuantTool一样的"取当前特征"逻辑：优先今日缓存，没有则退回测试集
         X_input = None
