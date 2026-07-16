@@ -55,7 +55,17 @@ def cache_key(ticker: str, query: str) -> str:
 # =========================
 # Rate Limiting (基于 Redis 存储，多进程/多实例部署也能共享限流状态)
 # =========================
-limiter = Limiter(key_func=get_remote_address, storage_uri=REDIS_URL)
+try:
+    import redis as redis_sync
+    redis_sync.from_url(REDIS_URL).ping()
+    limiter_storage = REDIS_URL
+    print("限流器使用 Redis 存储")
+except Exception:
+    limiter_storage = "memory://"
+    print("Redis 不可用，限流器降级为内存存储（仅限单进程本地测试，不支持多实例共享限流状态）")
+
+limiter = Limiter(key_func=get_remote_address, storage_uri=limiter_storage)
+
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 

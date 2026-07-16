@@ -36,6 +36,9 @@ SHAP_IMP     = pd.read_csv("data/models/shap/shap_importance.csv")
 SCHEMA       = joblib.load("data/ml/schema.pkl")
 SCALER       = joblib.load("data/ml/scaler.pkl")
 SENTIMENT_DF = pd.read_csv("data/sentiment/news_with_sentiment.csv")
+SIMILAR_CASE_INDEX = joblib.load("data/models/similar_case_index.pkl")
+SIMILAR_CASE_INFO  = pd.read_csv("data/models/similar_case_info.csv", parse_dates=["date"])
+
 
 # Week 8 QuantTool 用的预计算特征缓存（已经过 scaler，直接送模型）
 X_TEST_CACHE = pd.read_csv("data/ml/X_test.csv",   index_col=0, parse_dates=True)
@@ -44,6 +47,24 @@ print(f"X_TEST_CACHE: {X_TEST_CACHE.shape}, tickers: {META_CACHE['ticker'].nuniq
 
 print("Loading Sentence Transformer...")
 EMBEDDER = SentenceTransformer("all-MiniLM-L6-v2")
+
+# ticker -> sector 映射，供 RAGTool 检索行业/宏观新闻使用
+SECTOR_MAP = {
+    "NVDA": "semiconductor", "AMD": "semiconductor", "INTC": "semiconductor",
+    "QCOM": "semiconductor", "AVGO": "semiconductor", "MU": "semiconductor",
+    "ARM": "semiconductor", "AMAT": "semiconductor",
+    "AAPL": "big_tech", "MSFT": "big_tech", "GOOGL": "big_tech",
+    "META": "big_tech", "AMZN": "big_tech", "NFLX": "big_tech",
+    "V": "fintech", "MA": "fintech", "PYPL": "fintech", "COIN": "fintech", "HOOD": "fintech",
+    "JPM": "banking", "GS": "banking", "BAC": "banking", "WFC": "banking",
+    "MS": "banking", "BLK": "banking",
+    "CRM": "cloud_saas", "NOW": "cloud_saas", "SNOW": "cloud_saas",
+    "PLTR": "cloud_saas", "NET": "cloud_saas", "DDOG": "cloud_saas", "MDB": "cloud_saas",
+    "WMT": "retail", "TGT": "retail", "COST": "retail", "EBAY": "retail", "SHOP": "retail",
+    "UNH": "healthcare", "ISRG": "healthcare", "DXCM": "healthcare",
+    "ENPH": "clean_energy", "FSLR": "clean_energy", "RIVN": "clean_energy",
+    "TSLA": "clean_energy", "ABNB": "consumer_travel",
+}
 
 os.makedirs("data/rag", exist_ok=True)
 CHROMA_CLIENT = chromadb.PersistentClient(path="data/rag/chroma_db")
@@ -69,6 +90,37 @@ except Exception:
                    for t, s in zip(df_news["ticker"], df_news["sentiment_label"])]
     )
     print(f"ChromaDB built ({len(df_news)} docs)")
+
+
+# =========================
+# 宏观/行业新闻 Collection（独立于按ticker的新闻，用于RAGTool补充信息增量）
+# =========================
+try:
+    MACRO_COLLECTION = CHROMA_CLIENT.get_collection("macro_sector_news")
+    print(f"MacroChromaDB loaded ({MACRO_COLLECTION.count()} docs)")
+except Exception:
+    macro_csv_path = "data/news/macro_sector_news.csv"
+    if os.path.exists(macro_csv_path):
+        MACRO_COLLECTION = CHROMA_CLIENT.create_collection("macro_sector_news")
+        df_macro = pd.read_csv(macro_csv_path).dropna(subset=["headline"])
+        macro_headlines = df_macro["headline"].tolist()
+
+        macro_embeddings = []
+        for i in range(0, len(macro_headlines), 64):
+            emb = EMBEDDER.encode(macro_headlines[i:i+64], show_progress_bar=False)
+            macro_embeddings.extend(emb.tolist())
+
+        MACRO_COLLECTION.add(
+            ids=[f"macro_{i}" for i in range(len(df_macro))],
+            documents=macro_headlines,
+            embeddings=macro_embeddings,
+            metadatas=[{"sector": s, "date": d, "source": src}
+                       for s, d, src in zip(df_macro["sector"], df_macro["date"], df_macro["source"])]
+        )
+        print(f"MacroChromaDB built ({len(df_macro)} docs)")
+    else:
+        MACRO_COLLECTION = None
+        print("警告: 未找到 data/news/macro_sector_news.csv，请先运行 scripts/build_macro_news.py")
 
 
 # =========================
@@ -188,31 +240,50 @@ def SentimentTool(ticker: str) -> dict:
 
 @tool
 def QuantTool(ticker: str) -> dict:
-    """Run ML model prediction for next-day stock movement using pre-computed features."""
+    """Run ML model prediction for next-day stock movement using pre-computed or live-updated features."""
     try:
-        # ✅ 完全复用 Week 8 的推理路径：
-        #    X_TEST_CACHE 已经 scaler 处理好，META_CACHE 对应 ticker 标签
-        #    直接按 ticker 筛行、取最后一行送入模型，不需要 yfinance 也不需要重算特征
+        X_input = None
+        last_date = None
+        data_mode = None
 
-        mask = META_CACHE["ticker"].values == ticker
-        if mask.sum() == 0:
-            return {
-                "success": False,
-                "error": f"No pre-computed test data for {ticker}. "
-                         f"Available: {sorted(META_CACHE['ticker'].unique())[:10]}..."
-            }
+        # ① 优先读每日增量更新的缓存（daily_update.py 产出）
+        daily_path = "data/daily_cache/today_features.csv"
+        print(f"[DEBUG] 检查daily_path是否存在: {os.path.exists(daily_path)}")
+        print(f"[DEBUG] daily_path绝对路径: {os.path.abspath(daily_path)}")
 
-        # 按布尔 mask 对齐 X_TEST_CACHE 行（两者行顺序一致，来自 Week 7 同一份切分）
-        row_indices = mask.nonzero()[0]
-        X_input = X_TEST_CACHE.iloc[row_indices].tail(1)  # 取该 ticker 最后一条测试样本
+        if os.path.exists(daily_path):
+            df_daily = pd.read_csv(daily_path, index_col=0)
+            print(f"[DEBUG] daily缓存文件共有 {len(df_daily)} 行，ticker列表: {sorted(df_daily['ticker'].unique())[:10]}...")
+
+            row = df_daily[df_daily["ticker"] == ticker]
+            print(f"[DEBUG] 筛选 {ticker} 后找到 {len(row)} 行")
+
+            if len(row) > 0:
+                X_input = row[X_TEST_CACHE.columns].tail(1)
+                last_date = "today (live)"
+                data_mode = "daily_cache"
+                print(f"[DEBUG] 成功使用daily_cache数据, X_input shape: {X_input.shape}")
+
+        # ② 没有今日缓存（或没找到这只ticker），退回原来的测试集兜底
+        if X_input is None:
+            print(f"[DEBUG] 走兜底逻辑：precomputed_test_set")
+            mask = META_CACHE["ticker"].values == ticker
+            if mask.sum() == 0:
+                return {
+                    "success": False,
+                    "error": f"No data available for {ticker} (neither daily cache nor test set). "
+                             f"Available: {sorted(META_CACHE['ticker'].unique())[:10]}..."
+                }
+
+            row_indices = mask.nonzero()[0]
+            X_input = X_TEST_CACHE.iloc[row_indices].tail(1)
+            last_date = str(X_input.index[-1])[:10]
+            data_mode = "precomputed_test_set"
 
         pred = int(BEST_MODEL.predict(X_input)[0])
         prob = float(BEST_MODEL.predict_proba(X_input)[0][1])
 
         top_shap = SHAP_IMP.head(5)[["feature", "mean_abs_shap"]].to_dict("records")
-
-        # 取该行对应的日期作为数据截止标注
-        last_date = str(X_input.index[-1])[:10]
 
         return {
             "success": True,
@@ -228,20 +299,25 @@ def QuantTool(ticker: str) -> dict:
                 "signal": "BUY" if prob > 0.55 else "SELL" if prob < 0.45 else "HOLD",
                 "top_shap_features": top_shap,
                 "data_as_of": last_date,
+                "data_mode": data_mode,
             }
         }
 
     except Exception as e:
+        print(f"[DEBUG] QuantTool异常: {e}")
         return {"success": False, "error": str(e)}
+
+
 
 
 @tool
 def RAGTool(query: str, ticker: str = None) -> dict:
-    """Retrieve relevant financial news using semantic search (ChromaDB)."""
+    """Retrieve relevant financial news (company-specific) and sector/macro context using semantic search."""
     try:
         emb = EMBEDDER.encode([query]).tolist()
 
-        results = COLLECTION.query(
+        # ① 按ticker检索的公司新闻（原有逻辑）
+        company_results = COLLECTION.query(
             query_embeddings=emb,
             n_results=5,
             where={"ticker": ticker} if ticker else None
@@ -249,21 +325,89 @@ def RAGTool(query: str, ticker: str = None) -> dict:
 
         out = []
         for doc, meta, dist in zip(
-            results["documents"][0],
-            results["metadatas"][0],
-            results["distances"][0]
+            company_results["documents"][0],
+            company_results["metadatas"][0],
+            company_results["distances"][0]
         ):
             out.append({
                 "headline": doc,
                 "ticker": meta["ticker"],
                 "sentiment": meta["sentiment"],
-                "relevance": round(1 - dist, 3)
+                "relevance": round(1 - dist, 3),
+                "source_type": "company_news"
             })
 
-        return {"success": True, "data": {"query": query, "results": out}}
+        # ② 按行业检索的宏观新闻（新增，跟公司新闻数据源不重叠）
+        sector = SECTOR_MAP.get(ticker)
+        if sector and MACRO_COLLECTION is not None:
+            macro_results = MACRO_COLLECTION.query(
+                query_embeddings=emb,
+                n_results=3,
+                where={"sector": sector}
+            )
+            for doc, meta, dist in zip(
+                macro_results["documents"][0],
+                macro_results["metadatas"][0],
+                macro_results["distances"][0]
+            ):
+                out.append({
+                    "headline": doc,
+                    "sector": meta["sector"],
+                    "source": meta.get("source", ""),
+                    "relevance": round(1 - dist, 3),
+                    "source_type": "sector_macro"
+                })
+
+        return {"success": True, "data": {"query": query, "ticker_sector": sector, "results": out}}
 
     except Exception as e:
         return {"success": False, "error": str(e)}
+    
+
+@tool
+def SimilarCaseTool(ticker: str) -> dict:
+    """Find historically similar market situations (based on technical + sentiment feature similarity) and how they resolved next-day."""
+    try:
+        # 复用跟QuantTool一样的"取当前特征"逻辑：优先今日缓存，没有则退回测试集
+        X_input = None
+        daily_path = "data/daily_cache/today_features.csv"
+        if os.path.exists(daily_path):
+            df_daily = pd.read_csv(daily_path, index_col=0)
+            row = df_daily[df_daily["ticker"] == ticker]
+            if len(row) > 0:
+                X_input = row[X_TEST_CACHE.columns].tail(1)
+
+        if X_input is None:
+            mask = META_CACHE["ticker"].values == ticker
+            if mask.sum() == 0:
+                return {"success": False, "error": f"No feature data available for {ticker}"}
+            row_indices = mask.nonzero()[0]
+            X_input = X_TEST_CACHE.iloc[row_indices].tail(1)
+
+        # 在训练集里找20个最相近的历史样本
+        distances, indices = SIMILAR_CASE_INDEX.kneighbors(X_input.values, n_neighbors=20)
+
+        similar_cases = SIMILAR_CASE_INFO.iloc[indices[0]].copy()
+        similar_cases["distance"] = distances[0]
+
+        up_rate = float(similar_cases["target"].mean())
+        # 挑几个具体案例作为可引用的证据
+        examples = similar_cases.sort_values("distance").head(5)[["ticker", "date", "target"]].copy()
+        examples["date"] = examples["date"].astype(str).str[:10]
+        examples["outcome"] = examples["target"].map({1: "UP", 0: "DOWN"})
+
+        return {
+            "success": True,
+            "data": {
+                "ticker": ticker,
+                "n_similar_cases": len(similar_cases),
+                "historical_up_rate": round(up_rate, 3),
+                "example_cases": examples[["ticker", "date", "outcome"]].to_dict("records"),
+            }
+        }
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
 
 
 # =========================
@@ -349,10 +493,11 @@ TOOLS AVAILABLE:
 - SentimentTool → news sentiment scores (FinBERT)
 - QuantTool    → ML model next-day prediction + SHAP explanation
 - RAGTool      → semantic search over financial news (conditional, see below)
+- SimilarCaseTool → finds historically similar market situations (by feature similarity) and their actual next-day outcome (conditional, see below)
 
 WORKFLOW: Always call Price → Sentiment → Quant, in that order. Then
-decide whether to call RAGTool using the rule below before giving your
-final answer.
+decide whether to call RAGTool and/or SimilarCaseTool using the rules
+below before giving your final answer.
 
 RAGTOOL RULE (evaluate this yourself from the tool results you already
 have — do not guess):
@@ -366,6 +511,17 @@ have — do not guess):
   final answer to keep latency down.
 When you skip RAGTool, do not claim to have reviewed specific news
 articles in your reasoning.
+
+SIMILARCASETOOL RULE:
+- Call SimilarCaseTool if QuantTool's `up_probability` is between 0.45
+  and 0.60 (i.e. the model's conviction is weak), to check whether
+  historical precedent supports or contradicts the model's prediction.
+- Otherwise it is optional — skip it if QuantTool's signal is already
+  strongly one-directional.
+- When you do call it, compare `historical_up_rate` against QuantTool's
+  `up_probability`: if they agree, mention this as corroborating
+  evidence; if they diverge meaningfully, flag this as a reason for
+  lower confidence.
 
 CRITICAL OUTPUT FORMAT (MANDATORY — NO EXCEPTIONS):
 Your final answer MUST start with exactly one of these lines, with NOTHING before it:
@@ -402,7 +558,7 @@ class AgentState(TypedDict):
     iterations: int
 
 
-tools_list = [PriceTool, SentimentTool, QuantTool, RAGTool]
+tools_list = [PriceTool, SentimentTool, QuantTool, RAGTool, SimilarCaseTool]
 llm_with_tools = llm.bind_tools(tools_list)
 
 

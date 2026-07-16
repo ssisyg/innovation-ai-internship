@@ -223,3 +223,7 @@ data/features/
 data/sentiment/
 data/ml/
 data/models/
+data/rag/
+data/memory/
+data/daily_cache/
+data/news/
