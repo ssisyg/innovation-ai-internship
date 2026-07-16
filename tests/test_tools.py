@@ -85,7 +85,7 @@ class TestQuantTool:
         result = QuantTool.invoke({"ticker": unknown_ticker})
 
         assert result["success"] is False
-        assert "No pre-computed test data" in result["error"]
+        assert "No data available" in result["error"]
 
     def test_signal_matches_probability_thresholds(self, known_ticker):
         result = QuantTool.invoke({"ticker": known_ticker})
