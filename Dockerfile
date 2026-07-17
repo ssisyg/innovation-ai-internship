@@ -77,8 +77,9 @@ COPY backend/ ./backend/
 COPY data/models/ ./data/models/
 COPY data/ml/ ./data/ml/
 COPY data/sentiment/ ./data/sentiment/
-COPY data/rag/ ./data/rag/
-COPY data/raw/ ./data/raw/
+# data/raw 和 data/rag 不再打包进镜像：
+# - PriceTool 本地缺数据时会自动实时拉取（yfinance/Tiingo 兜底）
+# - RAGTool 的 ChromaDB collection 缺失时会从 data/sentiment/ 自动重建
 
 # Writable directory for the SQLite MemoryStore; mount a volume here
 # at `docker run` time (see the comment at the top of this file) so
